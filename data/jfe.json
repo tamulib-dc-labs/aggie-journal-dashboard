@@ -1,0 +1,759 @@
+{
+  "site_name": "jfe",
+  "site_title": "Journal of Forensic Etymology",
+  "site_url": "https://jfe-ojs-tamu.tdl.org/jfe",
+  "date_start": null,
+  "date_end": null,
+  "fetched_at": "2026-09-04T20:06:05Z",
+  "issues": [
+    {
+      "id": 2,
+      "identification": "2022: The Journal of Forensic Entomology",
+      "volume": null,
+      "number": null,
+      "year": 2022,
+      "published": true,
+      "published_date": "2022-02-21 00:00:00",
+      "doi": null,
+      "url": "https://jfe-ojs-tamu.tdl.org/jfe/issue/view/2",
+      "description": "<p>The first official publications of the Journal of Forensic Entomology</p>"
+    },
+    {
+      "id": 5,
+      "identification": "Vol. 1 (2023): The Journal of Forensic Entomology",
+      "volume": 1,
+      "number": null,
+      "year": 2023,
+      "published": true,
+      "published_date": "2023-12-22 00:00:00",
+      "doi": null,
+      "url": "https://jfe-ojs-tamu.tdl.org/jfe/issue/view/5",
+      "description": "<p>The first full yearly version of the Journal of Forensic Entomology.&nbsp;</p>"
+    },
+    {
+      "id": 6,
+      "identification": "Vol. 2 (2024): The Journal of Forensic Entomology ",
+      "volume": 2,
+      "number": null,
+      "year": 2024,
+      "published": true,
+      "published_date": "2024-10-09 00:00:00",
+      "doi": null,
+      "url": "https://jfe-ojs-tamu.tdl.org/jfe/issue/view/6",
+      "description": "<p>2024 yearly issue of The Journal of Forensic Entomology&nbsp;</p>"
+    },
+    {
+      "id": 7,
+      "identification": "Vol. 3 (2025): The Journal of Forensic Entomology",
+      "volume": 3,
+      "number": null,
+      "year": 2025,
+      "published": true,
+      "published_date": "2025-08-29 00:00:00",
+      "doi": null,
+      "url": "https://jfe-ojs-tamu.tdl.org/jfe/issue/view/7",
+      "description": "<p>2025 yearly issue of the Journal of Forensic Entomology</p>"
+    }
+  ],
+  "submissions": [
+    {
+      "id": 39,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-08-29 09:41:30",
+      "date_last_activity": "2026-08-29 16:21:28",
+      "last_modified": "2026-08-29 09:41:30",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/39"
+    },
+    {
+      "id": 33,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-03-06 09:13:15",
+      "date_last_activity": "2026-03-06 09:13:20",
+      "last_modified": "2026-03-06 09:13:15",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/33"
+    },
+    {
+      "id": 35,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-03-06 09:09:22",
+      "date_last_activity": "2026-03-17 19:37:24",
+      "last_modified": "2026-03-06 09:09:22",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/35"
+    },
+    {
+      "id": 38,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-01-25 16:17:43",
+      "date_last_activity": "2026-03-04 13:32:25",
+      "last_modified": "2026-01-25 16:17:43",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/38"
+    },
+    {
+      "id": 37,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-12-31 05:09:12",
+      "date_last_activity": "2026-03-02 10:38:03",
+      "last_modified": "2025-12-31 05:09:12",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/37"
+    },
+    {
+      "id": 36,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-12-28 20:53:15",
+      "date_last_activity": "2026-07-25 00:00:22",
+      "last_modified": "2025-12-28 20:53:15",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/36"
+    },
+    {
+      "id": 34,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-09-02 09:51:47",
+      "date_last_activity": "2025-09-02 10:15:31",
+      "last_modified": "2025-09-02 09:51:47",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/34"
+    },
+    {
+      "id": 32,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-08-28 10:53:58",
+      "date_last_activity": "2025-10-01 09:20:03",
+      "last_modified": "2025-08-28 10:53:58",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/32"
+    },
+    {
+      "id": 31,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-05-27 09:56:32",
+      "date_last_activity": "2025-05-27 09:56:37",
+      "last_modified": "2025-05-27 09:56:32",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/31"
+    },
+    {
+      "id": 30,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-04-07 17:04:48",
+      "date_last_activity": "2025-10-07 10:11:16",
+      "last_modified": "2025-04-07 17:04:48",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/30"
+    },
+    {
+      "id": 29,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2024-12-31 21:24:41",
+      "date_last_activity": "2025-10-01 13:29:35",
+      "last_modified": "2025-03-04 08:00:20",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/29"
+    },
+    {
+      "id": 28,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2024-12-31 13:05:44",
+      "date_last_activity": "2025-10-01 12:06:23",
+      "last_modified": "2024-12-31 13:05:44",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/28"
+    },
+    {
+      "id": 27,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2024-12-06 01:34:34",
+      "date_last_activity": "2024-12-06 01:34:39",
+      "last_modified": "2024-12-06 01:34:34",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/27"
+    },
+    {
+      "id": 26,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2024-11-21 13:24:58",
+      "date_last_activity": "2024-12-28 09:31:10",
+      "last_modified": "2024-11-21 13:24:58",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/26"
+    },
+    {
+      "id": 25,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2024-10-09 10:15:50",
+      "date_last_activity": "2024-10-09 10:26:53",
+      "last_modified": "2024-10-09 10:15:50",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/25"
+    },
+    {
+      "id": 24,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2024-06-05 03:10:39",
+      "date_last_activity": "2024-10-09 09:42:48",
+      "last_modified": "2024-06-05 03:10:39",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/24"
+    },
+    {
+      "id": 23,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2024-03-08 06:15:33",
+      "date_last_activity": "2025-10-01 14:22:52",
+      "last_modified": "2024-10-09 09:33:54",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/23"
+    },
+    {
+      "id": 22,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-11-02 17:42:16",
+      "date_last_activity": "2025-09-02 07:31:20",
+      "last_modified": "2024-01-19 16:34:45",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/22"
+    },
+    {
+      "id": 21,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2023-10-26 16:53:48",
+      "date_last_activity": "2025-05-02 08:07:25",
+      "last_modified": "2024-10-09 09:44:42",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/21"
+    },
+    {
+      "id": 20,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2023-10-09 15:00:59",
+      "date_last_activity": "2024-04-01 22:28:04",
+      "last_modified": "2024-01-19 16:43:15",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/20"
+    },
+    {
+      "id": 18,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-09-26 10:01:39",
+      "date_last_activity": "2025-09-02 07:31:19",
+      "last_modified": "2024-10-09 10:25:32",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/18"
+    },
+    {
+      "id": 17,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2023-07-19 17:42:46",
+      "date_last_activity": "2025-03-13 12:02:53",
+      "last_modified": "2024-12-28 09:43:04",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/17"
+    },
+    {
+      "id": 16,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-06-08 22:30:43",
+      "date_last_activity": "2025-09-02 07:31:19",
+      "last_modified": "2024-10-09 10:25:52",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/16"
+    },
+    {
+      "id": 15,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2023-03-13 06:31:50",
+      "date_last_activity": "2025-01-22 15:24:42",
+      "last_modified": "2024-10-09 09:34:42",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/15"
+    },
+    {
+      "id": 14,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2023-03-06 21:48:22",
+      "date_last_activity": "2024-12-28 10:09:43",
+      "last_modified": "2024-12-28 10:07:07",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/14"
+    },
+    {
+      "id": 13,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-01-28 20:48:12",
+      "date_last_activity": "2025-09-04 12:11:51",
+      "last_modified": "2023-01-28 20:48:12",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/13"
+    },
+    {
+      "id": 12,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-01-16 17:25:16",
+      "date_last_activity": "2025-08-29 12:51:38",
+      "last_modified": "2023-08-14 15:33:41",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/12"
+    },
+    {
+      "id": 11,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-01-09 23:20:30",
+      "date_last_activity": "2025-08-29 12:51:37",
+      "last_modified": "2023-08-14 15:31:57",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/11"
+    },
+    {
+      "id": 10,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2022-10-18 02:46:19",
+      "date_last_activity": "2025-10-01 14:03:39",
+      "last_modified": "2025-01-13 08:44:43",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/10"
+    },
+    {
+      "id": 9,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2022-06-01 22:50:45",
+      "date_last_activity": "2024-12-28 09:55:15",
+      "last_modified": "2022-06-02 12:32:03",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/9"
+    }
+  ],
+  "submission_status_breakdown": {
+    "Draft": 4,
+    "Declined": 14,
+    "Published": 12
+  },
+  "submission_stage_breakdown": {
+    "Submission": 6,
+    "Copyediting": 12,
+    "Published": 12
+  },
+  "publication_stats": [
+    {
+      "id": 2,
+      "title": "From Crime Scene to Court: How Should Future Research Address the Current Limitations in Forensic Entomology?",
+      "authors": "Barnes et al.",
+      "abstract_views": 4726,
+      "galley_views": 2470,
+      "pdf_views": 2470,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 7196,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/2",
+      "doi": null
+    },
+    {
+      "id": 7,
+      "title": "Forensically important sap beetles (Coleoptera: Nitidulidae) of North America",
+      "authors": "Powell et al.",
+      "abstract_views": 2073,
+      "galley_views": 1353,
+      "pdf_views": 1353,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 3426,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/7",
+      "doi": null
+    },
+    {
+      "id": 18,
+      "title": "The use of blowfly larvae for offender identification during death investigations with non-consensual sexual contact",
+      "authors": "Clarke et al.",
+      "abstract_views": 2366,
+      "galley_views": 1045,
+      "pdf_views": 1045,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 3411,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/18",
+      "doi": null
+    },
+    {
+      "id": 12,
+      "title": "Lucilia coeruleiviridis (Diptera: Calliphoridae) larval growth rates at three constant temperatures",
+      "authors": "Evan Lampert et al.",
+      "abstract_views": 1359,
+      "galley_views": 1473,
+      "pdf_views": 1473,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 2832,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/12",
+      "doi": null
+    },
+    {
+      "id": 6,
+      "title": "Rearing container size impacts immature development time of Phormia regina (Meigen) (Diptera: Calliphoridae) and time of colonization estimations",
+      "authors": "Owings et al.",
+      "abstract_views": 1581,
+      "galley_views": 1135,
+      "pdf_views": 1135,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 2716,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/6",
+      "doi": null
+    },
+    {
+      "id": 10,
+      "title": "Impact of submergence on the survival of the later immature stages of the forensically significant blow fly Calliphora vicina R.-D. (Diptera: Calliphoridae)",
+      "authors": "Yung et al.",
+      "abstract_views": 1771,
+      "galley_views": 590,
+      "pdf_views": 590,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 2361,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/10",
+      "doi": null
+    },
+    {
+      "id": 4,
+      "title": "Comparing baited versus non-baited subterranean insect traps for sampling forensically important soil fauna in an urban graveyard during early autumn",
+      "authors": "Monzon et al.",
+      "abstract_views": 1271,
+      "galley_views": 1080,
+      "pdf_views": 1080,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 2351,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/4",
+      "doi": null
+    },
+    {
+      "id": 1,
+      "title": "Entomological Specimens Obtained from Human Remains offer a Faster Option for DNA Identification",
+      "authors": "Harrod",
+      "abstract_views": 1258,
+      "galley_views": 994,
+      "pdf_views": 994,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 2252,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/1",
+      "doi": null
+    },
+    {
+      "id": 16,
+      "title": "The effect of methanol and ethylene glycol on the development and survival of Cochliomyia macellaria (Fabricius; Diptera: Calliphoridae)",
+      "authors": "Elena G. Wilson et al.",
+      "abstract_views": 1542,
+      "galley_views": 584,
+      "pdf_views": 584,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 2126,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/16",
+      "doi": null
+    },
+    {
+      "id": 28,
+      "title": "Seasonal variation and the abiotic influences on blow fly (Diptera: Calliphoridae) community composition in a forested preserve in central Oklahoma, USA",
+      "authors": "Kara A. Earnest et al.",
+      "abstract_views": 1266,
+      "galley_views": 453,
+      "pdf_views": 453,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1719,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/28",
+      "doi": null
+    },
+    {
+      "id": 5,
+      "title": "A reference database for the DNA-based identification of North American Calliphorinae.",
+      "authors": "Picard et al.",
+      "abstract_views": 1024,
+      "galley_views": 651,
+      "pdf_views": 651,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1675,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/5",
+      "doi": null
+    },
+    {
+      "id": 22,
+      "title": "The impact of relative humidity on Phormia regina (Diptera Calliphoridae) oviposition",
+      "authors": "Moctar et al.",
+      "abstract_views": 633,
+      "galley_views": 987,
+      "pdf_views": 987,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1620,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/22",
+      "doi": null
+    },
+    {
+      "id": 11,
+      "title": "Tracking Dermestid Beetles to Carrion: A Case Study: A Case Study",
+      "authors": "Wonhof",
+      "abstract_views": 986,
+      "galley_views": 594,
+      "pdf_views": 594,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1580,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/11",
+      "doi": null
+    },
+    {
+      "id": 30,
+      "title": "Initial Observations of Fly Color Preference at a Decomposition Scene in Nebraska",
+      "authors": "Fleetwood et al.",
+      "abstract_views": 951,
+      "galley_views": 560,
+      "pdf_views": 560,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1511,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/30",
+      "doi": null
+    },
+    {
+      "id": 29,
+      "title": "Increasing casework and research congruency for RNA-based assays using two different transcripts from <i>Chrysomya megacephala</i> (Diptera: Calliphoridae)",
+      "authors": "Smith",
+      "abstract_views": 836,
+      "galley_views": 420,
+      "pdf_views": 420,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1256,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/29",
+      "doi": null
+    },
+    {
+      "id": 23,
+      "title": "Abnormal eggs laid by blow flies (Diptera, Calliphoridae) during a high-temperature experiment: A communication",
+      "authors": "Monzon",
+      "abstract_views": 679,
+      "galley_views": 346,
+      "pdf_views": 346,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1025,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/23",
+      "doi": null
+    },
+    {
+      "id": 8,
+      "title": "Early View: The Journal of Forensic Entomology - From the Editors",
+      "authors": "Picard et al.",
+      "abstract_views": 258,
+      "galley_views": 352,
+      "pdf_views": 352,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 610,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/8",
+      "doi": null
+    },
+    {
+      "id": 25,
+      "title": "From the Editor's Desk:  The Future is Bright",
+      "authors": "Brundage",
+      "abstract_views": 205,
+      "galley_views": 405,
+      "pdf_views": 405,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 610,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/25",
+      "doi": null
+    },
+    {
+      "id": 13,
+      "title": "From the Editors: JFE Volume 1 (2023)",
+      "authors": "Brundage et al.",
+      "abstract_views": 274,
+      "galley_views": 283,
+      "pdf_views": 283,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 557,
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/13",
+      "doi": null
+    }
+  ],
+  "issue_stats": [
+    {
+      "id": 5,
+      "identification": "Vol. 1 (2023): The Journal of Forensic Entomology",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 2360,
+      "toc_views": 2360,
+      "issue_galley_views": 0,
+      "url": "https://jfe-ojs-tamu.tdl.org/jfe/issue/view/5"
+    },
+    {
+      "id": 2,
+      "identification": "2022: The Journal of Forensic Entomology",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 1362,
+      "toc_views": 1362,
+      "issue_galley_views": 0,
+      "url": "https://jfe-ojs-tamu.tdl.org/jfe/issue/view/2"
+    },
+    {
+      "id": 7,
+      "identification": "Vol. 3 (2025): The Journal of Forensic Entomology",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 1038,
+      "toc_views": 1038,
+      "issue_galley_views": 0,
+      "url": "https://jfe-ojs-tamu.tdl.org/jfe/issue/view/7"
+    },
+    {
+      "id": 6,
+      "identification": "Vol. 2 (2024): The Journal of Forensic Entomology ",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 977,
+      "toc_views": 977,
+      "issue_galley_views": 0,
+      "url": "https://jfe-ojs-tamu.tdl.org/jfe/issue/view/6"
+    }
+  ],
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 89
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 11
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 8
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 9
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 35
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 49
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 46
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 1
+    }
+  ],
+  "summary": {
+    "total_issues": 4,
+    "published_issues": 4,
+    "unpublished_issues": 0,
+    "total_submissions": 30,
+    "published_submissions": 12,
+    "new_issues_in_period": 4,
+    "new_submissions_in_period": 30,
+    "total_view_count": 40834,
+    "total_abstract_views": 25059,
+    "total_galley_views": 15775,
+    "total_pdf_views": 15775,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 5737,
+    "total_users": 89
+  }
+}

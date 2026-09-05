@@ -1,0 +1,336 @@
+{
+  "site_name": "tndr",
+  "site_title": "Texas New Deal Review",
+  "site_url": "https://tndr-ojs-tamu.tdl.org/tndr",
+  "date_start": null,
+  "date_end": null,
+  "fetched_at": "2026-09-04T20:24:27Z",
+  "issues": [
+    {
+      "id": 2,
+      "identification": "Vol. 1 No. 1 (2025): Texas New Deal Review",
+      "volume": 1,
+      "number": "1",
+      "year": 2025,
+      "published": true,
+      "published_date": "2025-01-17 17:12:09",
+      "doi": null,
+      "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/2",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "identification": "Vol. 2 No. 1 (2026): Texas New Deal Review",
+      "volume": 2,
+      "number": "1",
+      "year": 2026,
+      "published": true,
+      "published_date": "2026-06-24 09:44:49",
+      "doi": null,
+      "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/3",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "identification": "Vol. 2 No. 2 (2026): Texas New Deal Review",
+      "volume": 2,
+      "number": "2",
+      "year": 2026,
+      "published": false,
+      "published_date": null,
+      "doi": null,
+      "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/4",
+      "description": ""
+    }
+  ],
+  "submissions": [
+    {
+      "id": 10,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-11-14 14:51:31",
+      "date_last_activity": "2026-06-24 09:54:04",
+      "last_modified": "2025-11-14 14:51:31",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/10"
+    },
+    {
+      "id": 9,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-10-01 15:04:30",
+      "date_last_activity": "2026-03-16 16:47:58",
+      "last_modified": "2025-10-01 15:04:30",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/9"
+    },
+    {
+      "id": 8,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-09-02 13:04:29",
+      "date_last_activity": "2025-10-06 20:31:55",
+      "last_modified": "2025-09-03 14:40:49",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/8"
+    },
+    {
+      "id": 7,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-08-25 16:38:52",
+      "date_last_activity": "2026-06-24 09:46:40",
+      "last_modified": "2025-08-25 16:38:52",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/7"
+    },
+    {
+      "id": 5,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-08-22 13:13:07",
+      "date_last_activity": "2025-08-22 13:13:09",
+      "last_modified": "2025-08-22 13:13:07",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/5"
+    },
+    {
+      "id": 6,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-07-21 13:20:44",
+      "date_last_activity": "2026-06-24 09:49:45",
+      "last_modified": "2025-09-05 09:26:11",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/6"
+    },
+    {
+      "id": 4,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2022-10-11 15:15:44",
+      "date_last_activity": "2025-01-13 11:38:09",
+      "last_modified": "2022-10-11 15:15:44",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/4"
+    },
+    {
+      "id": 3,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2022-08-13 14:43:01",
+      "date_last_activity": "2025-01-17 17:12:10",
+      "last_modified": "2022-10-10 15:43:13",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/3"
+    },
+    {
+      "id": 2,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2022-07-14 21:09:16",
+      "date_last_activity": "2025-01-17 17:12:11",
+      "last_modified": "2022-10-15 02:05:16",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/2"
+    },
+    {
+      "id": 1,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-04-16 19:18:45",
+      "date_last_activity": "2025-01-17 17:12:13",
+      "last_modified": "2022-07-19 19:44:46",
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/1"
+    }
+  ],
+  "submission_status_breakdown": {
+    "Published": 5,
+    "Declined": 4,
+    "Draft": 1
+  },
+  "submission_stage_breakdown": {
+    "Published": 5,
+    "Copyediting": 3,
+    "Submission": 2
+  },
+  "publication_stats": [
+    {
+      "id": 3,
+      "title": "The Federal Writers Project Helps Fashion Twentieth Century Texas: Texas, A Guide to the Lone Star State, 1940",
+      "authors": "Matthews",
+      "abstract_views": 311,
+      "galley_views": 475,
+      "pdf_views": 475,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 786,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/3",
+      "doi": null
+    },
+    {
+      "id": 1,
+      "title": "English US With Stone, Canvas and Mortar:  : When Art and Architecture Went to Work for the New Deal in Texas",
+      "authors": "Cummins",
+      "abstract_views": 300,
+      "galley_views": 420,
+      "pdf_views": 420,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 720,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/1",
+      "doi": null
+    },
+    {
+      "id": 2,
+      "title": "\"Where Are the New Deal Historians of Texas? Revisited\"",
+      "authors": "Volanto",
+      "abstract_views": 312,
+      "galley_views": 403,
+      "pdf_views": 403,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 715,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/2",
+      "doi": null
+    },
+    {
+      "id": 10,
+      "title": "Texas Exceptionalism - the Texas Centennial and the New Deal",
+      "authors": "Johnson",
+      "abstract_views": 155,
+      "galley_views": 0,
+      "pdf_views": 0,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 155,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/10",
+      "doi": null
+    },
+    {
+      "id": 7,
+      "title": "Paternalism behind the Veil",
+      "authors": "Goodwin",
+      "abstract_views": 151,
+      "galley_views": 0,
+      "pdf_views": 0,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 151,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/7",
+      "doi": null
+    },
+    {
+      "id": 6,
+      "title": "Texas Exceptionalism, the Texas Centennial and the New Deal",
+      "authors": "Johnson",
+      "abstract_views": 1,
+      "galley_views": 0,
+      "pdf_views": 0,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/6",
+      "doi": null
+    }
+  ],
+  "issue_stats": [
+    {
+      "id": 2,
+      "identification": "Vol. 1 No. 1 (2025): Texas New Deal Review",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 749,
+      "toc_views": 628,
+      "issue_galley_views": 121,
+      "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/2"
+    },
+    {
+      "id": 3,
+      "identification": "Vol. 2 No. 1 (2026): Texas New Deal Review",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 468,
+      "toc_views": 200,
+      "issue_galley_views": 268,
+      "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/3"
+    }
+  ],
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 23
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 6
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 4
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 4
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 12
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 18
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 10
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 3
+    }
+  ],
+  "summary": {
+    "total_issues": 3,
+    "published_issues": 2,
+    "unpublished_issues": 1,
+    "total_submissions": 10,
+    "published_submissions": 5,
+    "new_issues_in_period": 3,
+    "new_submissions_in_period": 10,
+    "total_view_count": 2528,
+    "total_abstract_views": 1230,
+    "total_galley_views": 1298,
+    "total_pdf_views": 1298,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 1217,
+    "total_users": 23
+  }
+}

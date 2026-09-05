@@ -1,0 +1,32 @@
+{
+  "site_name": "twj",
+  "site_title": "Texas Water Journal",
+  "site_url": "https://twj-ojs-tdl.tdl.org/twj",
+  "date_start": "2025-01-01",
+  "date_end": "2025-12-31",
+  "fetched_at": "2026-09-04T20:25:12Z",
+  "issues": [],
+  "submissions": [],
+  "submission_status_breakdown": {},
+  "submission_stage_breakdown": {},
+  "publication_stats": [],
+  "issue_stats": [],
+  "user_stats": [],
+  "summary": {
+    "total_issues": 0,
+    "published_issues": 0,
+    "unpublished_issues": 0,
+    "total_submissions": 0,
+    "published_submissions": 0,
+    "new_issues_in_period": 0,
+    "new_submissions_in_period": 0,
+    "total_view_count": 0,
+    "total_abstract_views": 0,
+    "total_galley_views": 0,
+    "total_pdf_views": 0,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 0,
+    "total_users": 0
+  }
+}

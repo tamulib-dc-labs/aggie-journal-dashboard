@@ -1,0 +1,73 @@
+name: Fetch OJS Data
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      date_start:
+        description: "Start date (YYYY-MM-DD) — leave blank for standard ranges"
+        required: false
+        default: ""
+      date_end:
+        description: "End date (YYYY-MM-DD) — leave blank for standard ranges"
+        required: false
+        default: ""
+  schedule:
+    # Run at 6:00 AM UTC on the 1st of every month
+    - cron: "0 6 1 * *"
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pyyaml
+
+      - name: Write API keys config
+        env:
+          OJS_API_KEYS_YML: ${{ secrets.OJS_API_KEYS_YML }}
+        run: |
+          mkdir -p .config
+          printf '%s\n' "$OJS_API_KEYS_YML" > .config/api_keys.yml
+
+      - name: Fetch data
+        run: |
+          # Build args for custom date range if provided
+          EXTRA_ARGS=""
+          if [ -n "${{ inputs.date_start }}" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --date-start ${{ inputs.date_start }}"
+          fi
+          if [ -n "${{ inputs.date_end }}" ]; then
+            EXTRA_ARGS="$EXTRA_ARGS --date-end ${{ inputs.date_end }}"
+          fi
+          python fetch_data.py $EXTRA_ARGS
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet 'data/'; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit data
+        if: steps.changes.outputs.changed == 'true'
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📊 Update OJS stats data"
+          file_pattern: "data/"

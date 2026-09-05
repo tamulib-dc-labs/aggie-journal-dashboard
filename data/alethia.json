@@ -1,0 +1,229 @@
+{
+  "site_name": "alethia",
+  "site_title": "Aletheia: Texas A&M's Undergraduate Journal of Philosophy",
+  "site_url": "https://aletheia-ojs-tamu.tdl.org/aletheia",
+  "date_start": null,
+  "date_end": null,
+  "fetched_at": "2026-09-04T20:48:36Z",
+  "issues": [],
+  "submissions": [
+    {
+      "id": 13,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-06-18 07:43:19",
+      "date_last_activity": "2026-06-18 07:43:19",
+      "last_modified": "2026-06-18 07:43:19",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/13"
+    },
+    {
+      "id": 12,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-04-14 23:55:43",
+      "date_last_activity": "2026-04-14 23:55:44",
+      "last_modified": "2026-04-14 23:55:43",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/12"
+    },
+    {
+      "id": 1,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-03-31 11:52:11",
+      "date_last_activity": "2026-03-31 11:53:14",
+      "last_modified": "2026-03-31 11:52:11",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/1"
+    },
+    {
+      "id": 11,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2026-03-01 19:53:58",
+      "date_last_activity": "2026-04-29 15:24:57",
+      "last_modified": "2026-03-01 19:53:58",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/11"
+    },
+    {
+      "id": 10,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2026-03-01 18:43:28",
+      "date_last_activity": "2026-04-29 15:13:17",
+      "last_modified": "2026-03-01 18:43:28",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/10"
+    },
+    {
+      "id": 9,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2026-03-01 02:40:26",
+      "date_last_activity": "2026-06-18 07:30:04",
+      "last_modified": "2026-03-01 02:40:26",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/9"
+    },
+    {
+      "id": 7,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-02-26 13:08:53",
+      "date_last_activity": "2026-03-23 20:23:53",
+      "last_modified": "2026-02-26 13:08:53",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/7"
+    },
+    {
+      "id": 8,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-02-26 11:38:03",
+      "date_last_activity": "2026-03-02 15:36:54",
+      "last_modified": "2026-03-02 15:36:54",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/8"
+    },
+    {
+      "id": 6,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-02-23 20:09:00",
+      "date_last_activity": "2026-03-27 12:14:30",
+      "last_modified": "2026-02-23 20:09:00",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/6"
+    },
+    {
+      "id": 5,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2026-02-20 21:33:05",
+      "date_last_activity": "2026-04-28 00:00:20",
+      "last_modified": "2026-02-20 21:33:05",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/5"
+    },
+    {
+      "id": 4,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-01-16 00:11:53",
+      "date_last_activity": "2026-03-23 20:18:23",
+      "last_modified": "2026-01-16 00:11:53",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/4"
+    },
+    {
+      "id": 2,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-01-15 23:12:06",
+      "date_last_activity": "2026-03-23 22:45:47",
+      "last_modified": "2026-01-15 23:12:06",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/2"
+    },
+    {
+      "id": 3,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2026-01-14 21:46:43",
+      "date_last_activity": "2026-06-11 15:18:35",
+      "last_modified": "2026-01-14 21:46:43",
+      "url_published": "https://aletheia-ojs-tamu.tdl.org/aletheia/article/view/3"
+    }
+  ],
+  "submission_status_breakdown": {
+    "Draft": 8,
+    "Declined": 5
+  },
+  "submission_stage_breakdown": {
+    "Submission": 3,
+    "Copyediting": 5,
+    "Production": 5
+  },
+  "publication_stats": [],
+  "issue_stats": [],
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 25
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 6
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 13
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 13
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 15
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 13
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 21
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 1
+    }
+  ],
+  "summary": {
+    "total_issues": 0,
+    "published_issues": 0,
+    "unpublished_issues": 0,
+    "total_submissions": 13,
+    "published_submissions": 0,
+    "new_issues_in_period": 0,
+    "new_submissions_in_period": 13,
+    "total_view_count": 0,
+    "total_abstract_views": 0,
+    "total_galley_views": 0,
+    "total_pdf_views": 0,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 0,
+    "total_users": 25
+  }
+}

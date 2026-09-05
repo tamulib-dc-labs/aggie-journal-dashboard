@@ -1,0 +1,78 @@
+{
+  "site_name": "omg",
+  "site_title": "Oil Mill Gazeteer",
+  "site_url": "https://omg-ojs-tamu.tdl.org/omg",
+  "date_start": "2026-08-28",
+  "date_end": "2026-09-03",
+  "fetched_at": "2026-09-04T20:59:19Z",
+  "issues": [],
+  "submissions": [],
+  "submission_status_breakdown": {},
+  "submission_stage_breakdown": {},
+  "publication_stats": [],
+  "issue_stats": [],
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 10
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 4
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 3
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 3
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 2
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 5
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 5
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 1
+    }
+  ],
+  "summary": {
+    "total_issues": 0,
+    "published_issues": 0,
+    "unpublished_issues": 0,
+    "total_submissions": 0,
+    "published_submissions": 0,
+    "new_issues_in_period": 0,
+    "new_submissions_in_period": 0,
+    "total_view_count": 0,
+    "total_abstract_views": 0,
+    "total_galley_views": 0,
+    "total_pdf_views": 0,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 0,
+    "total_users": 10
+  }
+}

@@ -1,0 +1,568 @@
+{
+  "site_name": "elapbj",
+  "site_title": "Education Law and Policy Briefs Journal",
+  "site_url": "https://epbj-ojs-tamu.tdl.org/epbj",
+  "date_start": "2025-01-01",
+  "date_end": "2025-12-31",
+  "fetched_at": "2026-09-04T19:25:03Z",
+  "issues": [
+    {
+      "id": 1,
+      "identification": "Vol. 1 (2017)",
+      "volume": 1,
+      "number": "1",
+      "year": 2017,
+      "published": true,
+      "published_date": "2022-10-31 00:00:00",
+      "doi": null,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/1",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "identification": "Vol. 2 No. 1 (2018): Vol. 2",
+      "volume": 2,
+      "number": "1",
+      "year": 2018,
+      "published": true,
+      "published_date": "2023-02-21 00:00:00",
+      "doi": null,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/2",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "identification": "Vol. 3 No. 1 (2024): Education Law and Policy Briefs Journal - 2024",
+      "volume": 3,
+      "number": "1",
+      "year": 2024,
+      "published": true,
+      "published_date": "2024-05-16 00:00:00",
+      "doi": null,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/3",
+      "description": ""
+    }
+  ],
+  "submissions": [
+    {
+      "id": 40,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-09-02 23:39:50",
+      "date_last_activity": "2026-09-02 23:39:51",
+      "last_modified": "2026-09-02 23:39:50",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/40"
+    },
+    {
+      "id": 39,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-08-21 10:56:47",
+      "date_last_activity": "2026-08-21 10:56:49",
+      "last_modified": "2026-08-21 10:56:47",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/39"
+    },
+    {
+      "id": 37,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-08-20 08:12:10",
+      "date_last_activity": "2026-08-20 08:12:11",
+      "last_modified": "2026-08-20 08:12:10",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/37"
+    },
+    {
+      "id": 38,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-08-17 15:04:02",
+      "date_last_activity": "2026-08-17 15:04:03",
+      "last_modified": "2026-08-17 15:04:02",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/38"
+    },
+    {
+      "id": 36,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-05-21 19:05:10",
+      "date_last_activity": "2026-05-21 19:05:12",
+      "last_modified": "2026-05-21 19:05:10",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/36"
+    },
+    {
+      "id": 35,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-05-04 13:36:57",
+      "date_last_activity": "2026-05-04 13:36:59",
+      "last_modified": "2026-05-04 13:36:57",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/35"
+    },
+    {
+      "id": 34,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-04-29 19:51:42",
+      "date_last_activity": "2026-04-29 19:51:43",
+      "last_modified": "2026-04-29 19:51:42",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/34"
+    },
+    {
+      "id": 33,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-04-22 10:48:43",
+      "date_last_activity": "2026-08-20 00:00:21",
+      "last_modified": "2026-04-22 10:48:43",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/33"
+    },
+    {
+      "id": 32,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-04-01 15:17:12",
+      "date_last_activity": "2026-04-01 15:17:12",
+      "last_modified": "2026-04-01 15:17:12",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/32"
+    },
+    {
+      "id": 31,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-03-15 08:02:55",
+      "date_last_activity": "2026-03-29 16:29:35",
+      "last_modified": "2026-03-15 08:02:55",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/31"
+    },
+    {
+      "id": 30,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-12-24 23:12:58",
+      "date_last_activity": "2026-04-24 18:31:36",
+      "last_modified": "2025-12-24 23:12:58",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/30"
+    },
+    {
+      "id": 29,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-10-24 20:16:06",
+      "date_last_activity": "2025-11-06 15:29:28",
+      "last_modified": "2025-10-24 20:16:06",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/29"
+    },
+    {
+      "id": 28,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-07-16 00:29:34",
+      "date_last_activity": "2026-01-08 15:11:39",
+      "last_modified": "2025-07-16 00:29:34",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/28"
+    },
+    {
+      "id": 27,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-03-12 02:26:57",
+      "date_last_activity": "2025-03-12 02:28:03",
+      "last_modified": "2025-03-12 02:26:57",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/27"
+    },
+    {
+      "id": 26,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-03-07 22:42:49",
+      "date_last_activity": "2026-03-29 18:09:03",
+      "last_modified": "2026-03-29 18:04:36",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/26"
+    },
+    {
+      "id": 25,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2025-01-28 15:41:45",
+      "date_last_activity": "2026-01-09 00:00:11",
+      "last_modified": "2025-01-28 15:41:45",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/25"
+    },
+    {
+      "id": 24,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2024-10-23 18:21:02",
+      "date_last_activity": "2026-01-08 15:21:12",
+      "last_modified": "2024-10-23 18:21:02",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/24"
+    },
+    {
+      "id": 23,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2024-10-03 03:20:59",
+      "date_last_activity": "2026-02-02 00:00:23",
+      "last_modified": "2024-10-03 03:20:59",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/23"
+    },
+    {
+      "id": 22,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-02-21 20:07:05",
+      "date_last_activity": "2023-02-21 20:33:24",
+      "last_modified": "2023-02-21 20:07:05",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/22"
+    },
+    {
+      "id": 21,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-02-14 21:31:42",
+      "date_last_activity": "2023-06-20 18:40:30",
+      "last_modified": "2023-02-21 19:53:33",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/21"
+    },
+    {
+      "id": 20,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2023-02-14 20:40:31",
+      "date_last_activity": "2026-08-25 09:52:59",
+      "last_modified": "2023-02-14 20:40:31",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/20"
+    },
+    {
+      "id": 19,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2023-02-14 20:26:06",
+      "date_last_activity": "2023-11-14 19:34:47",
+      "last_modified": "2023-02-14 20:26:06",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/19"
+    },
+    {
+      "id": 18,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2023-02-14 20:23:25",
+      "date_last_activity": "2023-02-21 19:15:03",
+      "last_modified": "2023-02-14 20:23:25",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/18"
+    },
+    {
+      "id": 17,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-02-14 20:20:58",
+      "date_last_activity": "2024-05-16 17:16:29",
+      "last_modified": "2023-02-14 20:20:58",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/17"
+    },
+    {
+      "id": 16,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2023-02-14 20:16:07",
+      "date_last_activity": "2023-02-21 20:32:34",
+      "last_modified": "2023-02-14 20:16:07",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/16"
+    },
+    {
+      "id": 15,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2023-02-14 20:11:34",
+      "date_last_activity": "2023-12-22 19:50:13",
+      "last_modified": "2023-11-14 19:25:34",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/15"
+    },
+    {
+      "id": 14,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2023-02-14 20:11:29",
+      "date_last_activity": "2023-02-21 19:36:20",
+      "last_modified": "2023-02-14 20:11:29",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/14"
+    },
+    {
+      "id": 13,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2022-05-11 18:34:25",
+      "date_last_activity": "2024-06-10 15:38:00",
+      "last_modified": "2023-03-07 19:54:13",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/13"
+    },
+    {
+      "id": 11,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2019-06-10 14:25:26",
+      "date_last_activity": "2023-05-24 20:41:27",
+      "last_modified": "2019-06-10 14:25:26",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/11"
+    },
+    {
+      "id": 3,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2018-10-10 11:51:55",
+      "date_last_activity": "2022-10-04 21:08:08",
+      "last_modified": "2019-01-28 13:15:06",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/3"
+    }
+  ],
+  "submission_status_breakdown": {
+    "Draft": 20,
+    "Declined": 6,
+    "Published": 4
+  },
+  "submission_stage_breakdown": {
+    "Submission": 17,
+    "Copyediting": 7,
+    "Published": 5,
+    "Production": 1
+  },
+  "publication_stats": [
+    {
+      "id": 13,
+      "title": "School Enhancement: An Alternative to “School Turnaround” ",
+      "authors": "Irby et al.",
+      "abstract_views": 377,
+      "galley_views": 178,
+      "pdf_views": 178,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 555,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/13",
+      "doi": null
+    },
+    {
+      "id": 17,
+      "title": "Increased Water Consumption and Quality of Food Policies for Schools",
+      "authors": "De Jong et al.",
+      "abstract_views": 215,
+      "galley_views": 132,
+      "pdf_views": 132,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 347,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/17",
+      "doi": null
+    },
+    {
+      "id": 1,
+      "title": "Vengeful Equity: Gendering the School-to-Prison Pipeline",
+      "authors": "Mackey",
+      "abstract_views": 77,
+      "galley_views": 112,
+      "pdf_views": 112,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 189,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/1",
+      "doi": null
+    },
+    {
+      "id": 2,
+      "title": "Policy Challenges to Governing Learner Appropriate Online Class Sizes in Higher Education",
+      "authors": "Irby et al.",
+      "abstract_views": 52,
+      "galley_views": 73,
+      "pdf_views": 73,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 125,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/2",
+      "doi": null
+    },
+    {
+      "id": 16,
+      "title": "Opportunity outside the City: Understanding and Promoting Equity in Rural Schools",
+      "authors": "Gagnon",
+      "abstract_views": 45,
+      "galley_views": 75,
+      "pdf_views": 75,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 120,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/16",
+      "doi": null
+    },
+    {
+      "id": 22,
+      "title": "Districts of Innovation: A Policy Brief of the Latest Effort to Re/Empower Local Control of Texas Public Schools",
+      "authors": "Hemmer",
+      "abstract_views": 47,
+      "galley_views": 41,
+      "pdf_views": 41,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 88,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/22",
+      "doi": null
+    }
+  ],
+  "issue_stats": [
+    {
+      "id": 3,
+      "identification": "Vol. 3 No. 1 (2024): Education Law and Policy Briefs Journal - 2024",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 290,
+      "toc_views": 290,
+      "issue_galley_views": 0,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/3"
+    },
+    {
+      "id": 1,
+      "identification": "Vol. 1 (2017)",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 121,
+      "toc_views": 121,
+      "issue_galley_views": 0,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/1"
+    },
+    {
+      "id": 2,
+      "identification": "Vol. 2 No. 1 (2018): Vol. 2",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 78,
+      "toc_views": 78,
+      "issue_galley_views": 0,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/2"
+    }
+  ],
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 87
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 28
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 2
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 4
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 58
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 55
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 63
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 1
+    }
+  ],
+  "summary": {
+    "total_issues": 3,
+    "published_issues": 3,
+    "unpublished_issues": 0,
+    "total_submissions": 30,
+    "published_submissions": 4,
+    "new_issues_in_period": 0,
+    "new_submissions_in_period": 6,
+    "total_view_count": 1424,
+    "total_abstract_views": 813,
+    "total_galley_views": 611,
+    "total_pdf_views": 611,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 489,
+    "total_users": 87
+  }
+}

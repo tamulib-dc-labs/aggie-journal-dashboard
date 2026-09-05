@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OJS Stats Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Work+Sans:ital,wght@0,400;0,600;0,700;1,600&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><span class="icon" aria-hidden="true">📊</span> Aggie Journals Dashboard</h1>
+    </header>
+
+    <div id="live-region" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
+
+    <div id="site-selector-container" role="group" aria-label="Select a journal site">
+      <div class="loading">Loading sites...</div>
+    </div>
+
+    <div id="date-controls-container">
+      <!-- Date range selector populated by JS -->
+    </div>
+
+    <div class="tabs" id="main-tabs" role="tablist" aria-label="Dashboard sections">
+      <!-- Tabs populated by JS -->
+    </div>
+
+    <div id="app" role="status" aria-live="polite">
+      <div class="loading">Loading data...</div>
+    </div>
+
+    <!-- Overview Tab -->
+    <div id="overview-tab" class="tab-content active" role="tabpanel" aria-labelledby="tab-overview" tabindex="0">
+      <h2 class="visually-hidden">Overview</h2>
+      <div class="stat-grid" id="stat-grid"></div>
+      <div class="chart-row">
+        <div class="chart-container">
+          <h3>New This Period</h3>
+          <div class="stat-grid" style="grid-template-columns: 1fr 1fr;">
+            <div class="stat-card accent">
+              <div class="stat-value" id="new-submissions">-</div>
+              <div class="stat-label">New Submissions</div>
+              <div class="stat-sub" style="color: var(--text-muted); font-size: 0.75rem;">Submitted in selected range</div>
+            </div>
+            <div class="stat-card green">
+              <div class="stat-value" id="new-issues">-</div>
+              <div class="stat-label">New Issues</div>
+              <div class="stat-sub" style="color: var(--text-muted); font-size: 0.75rem;">Published in selected range</div>
+            </div>
+          </div>
+        </div>
+        <div class="chart-container" id="pub-chart"></div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-container" id="issue-chart"></div>
+        <div class="chart-container" id="submission-bars"></div>
+      </div>
+    </div>
+
+    <!-- Publications Tab -->
+    <div id="publications-tab" class="tab-content" role="tabpanel" aria-labelledby="tab-publications" tabindex="0">
+      <h2 class="visually-hidden">Publications</h2>
+      <div class="table-wrapper">
+        <table>
+          <caption class="visually-hidden">Publications and their view counts</caption>
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Title</th>
+              <th scope="col">Authors</th>
+              <th scope="col">Abstract Views</th>
+              <th scope="col">Galley Views</th>
+              <th scope="col">Total Views</th>
+            </tr>
+          </thead>
+          <tbody id="pub-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Issues Tab -->
+    <div id="issues-tab" class="tab-content" role="tabpanel" aria-labelledby="tab-issues" tabindex="0">
+      <h2 class="visually-hidden">Issues</h2>
+      <div class="table-wrapper">
+        <table>
+          <caption class="visually-hidden">Issues and their view counts</caption>
+          <thead>
+            <tr>
+              <th scope="col">Identification</th>
+              <th scope="col">Details</th>
+              <th scope="col">Total Views</th>
+              <th scope="col">TOC Views</th>
+              <th scope="col">Issue Galley Views</th>
+            </tr>
+          </thead>
+          <tbody id="issue-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Submissions Tab -->
+    <div id="submissions-tab" class="tab-content" role="tabpanel" aria-labelledby="tab-submissions" tabindex="0">
+      <h2 class="visually-hidden">Submissions</h2>
+      <div class="table-wrapper">
+        <table>
+          <caption class="visually-hidden">Submissions, their status, and stage</caption>
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Status</th>
+              <th scope="col">Stage</th>
+              <th scope="col">Date Submitted</th>
+              <th scope="col">Last Activity</th>
+              <th scope="col">Published URL</th>
+            </tr>
+          </thead>
+          <tbody id="submission-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Users Tab -->
+    <div id="users-tab" class="tab-content" role="tabpanel" aria-labelledby="tab-users" tabindex="0">
+      <h2 class="visually-hidden">Users</h2>
+      <div class="stat-grid" id="user-stat-grid"></div>
+      <div class="table-wrapper">
+        <table>
+          <caption class="visually-hidden">User counts by role</caption>
+          <thead>
+            <tr>
+              <th scope="col">Role</th>
+              <th scope="col">User Count</th>
+            </tr>
+          </thead>
+          <tbody id="user-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,430 @@
+{
+  "site_name": "iodp",
+  "site_title": "International Ocean Discovery Program Manuscript Submission and Review",
+  "site_url": "https://iodp-ojs-tamu.tdl.org/iodp",
+  "date_start": "2026-06-06",
+  "date_end": "2026-09-03",
+  "fetched_at": "2026-09-04T20:48:56Z",
+  "issues": [
+    {
+      "id": 1,
+      "identification": "Vol. 1000 No. 1000 (2040): Future issue",
+      "volume": 1000,
+      "number": "1000",
+      "year": 2040,
+      "published": false,
+      "published_date": null,
+      "doi": null,
+      "url": "https://iodp-ojs-tamu.tdl.org/iodp/issue/view/1",
+      "description": ""
+    }
+  ],
+  "submissions": [
+    {
+      "id": 198,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-08-05 16:52:03",
+      "date_last_activity": "2026-08-05 17:13:14",
+      "last_modified": "2026-08-05 16:52:03",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/198"
+    },
+    {
+      "id": 197,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-07-31 05:15:33",
+      "date_last_activity": "2026-08-13 14:49:22",
+      "last_modified": "2026-07-31 05:15:33",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/197"
+    },
+    {
+      "id": 196,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-07-17 17:43:51",
+      "date_last_activity": "2026-09-01 00:00:22",
+      "last_modified": "2026-07-17 17:43:51",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/196"
+    },
+    {
+      "id": 195,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-07-17 17:04:05",
+      "date_last_activity": "2026-08-12 00:00:21",
+      "last_modified": "2026-07-17 17:04:05",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/195"
+    },
+    {
+      "id": 194,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-07-17 06:32:21",
+      "date_last_activity": "2026-08-13 00:00:21",
+      "last_modified": "2026-07-17 06:32:21",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/194"
+    },
+    {
+      "id": 193,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-07-09 09:41:38",
+      "date_last_activity": "2026-09-04 14:43:10",
+      "last_modified": "2026-07-09 09:41:38",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/193"
+    },
+    {
+      "id": 192,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-06-17 03:35:57",
+      "date_last_activity": "2026-08-28 05:59:54",
+      "last_modified": "2026-07-20 11:17:05",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/192"
+    },
+    {
+      "id": 191,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2026-04-29 22:22:26",
+      "date_last_activity": "2026-08-10 06:22:14",
+      "last_modified": "2026-04-29 22:22:26",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/191"
+    },
+    {
+      "id": 190,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-04-13 18:34:29",
+      "date_last_activity": "2026-05-29 00:00:16",
+      "last_modified": "2026-04-13 18:34:29",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/190"
+    },
+    {
+      "id": 189,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2026-03-24 22:05:16",
+      "date_last_activity": "2026-08-04 08:41:15",
+      "last_modified": "2026-03-24 22:05:16",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/189"
+    },
+    {
+      "id": 188,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2026-02-07 11:26:45",
+      "date_last_activity": "2026-06-09 06:41:18",
+      "last_modified": "2026-02-07 11:26:45",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/188"
+    },
+    {
+      "id": 187,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2026-01-30 15:01:01",
+      "date_last_activity": "2026-08-11 08:34:53",
+      "last_modified": "2026-01-30 15:01:01",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/187"
+    },
+    {
+      "id": 186,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2026-01-20 11:52:19",
+      "date_last_activity": "2026-04-06 13:58:18",
+      "last_modified": "2026-01-20 11:52:19",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/186"
+    },
+    {
+      "id": 185,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2026-01-09 10:14:39",
+      "date_last_activity": "2026-05-12 13:08:12",
+      "last_modified": "2026-01-09 10:14:39",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/185"
+    },
+    {
+      "id": 182,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-01-06 18:04:39",
+      "date_last_activity": "2026-08-30 14:06:09",
+      "last_modified": "2026-01-06 18:04:39",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/182"
+    },
+    {
+      "id": 183,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2026-01-02 15:30:15",
+      "date_last_activity": "2026-02-18 12:17:20",
+      "last_modified": "2026-01-02 15:30:15",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/183"
+    },
+    {
+      "id": 181,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-10-25 06:07:43",
+      "date_last_activity": "2026-02-05 12:15:19",
+      "last_modified": "2025-10-25 06:07:43",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/181"
+    },
+    {
+      "id": 149,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-10-06 09:19:17",
+      "date_last_activity": "2025-10-06 09:19:17",
+      "last_modified": "2025-10-06 09:19:17",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/149"
+    },
+    {
+      "id": 117,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-10-06 09:18:07",
+      "date_last_activity": "2025-10-06 09:18:08",
+      "last_modified": "2025-10-06 09:18:07",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/117"
+    },
+    {
+      "id": 179,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-10-06 09:15:47",
+      "date_last_activity": "2025-10-06 09:15:49",
+      "last_modified": "2025-10-06 09:15:47",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/179"
+    },
+    {
+      "id": 180,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-10-06 09:13:50",
+      "date_last_activity": "2025-10-06 09:13:52",
+      "last_modified": "2025-10-06 09:13:50",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/180"
+    },
+    {
+      "id": 178,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-09-25 17:49:09",
+      "date_last_activity": "2025-09-25 17:49:11",
+      "last_modified": "2025-09-25 17:49:10",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/178"
+    },
+    {
+      "id": 177,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-09-12 15:10:59",
+      "date_last_activity": "2025-12-11 14:55:32",
+      "last_modified": "2025-09-12 15:10:59",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/177"
+    },
+    {
+      "id": 176,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-08-22 11:59:19",
+      "date_last_activity": "2025-08-22 11:59:23",
+      "last_modified": "2025-08-22 11:59:19",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/176"
+    },
+    {
+      "id": 175,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-08-12 11:20:27",
+      "date_last_activity": "2025-10-09 11:07:27",
+      "last_modified": "2025-08-12 11:20:27",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/175"
+    },
+    {
+      "id": 174,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2025-08-11 06:38:42",
+      "date_last_activity": "2025-08-11 06:43:12",
+      "last_modified": "2025-08-11 06:38:42",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/174"
+    },
+    {
+      "id": 173,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-07-31 14:44:37",
+      "date_last_activity": "2025-10-10 10:12:53",
+      "last_modified": "2025-08-20 13:24:52",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/173"
+    },
+    {
+      "id": 172,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-07-03 17:46:57",
+      "date_last_activity": "2025-10-09 06:15:59",
+      "last_modified": "2025-08-01 03:36:00",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/172"
+    },
+    {
+      "id": 171,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-07-01 14:50:34",
+      "date_last_activity": "2025-12-01 12:18:14",
+      "last_modified": "2025-08-04 15:17:55",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/171"
+    },
+    {
+      "id": 170,
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2025-06-21 03:49:25",
+      "date_last_activity": "2025-11-05 07:05:04",
+      "last_modified": "2025-06-21 03:49:25",
+      "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/170"
+    }
+  ],
+  "submission_status_breakdown": {
+    "Draft": 10,
+    "Stalled": 14,
+    "Declined": 6
+  },
+  "submission_stage_breakdown": {
+    "Submission": 8,
+    "Copyediting": 8,
+    "Published": 14
+  },
+  "publication_stats": [],
+  "issue_stats": [],
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 255
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 11
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 43
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 5
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 114
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 151
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 108
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 3
+    }
+  ],
+  "summary": {
+    "total_issues": 1,
+    "published_issues": 0,
+    "unpublished_issues": 1,
+    "total_submissions": 30,
+    "published_submissions": 0,
+    "new_issues_in_period": 0,
+    "new_submissions_in_period": 7,
+    "total_view_count": 0,
+    "total_abstract_views": 0,
+    "total_galley_views": 0,
+    "total_pdf_views": 0,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 0,
+    "total_users": 255
+  }
+}

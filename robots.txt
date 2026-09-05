@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tamu-dc-labs.github.io/ojs-dashboard/sitemap.xml
