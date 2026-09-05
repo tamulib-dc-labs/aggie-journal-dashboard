@@ -1,8 +1,6 @@
 name: Fetch OJS Data
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
     inputs:
       date_start:

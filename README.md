@@ -102,10 +102,17 @@ ojs-dashboard/
 
 The workflow triggers on:
 - **First day of each month** at 6:00 AM UTC (automatic refresh)
-- **Push to main** (automatic refresh)
 - **Manual dispatch** via the Actions tab
 
 Manual runs support `--date-start` and `--date-end` inputs for custom date ranges.
+
+Fetching every configured journal is slow (each site makes several stats calls
+per date range, with generous timeouts/retries for large journals), so this
+intentionally does **not** trigger on every push to `main` — only on the
+monthly schedule or a manual run. If you split fetching across per-site or
+staggered cron schedules later, add those as additional `schedule:` entries
+(each can pass a different `--site` to `fetch_data.py`) rather than restoring
+the push trigger.
 
 ### API keys secret
 

@@ -1,1 +1,5 @@
 .config/api_keys.yml
+__pycache__/
+*.pyc
+.idea/
+.claude/settings.local.json
