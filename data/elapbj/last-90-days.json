@@ -2,9 +2,9 @@
   "site_name": "elapbj",
   "site_title": "Education Law and Policy Briefs Journal",
   "site_url": "https://epbj-ojs-tamu.tdl.org/epbj",
-  "date_start": "2026-06-06",
-  "date_end": "2026-09-03",
-  "fetched_at": "2026-09-04T19:25:07Z",
+  "date_start": "2026-06-07",
+  "date_end": "2026-09-04",
+  "fetched_at": "2026-09-05T15:44:16Z",
   "issues": [
     {
       "id": 1,
@@ -373,134 +373,52 @@
       "date_last_activity": "2022-10-04 21:08:08",
       "last_modified": "2019-01-28 13:15:06",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/3"
+    },
+    {
+      "id": 2,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2017-07-31 21:47:04",
+      "date_last_activity": "2022-10-31 19:40:40",
+      "last_modified": "2017-08-04 08:00:20",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/2"
+    },
+    {
+      "id": 1,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2017-07-12 15:45:24",
+      "date_last_activity": "2023-02-21 20:20:12",
+      "last_modified": "2017-07-12 15:45:24",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/1"
+    },
+    {
+      "id": 12,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": null,
+      "date_last_activity": "2019-12-05 15:52:55",
+      "last_modified": "2019-12-05 15:52:55",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/12"
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 20,
+    "Draft": 21,
     "Declined": 6,
-    "Published": 4
+    "Published": 6
   },
   "submission_stage_breakdown": {
-    "Submission": 17,
+    "Submission": 18,
     "Copyediting": 7,
-    "Published": 5,
-    "Production": 1
+    "Published": 6,
+    "Production": 2
   },
-  "publication_stats": [
-    {
-      "id": 17,
-      "title": "Increased Water Consumption and Quality of Food Policies for Schools",
-      "authors": "De Jong et al.",
-      "abstract_views": 435,
-      "galley_views": 87,
-      "pdf_views": 87,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 522,
-      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/17",
-      "doi": null
-    },
-    {
-      "id": 13,
-      "title": "School Enhancement: An Alternative to “School Turnaround” ",
-      "authors": "Irby et al.",
-      "abstract_views": 342,
-      "galley_views": 100,
-      "pdf_views": 100,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 442,
-      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/13",
-      "doi": null
-    },
-    {
-      "id": 1,
-      "title": "Vengeful Equity: Gendering the School-to-Prison Pipeline",
-      "authors": "Mackey",
-      "abstract_views": 81,
-      "galley_views": 42,
-      "pdf_views": 42,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 123,
-      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/1",
-      "doi": null
-    },
-    {
-      "id": 16,
-      "title": "Opportunity outside the City: Understanding and Promoting Equity in Rural Schools",
-      "authors": "Gagnon",
-      "abstract_views": 36,
-      "galley_views": 50,
-      "pdf_views": 50,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 86,
-      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/16",
-      "doi": null
-    },
-    {
-      "id": 2,
-      "title": "Policy Challenges to Governing Learner Appropriate Online Class Sizes in Higher Education",
-      "authors": "Irby et al.",
-      "abstract_views": 36,
-      "galley_views": 26,
-      "pdf_views": 26,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 62,
-      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/2",
-      "doi": null
-    },
-    {
-      "id": 22,
-      "title": "Districts of Innovation: A Policy Brief of the Latest Effort to Re/Empower Local Control of Texas Public Schools",
-      "authors": "Hemmer",
-      "abstract_views": 35,
-      "galley_views": 21,
-      "pdf_views": 21,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 56,
-      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/22",
-      "doi": null
-    }
-  ],
-  "issue_stats": [
-    {
-      "id": 3,
-      "identification": "Vol. 3 No. 1 (2024): Education Law and Policy Briefs Journal - 2024",
-      "volume": "",
-      "number": "",
-      "year": "",
-      "total_views": 458,
-      "toc_views": 458,
-      "issue_galley_views": 0,
-      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/3"
-    },
-    {
-      "id": 1,
-      "identification": "Vol. 1 (2017)",
-      "volume": "",
-      "number": "",
-      "year": "",
-      "total_views": 37,
-      "toc_views": 37,
-      "issue_galley_views": 0,
-      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/1"
-    },
-    {
-      "id": 2,
-      "identification": "Vol. 2 No. 1 (2018): Vol. 2",
-      "volume": "",
-      "number": "",
-      "year": "",
-      "total_views": 30,
-      "toc_views": 30,
-      "issue_galley_views": 0,
-      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/2"
-    }
-  ],
   "user_stats": [
     {
       "id": "total",
@@ -548,21 +466,136 @@
       "value": 1
     }
   ],
+  "publication_stats": [
+    {
+      "id": 17,
+      "title": "Increased Water Consumption and Quality of Food Policies for Schools",
+      "authors": "De Jong et al.",
+      "abstract_views": 432,
+      "galley_views": 87,
+      "pdf_views": 87,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 519,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/17",
+      "doi": null
+    },
+    {
+      "id": 13,
+      "title": "School Enhancement: An Alternative to “School Turnaround” ",
+      "authors": "Irby et al.",
+      "abstract_views": 340,
+      "galley_views": 100,
+      "pdf_views": 100,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 440,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/13",
+      "doi": null
+    },
+    {
+      "id": 1,
+      "title": "Vengeful Equity: Gendering the School-to-Prison Pipeline",
+      "authors": "Mackey",
+      "abstract_views": 81,
+      "galley_views": 41,
+      "pdf_views": 41,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 122,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/1",
+      "doi": null
+    },
+    {
+      "id": 16,
+      "title": "Opportunity outside the City: Understanding and Promoting Equity in Rural Schools",
+      "authors": "Gagnon",
+      "abstract_views": 35,
+      "galley_views": 47,
+      "pdf_views": 47,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 82,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/16",
+      "doi": null
+    },
+    {
+      "id": 2,
+      "title": "Policy Challenges to Governing Learner Appropriate Online Class Sizes in Higher Education",
+      "authors": "Irby et al.",
+      "abstract_views": 36,
+      "galley_views": 25,
+      "pdf_views": 25,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 61,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/2",
+      "doi": null
+    },
+    {
+      "id": 22,
+      "title": "Districts of Innovation: A Policy Brief of the Latest Effort to Re/Empower Local Control of Texas Public Schools",
+      "authors": "Hemmer",
+      "abstract_views": 34,
+      "galley_views": 21,
+      "pdf_views": 21,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 55,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/22",
+      "doi": null
+    }
+  ],
+  "issue_stats": [
+    {
+      "id": 3,
+      "identification": "Vol. 3 No. 1 (2024): Education Law and Policy Briefs Journal - 2024",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 450,
+      "toc_views": 450,
+      "issue_galley_views": 0,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/3"
+    },
+    {
+      "id": 1,
+      "identification": "Vol. 1 (2017)",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 36,
+      "toc_views": 36,
+      "issue_galley_views": 0,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/1"
+    },
+    {
+      "id": 2,
+      "identification": "Vol. 2 No. 1 (2018): Vol. 2",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 27,
+      "toc_views": 27,
+      "issue_galley_views": 0,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/2"
+    }
+  ],
   "summary": {
     "total_issues": 3,
     "published_issues": 3,
     "unpublished_issues": 0,
-    "total_submissions": 30,
-    "published_submissions": 4,
+    "total_submissions": 33,
+    "published_submissions": 6,
     "new_issues_in_period": 0,
     "new_submissions_in_period": 4,
-    "total_view_count": 1291,
-    "total_abstract_views": 965,
-    "total_galley_views": 326,
-    "total_pdf_views": 326,
+    "total_view_count": 1279,
+    "total_abstract_views": 958,
+    "total_galley_views": 321,
+    "total_pdf_views": 321,
     "total_html_views": 0,
     "total_other_views": 0,
-    "total_issue_views": 525,
+    "total_issue_views": 513,
     "total_users": 87
   }
 }

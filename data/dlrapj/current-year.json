@@ -3,8 +3,8 @@
   "site_title": "Dual Language Research and Practice Journal",
   "site_url": "https://dlrpj-ojs-tamu.tdl.org/dlrpj",
   "date_start": "2026-01-01",
-  "date_end": "2026-09-03",
-  "fetched_at": "2026-09-04T19:13:00Z",
+  "date_end": "2026-09-04",
+  "fetched_at": "2026-09-05T15:43:20Z",
   "issues": [
     {
       "id": 1,
@@ -397,26 +397,451 @@
       "date_last_activity": "2023-05-30 18:25:51",
       "last_modified": "2023-05-30 18:25:43",
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/39"
+    },
+    {
+      "id": 38,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2021-04-02 17:51:11",
+      "date_last_activity": "2021-04-02 17:57:51",
+      "last_modified": "2021-04-02 17:51:11",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/38"
+    },
+    {
+      "id": 37,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2021-03-31 23:37:25",
+      "date_last_activity": "2023-05-30 18:31:18",
+      "last_modified": "2021-03-31 23:37:25",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/37"
+    },
+    {
+      "id": 36,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-10-19 20:35:08",
+      "date_last_activity": "2020-10-19 20:39:34",
+      "last_modified": "2020-10-19 20:39:34",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/36"
+    },
+    {
+      "id": 35,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2020-10-01 21:50:44",
+      "date_last_activity": "2023-10-17 18:51:12",
+      "last_modified": "2023-05-30 18:25:13",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/35"
+    },
+    {
+      "id": 33,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-09-23 03:54:32",
+      "date_last_activity": "2020-09-23 03:58:23",
+      "last_modified": "2020-09-23 03:58:24",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/33"
+    },
+    {
+      "id": 32,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-09-23 03:04:07",
+      "date_last_activity": "2020-09-23 03:28:03",
+      "last_modified": "2020-09-23 03:28:03",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/32"
+    },
+    {
+      "id": 31,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-08-31 19:18:35",
+      "date_last_activity": "2020-09-23 04:34:13",
+      "last_modified": "2020-09-23 04:34:14",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/31"
+    },
+    {
+      "id": 30,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-08-31 19:01:04",
+      "date_last_activity": "2020-08-31 19:09:45",
+      "last_modified": "2020-08-31 19:09:46",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/30"
+    },
+    {
+      "id": 29,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-08-30 20:23:30",
+      "date_last_activity": "2021-04-02 17:57:51",
+      "last_modified": "2020-11-17 15:53:53",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/29"
+    },
+    {
+      "id": 28,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-07-26 04:30:06",
+      "date_last_activity": "2020-07-26 05:14:21",
+      "last_modified": "2020-07-26 05:14:21",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/28"
+    },
+    {
+      "id": 27,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-07-25 22:53:52",
+      "date_last_activity": "2020-07-26 05:15:42",
+      "last_modified": "2020-07-26 05:15:42",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/27"
+    },
+    {
+      "id": 26,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-07-25 22:40:14",
+      "date_last_activity": "2020-08-15 20:01:07",
+      "last_modified": "2020-08-15 20:01:07",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/26"
+    },
+    {
+      "id": 25,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-07-25 22:31:39",
+      "date_last_activity": "2020-07-26 05:17:27",
+      "last_modified": "2020-07-26 05:17:27",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/25"
+    },
+    {
+      "id": 24,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-07-25 22:17:07",
+      "date_last_activity": "2020-07-26 05:18:14",
+      "last_modified": "2020-07-26 05:18:14",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/24"
+    },
+    {
+      "id": 23,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-07-25 22:09:10",
+      "date_last_activity": "2020-07-26 05:18:53",
+      "last_modified": "2020-07-26 05:18:53",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/23"
+    },
+    {
+      "id": 19,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2020-02-10 09:01:24",
+      "date_last_activity": "2020-03-02 20:25:36",
+      "last_modified": "2020-03-02 20:25:36",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/19"
+    },
+    {
+      "id": 18,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-01-31 20:53:33",
+      "date_last_activity": "2021-04-02 17:57:52",
+      "last_modified": "2020-07-20 17:09:50",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/18"
+    },
+    {
+      "id": 17,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2020-01-15 23:30:04",
+      "date_last_activity": "2021-04-02 17:57:52",
+      "last_modified": "2020-07-20 17:16:21",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/17"
+    },
+    {
+      "id": 15,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2019-12-26 02:44:14",
+      "date_last_activity": "2021-04-02 17:57:52",
+      "last_modified": "2020-07-20 17:32:33",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/15"
+    },
+    {
+      "id": 14,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2019-12-23 02:25:52",
+      "date_last_activity": "2020-06-18 03:01:33",
+      "last_modified": "2020-06-18 03:01:33",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/14"
+    },
+    {
+      "id": 11,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2019-07-01 16:38:34",
+      "date_last_activity": "2020-05-27 21:32:08",
+      "last_modified": "2020-05-27 21:32:08",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/11"
+    },
+    {
+      "id": 10,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2019-01-17 12:33:13",
+      "date_last_activity": "2023-04-04 20:17:12",
+      "last_modified": "2020-07-20 17:28:39",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/10"
+    },
+    {
+      "id": 9,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2018-07-30 11:30:39",
+      "date_last_activity": "2019-03-29 15:24:27",
+      "last_modified": "2019-03-29 15:24:27",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/9"
+    },
+    {
+      "id": 8,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2018-03-12 12:38:38",
+      "date_last_activity": "2023-04-04 20:16:27",
+      "last_modified": "2020-07-20 17:27:12",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/8"
+    },
+    {
+      "id": 7,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2018-01-31 14:14:18",
+      "date_last_activity": "2023-05-08 15:39:13",
+      "last_modified": "2019-01-18 13:15:25",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/7"
+    },
+    {
+      "id": 6,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2017-06-22 11:08:56",
+      "date_last_activity": "2017-06-22 11:08:58",
+      "last_modified": "2017-06-22 11:10:31",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/6"
+    },
+    {
+      "id": 5,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2017-06-22 11:07:11",
+      "date_last_activity": "2017-06-22 11:07:13",
+      "last_modified": "2017-06-22 11:10:31",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/5"
+    },
+    {
+      "id": 4,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2017-06-22 11:04:22",
+      "date_last_activity": "2017-06-22 11:04:24",
+      "last_modified": "2017-06-22 11:10:31",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/4"
+    },
+    {
+      "id": 3,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2017-06-20 11:47:48",
+      "date_last_activity": "2023-05-30 18:34:40",
+      "last_modified": "2017-06-22 11:09:51",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/3"
+    },
+    {
+      "id": 2,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2017-06-20 11:45:19",
+      "date_last_activity": "2023-05-30 18:34:02",
+      "last_modified": "2017-06-22 11:09:51",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/2"
+    },
+    {
+      "id": 1,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2017-06-20 11:42:56",
+      "date_last_activity": "2019-03-29 15:23:12",
+      "last_modified": "2019-03-29 15:23:12",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/1"
+    },
+    {
+      "id": 20,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": null,
+      "date_last_activity": "2020-07-25 20:26:35",
+      "last_modified": "2020-07-25 20:26:35",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/20"
+    },
+    {
+      "id": 46,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": null,
+      "date_last_activity": "2022-12-17 22:38:26",
+      "last_modified": "2022-12-17 22:38:26",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/46"
+    },
+    {
+      "id": 34,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": null,
+      "date_last_activity": "2020-09-23 03:59:28",
+      "last_modified": "2020-09-23 03:59:28",
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/34"
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 23,
-    "Declined": 7
+    "Draft": 27,
+    "Declined": 14,
+    "Published": 23
   },
   "submission_stage_breakdown": {
-    "Copyediting": 30
+    "Copyediting": 35,
+    "Published": 20,
+    "Production": 6,
+    "Submission": 3
   },
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 128
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 21
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 4
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 6
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 81
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 82
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 87
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 2
+    }
+  ],
   "publication_stats": [
     {
       "id": 8,
       "title": "Reading Achievement in A Dual Language Setting: An Examination of English Language Learners at the Elementary Level",
       "authors": "Diemer et al.",
-      "abstract_views": 1892,
-      "galley_views": 502,
-      "pdf_views": 502,
+      "abstract_views": 1893,
+      "galley_views": 503,
+      "pdf_views": 503,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 2394,
+      "total_views": 2396,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/8",
       "doi": null
     },
@@ -425,11 +850,11 @@
       "title": "Expanding Immersion Programs: A Leadership Perspective",
       "authors": "Peterson",
       "abstract_views": 186,
-      "galley_views": 1023,
-      "pdf_views": 1023,
+      "galley_views": 1027,
+      "pdf_views": 1027,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 1209,
+      "total_views": 1213,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/4",
       "doi": null
     },
@@ -437,12 +862,12 @@
       "id": 10,
       "title": "A Comparison of Fourth-Grade Students Taught in English-Only Classrooms and Spanish-Only Classrooms in the Same District",
       "authors": "Vik et al.",
-      "abstract_views": 350,
-      "galley_views": 760,
-      "pdf_views": 760,
+      "abstract_views": 351,
+      "galley_views": 771,
+      "pdf_views": 771,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 1110,
+      "total_views": 1122,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/10",
       "doi": null
     },
@@ -476,12 +901,12 @@
       "id": 15,
       "title": "Technology-Enhanced Language Education Revisited: A Developmental Perspective",
       "authors": "Khoshnevisan",
-      "abstract_views": 172,
+      "abstract_views": 173,
       "galley_views": 363,
       "pdf_views": 363,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 535,
+      "total_views": 536,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/15",
       "doi": null
     },
@@ -490,11 +915,11 @@
       "title": "There Is No Monster Outside: It Is A Virus (Korean Version)",
       "authors": "Shin et al.",
       "abstract_views": 301,
-      "galley_views": 194,
-      "pdf_views": 194,
+      "galley_views": 195,
+      "pdf_views": 195,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 495,
+      "total_views": 496,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/36",
       "doi": null
     },
@@ -503,11 +928,11 @@
       "title": "Can anybody hear me? A qualitative investigation of social presence in an online course in English for Academic Purposes",
       "authors": "Richter",
       "abstract_views": 178,
-      "galley_views": 277,
-      "pdf_views": 277,
+      "galley_views": 278,
+      "pdf_views": 278,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 455,
+      "total_views": 456,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/17",
       "doi": null
     },
@@ -528,12 +953,12 @@
       "id": 32,
       "title": "There Is No Monster Outside: It's A Virus! (Swahili Version)",
       "authors": "Ndibalema et al.",
-      "abstract_views": 243,
+      "abstract_views": 244,
       "galley_views": 189,
       "pdf_views": 189,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 432,
+      "total_views": 433,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/32",
       "doi": null
     },
@@ -542,11 +967,11 @@
       "title": "There Is No Monster Outside: It's A Virus (Hindi Version)",
       "authors": "Paul et al.",
       "abstract_views": 153,
-      "galley_views": 279,
-      "pdf_views": 279,
+      "galley_views": 280,
+      "pdf_views": 280,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 432,
+      "total_views": 433,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/31",
       "doi": null
     },
@@ -564,6 +989,19 @@
       "doi": null
     },
     {
+      "id": 38,
+      "title": "Editorial Review: Technologies and Second Language Learners",
+      "authors": "Davoodi et al.",
+      "abstract_views": 164,
+      "galley_views": 224,
+      "pdf_views": 224,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 388,
+      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/38",
+      "doi": null
+    },
+    {
       "id": 5,
       "title": "Effective Dual Immersion School Transitions: An Expert Panel Synthesis",
       "authors": "Sellards et al.",
@@ -577,28 +1015,15 @@
       "doi": null
     },
     {
-      "id": 38,
-      "title": "Editorial Review: Technologies and Second Language Learners",
-      "authors": "Davoodi et al.",
-      "abstract_views": 164,
-      "galley_views": 223,
-      "pdf_views": 223,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 387,
-      "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/38",
-      "doi": null
-    },
-    {
       "id": 33,
       "title": "There is No Monster Outside: It's A Virus! (German Version)",
       "authors": "Iris et al.",
       "abstract_views": 226,
-      "galley_views": 159,
-      "pdf_views": 159,
+      "galley_views": 160,
+      "pdf_views": 160,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 385,
+      "total_views": 386,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/33",
       "doi": null
     },
@@ -619,12 +1044,12 @@
       "id": 28,
       "title": "A message from the Editorial Review Board",
       "authors": "Lara-Alecio et al.",
-      "abstract_views": 181,
+      "abstract_views": 182,
       "galley_views": 164,
       "pdf_views": 164,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 345,
+      "total_views": 346,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/28",
       "doi": null
     },
@@ -646,11 +1071,11 @@
       "title": "There Is No Monster Outside: It's A Virus! (Arabic)",
       "authors": "AbdelRahman et al.",
       "abstract_views": 122,
-      "galley_views": 200,
-      "pdf_views": 200,
+      "galley_views": 201,
+      "pdf_views": 201,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 322,
+      "total_views": 323,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/25",
       "doi": null
     },
@@ -659,11 +1084,11 @@
       "title": "Going Big!: The Case of a Large District’s Effort to Maximize the Benefits of Dual Language Programming for their Children",
       "authors": "Willey et al.",
       "abstract_views": 158,
-      "galley_views": 161,
-      "pdf_views": 161,
+      "galley_views": 162,
+      "pdf_views": 162,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 319,
+      "total_views": 320,
       "url_published": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/article/view/1",
       "doi": null
     },
@@ -714,8 +1139,8 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 468,
-      "toc_views": 468,
+      "total_views": 470,
+      "toc_views": 470,
       "issue_galley_views": 0,
       "url": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/issue/view/5"
     },
@@ -736,9 +1161,9 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 176,
+      "total_views": 177,
       "toc_views": 139,
-      "issue_galley_views": 37,
+      "issue_galley_views": 38,
       "url": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/issue/view/2"
     },
     {
@@ -747,8 +1172,8 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 134,
-      "toc_views": 134,
+      "total_views": 135,
+      "toc_views": 135,
       "issue_galley_views": 0,
       "url": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/issue/view/1"
     },
@@ -764,68 +1189,21 @@
       "url": "https://dlrpj-ojs-tamu.tdl.org/dlrpj/issue/view/4"
     }
   ],
-  "user_stats": [
-    {
-      "id": "total",
-      "name": "All Users",
-      "value": 128
-    },
-    {
-      "id": 1,
-      "name": "Site Administrator",
-      "value": 0
-    },
-    {
-      "id": 16,
-      "name": "Journal Manager",
-      "value": 21
-    },
-    {
-      "id": 17,
-      "name": "Section Editor",
-      "value": 4
-    },
-    {
-      "id": 4097,
-      "name": "Assistant",
-      "value": 6
-    },
-    {
-      "id": 65536,
-      "name": "Author",
-      "value": 81
-    },
-    {
-      "id": 4096,
-      "name": "Reviewer",
-      "value": 82
-    },
-    {
-      "id": 1048576,
-      "name": "Reader",
-      "value": 87
-    },
-    {
-      "id": 2097152,
-      "name": "Subscription Manager",
-      "value": 2
-    }
-  ],
   "summary": {
     "total_issues": 5,
     "published_issues": 5,
     "unpublished_issues": 0,
-    "total_submissions": 30,
-    "published_submissions": 0,
+    "total_submissions": 64,
+    "published_submissions": 23,
     "new_issues_in_period": 0,
     "new_submissions_in_period": 0,
-    "total_view_count": 13570,
-    "total_abstract_views": 6445,
-    "total_galley_views": 7125,
-    "total_pdf_views": 7125,
+    "total_view_count": 13598,
+    "total_abstract_views": 6450,
+    "total_galley_views": 7148,
+    "total_pdf_views": 7148,
     "total_html_views": 0,
     "total_other_views": 0,
-    "total_issue_views": 1086,
+    "total_issue_views": 1090,
     "total_users": 128
   }
 }

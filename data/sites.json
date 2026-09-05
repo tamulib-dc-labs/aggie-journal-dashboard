@@ -44,350 +44,6 @@
       ]
     },
     {
-      "name": "dlrapj",
-      "title": "Dual Language Research and Practice Journal",
-      "directory": "dlrapj",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "elapbj",
-      "title": "Education Law and Policy Briefs Journal",
-      "directory": "elapbj",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "jaawge",
-      "title": "Journal of African American Women and Girls in Education",
-      "directory": "jaawge",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "jfe",
-      "title": "Journal of Forensic Etymology",
-      "directory": "jfe",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "jfse",
-      "title": "Journal of Forensic Science Education",
-      "directory": "jfse",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "regsci",
-      "title": "Journal of Regualtory Science",
-      "directory": "regsci",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "pal",
-      "title": "Practical Academic Librarianship",
-      "directory": "pal",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "ch",
-      "title": "Society of the Study of Curriculum History",
-      "directory": "ch",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
       "name": "tndr",
       "title": "Texas New Deal Review",
       "directory": "tndr",
@@ -689,49 +345,6 @@
       ]
     },
     {
-      "name": "awl",
-      "title": "Advancing Women in Leadership",
-      "directory": "awl",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
       "name": "bovine_prac",
       "title": "The Bovine Practitioner",
       "directory": "bovine_prac",
@@ -795,49 +408,6 @@
           "label": "last-90-days",
           "file": "last-90-days.json",
           "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "instars",
-      "title": "Instars: A Journal of Student Research",
-      "directory": "instars",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
           "date_end": "2026-09-03"
         },
         {
@@ -1013,7 +583,437 @@
           "date_end": "2026-09-04"
         }
       ]
+    },
+    {
+      "name": "instars",
+      "title": "Instars: A Journal of Student Research",
+      "directory": "instars",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "dlrapj",
+      "title": "Dual Language Research and Practice Journal",
+      "directory": "dlrapj",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "elapbj",
+      "title": "Education Law and Policy Briefs Journal",
+      "directory": "elapbj",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "jaawge",
+      "title": "Journal of African American Women and Girls in Education",
+      "directory": "jaawge",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "jfe",
+      "title": "Journal of Forensic Etymology",
+      "directory": "jfe",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "jfse",
+      "title": "Journal of Forensic Science Education",
+      "directory": "jfse",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "regsci",
+      "title": "Journal of Regualtory Science",
+      "directory": "regsci",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "pal",
+      "title": "Practical Academic Librarianship",
+      "directory": "pal",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "ch",
+      "title": "Society of the Study of Curriculum History",
+      "directory": "ch",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
+    },
+    {
+      "name": "awl",
+      "title": "Advancing Women in Leadership",
+      "directory": "awl",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
     }
   ],
-  "fetched_at": "2026-09-05T12:09:11Z"
+  "fetched_at": "2026-09-05T15:56:18Z"
 }

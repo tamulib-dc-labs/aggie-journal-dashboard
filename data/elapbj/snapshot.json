@@ -4,7 +4,7 @@
   "site_url": "https://epbj-ojs-tamu.tdl.org/epbj",
   "date_start": null,
   "date_end": null,
-  "fetched_at": "2026-09-04T19:24:54Z",
+  "fetched_at": "2026-09-05T15:44:12Z",
   "issues": [
     {
       "id": 1,
@@ -373,30 +373,110 @@
       "date_last_activity": "2022-10-04 21:08:08",
       "last_modified": "2019-01-28 13:15:06",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/3"
+    },
+    {
+      "id": 2,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 4,
+      "stage_label": "Production",
+      "date_submitted": "2017-07-31 21:47:04",
+      "date_last_activity": "2022-10-31 19:40:40",
+      "last_modified": "2017-08-04 08:00:20",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/2"
+    },
+    {
+      "id": 1,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2017-07-12 15:45:24",
+      "date_last_activity": "2023-02-21 20:20:12",
+      "last_modified": "2017-07-12 15:45:24",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/1"
+    },
+    {
+      "id": 12,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": null,
+      "date_last_activity": "2019-12-05 15:52:55",
+      "last_modified": "2019-12-05 15:52:55",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/12"
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 20,
+    "Draft": 21,
     "Declined": 6,
-    "Published": 4
+    "Published": 6
   },
   "submission_stage_breakdown": {
-    "Submission": 17,
+    "Submission": 18,
     "Copyediting": 7,
-    "Published": 5,
-    "Production": 1
+    "Published": 6,
+    "Production": 2
   },
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 87
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 28
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 2
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 4
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 58
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 55
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 63
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 1
+    }
+  ],
   "publication_stats": [
     {
       "id": 13,
       "title": "School Enhancement: An Alternative to “School Turnaround” ",
       "authors": "Irby et al.",
-      "abstract_views": 1062,
+      "abstract_views": 1063,
       "galley_views": 714,
       "pdf_views": 714,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 1776,
+      "total_views": 1777,
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/13",
       "doi": null
     },
@@ -404,12 +484,12 @@
       "id": 17,
       "title": "Increased Water Consumption and Quality of Food Policies for Schools",
       "authors": "De Jong et al.",
-      "abstract_views": 1113,
+      "abstract_views": 1114,
       "galley_views": 511,
       "pdf_views": 511,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 1624,
+      "total_views": 1625,
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/17",
       "doi": null
     },
@@ -495,74 +575,27 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 510,
-      "toc_views": 510,
+      "total_views": 511,
+      "toc_views": 511,
       "issue_galley_views": 0,
       "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/1"
-    }
-  ],
-  "user_stats": [
-    {
-      "id": "total",
-      "name": "All Users",
-      "value": 87
-    },
-    {
-      "id": 1,
-      "name": "Site Administrator",
-      "value": 0
-    },
-    {
-      "id": 16,
-      "name": "Journal Manager",
-      "value": 28
-    },
-    {
-      "id": 17,
-      "name": "Section Editor",
-      "value": 2
-    },
-    {
-      "id": 4097,
-      "name": "Assistant",
-      "value": 4
-    },
-    {
-      "id": 65536,
-      "name": "Author",
-      "value": 58
-    },
-    {
-      "id": 4096,
-      "name": "Reviewer",
-      "value": 55
-    },
-    {
-      "id": 1048576,
-      "name": "Reader",
-      "value": 63
-    },
-    {
-      "id": 2097152,
-      "name": "Subscription Manager",
-      "value": 1
     }
   ],
   "summary": {
     "total_issues": 3,
     "published_issues": 3,
     "unpublished_issues": 0,
-    "total_submissions": 30,
-    "published_submissions": 4,
+    "total_submissions": 33,
+    "published_submissions": 6,
     "new_issues_in_period": 3,
-    "new_submissions_in_period": 30,
-    "total_view_count": 6523,
-    "total_abstract_views": 3561,
+    "new_submissions_in_period": 33,
+    "total_view_count": 6525,
+    "total_abstract_views": 3563,
     "total_galley_views": 2962,
     "total_pdf_views": 2962,
     "total_html_views": 0,
     "total_other_views": 0,
-    "total_issue_views": 2360,
+    "total_issue_views": 2361,
     "total_users": 87
   }
 }

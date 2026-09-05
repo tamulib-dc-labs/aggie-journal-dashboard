@@ -4,7 +4,7 @@
   "site_url": "https://jfe-ojs-tamu.tdl.org/jfe",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-09-04T20:05:41Z",
+  "fetched_at": "2026-09-05T15:45:54Z",
   "issues": [
     {
       "id": 2,
@@ -385,18 +385,153 @@
       "date_last_activity": "2024-12-28 09:55:15",
       "last_modified": "2022-06-02 12:32:03",
       "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/9"
+    },
+    {
+      "id": 8,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2022-02-16 13:27:49",
+      "date_last_activity": "2022-02-21 17:36:10",
+      "last_modified": "2022-02-16 13:27:49",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/8"
+    },
+    {
+      "id": 7,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2022-02-05 22:56:34",
+      "date_last_activity": "2025-10-07 11:53:45",
+      "last_modified": "2022-05-31 12:40:18",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/7"
+    },
+    {
+      "id": 6,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2022-02-05 22:43:39",
+      "date_last_activity": "2025-08-29 12:51:36",
+      "last_modified": "2022-02-05 22:43:39",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/6"
+    },
+    {
+      "id": 5,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2022-02-05 22:18:23",
+      "date_last_activity": "2023-12-22 00:27:36",
+      "last_modified": "2022-02-05 22:21:07",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/5"
+    },
+    {
+      "id": 4,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2022-02-05 22:11:55",
+      "date_last_activity": "2025-08-26 08:48:21",
+      "last_modified": "2022-03-21 16:42:45",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/4"
+    },
+    {
+      "id": 3,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2021-11-30 14:14:12",
+      "date_last_activity": "2022-02-25 20:14:08",
+      "last_modified": "2022-02-25 18:36:28",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/3"
+    },
+    {
+      "id": 2,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2021-10-04 12:09:46",
+      "date_last_activity": "2025-08-29 07:49:59",
+      "last_modified": "2021-10-04 12:09:46",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/2"
+    },
+    {
+      "id": 1,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2021-08-25 17:44:44",
+      "date_last_activity": "2025-08-29 07:49:57",
+      "last_modified": "2022-02-14 18:05:31",
+      "url_published": "https://jfe-ojs-tamu.tdl.org/jfe/article/view/1"
     }
   ],
   "submission_status_breakdown": {
     "Draft": 4,
-    "Declined": 14,
-    "Published": 12
+    "Declined": 15,
+    "Published": 19
   },
   "submission_stage_breakdown": {
     "Submission": 6,
-    "Copyediting": 12,
-    "Published": 12
+    "Copyediting": 13,
+    "Published": 19
   },
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 89
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 11
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 8
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 9
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 35
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 49
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 46
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 1
+    }
+  ],
   "publication_stats": [
     {
       "id": 2,
@@ -692,59 +827,12 @@
       "url": "https://jfe-ojs-tamu.tdl.org/jfe/issue/view/2"
     }
   ],
-  "user_stats": [
-    {
-      "id": "total",
-      "name": "All Users",
-      "value": 89
-    },
-    {
-      "id": 1,
-      "name": "Site Administrator",
-      "value": 0
-    },
-    {
-      "id": 16,
-      "name": "Journal Manager",
-      "value": 11
-    },
-    {
-      "id": 17,
-      "name": "Section Editor",
-      "value": 8
-    },
-    {
-      "id": 4097,
-      "name": "Assistant",
-      "value": 9
-    },
-    {
-      "id": 65536,
-      "name": "Author",
-      "value": 35
-    },
-    {
-      "id": 4096,
-      "name": "Reviewer",
-      "value": 49
-    },
-    {
-      "id": 1048576,
-      "name": "Reader",
-      "value": 46
-    },
-    {
-      "id": 2097152,
-      "name": "Subscription Manager",
-      "value": 1
-    }
-  ],
   "summary": {
     "total_issues": 4,
     "published_issues": 4,
     "unpublished_issues": 0,
-    "total_submissions": 30,
-    "published_submissions": 12,
+    "total_submissions": 38,
+    "published_submissions": 19,
     "new_issues_in_period": 1,
     "new_submissions_in_period": 6,
     "total_view_count": 10956,
