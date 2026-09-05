@@ -12,7 +12,10 @@
 <body>
   <div class="container">
     <header>
-      <h1><span class="icon" aria-hidden="true">📊</span> Aggie Journals Dashboard</h1>
+      <h1>
+        <svg class="icon" aria-hidden="true"><use href="#aux_chart-mixed"></use></svg>
+        Aggie Journals Dashboard
+      </h1>
     </header>
 
     <div id="live-region" class="visually-hidden" aria-live="polite" aria-atomic="true"></div>
@@ -143,5 +146,17 @@
   </div>
 
   <script src="assets/js/dashboard.js"></script>
+  <script>
+    // Aggie UX icon sprite — https://aggieux.tamu.edu icons are referenced via <svg><use href="#aux_...">
+    let icons = new XMLHttpRequest();
+    icons.open("GET", "https://aux.tamu.edu/icons/aux-sprite.svg", true);
+    icons.send();
+    icons.onload = function (e) {
+      var div = document.createElement("div");
+      div.hidden = true;
+      div.innerHTML = icons.responseText;
+      document.body.insertBefore(div, document.body.childNodes[0]);
+    }
+  </script>
 </body>
 </html>

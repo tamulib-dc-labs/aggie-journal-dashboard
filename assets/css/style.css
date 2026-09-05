@@ -97,7 +97,12 @@ header h1 {
   gap: 0.75rem;
 }
 
-header h1 .icon { font-size: 1.5rem; }
+header h1 .icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: currentColor;
+  flex-shrink: 0;
+}
 
 .header-meta { font-family: var(--open-sans); font-size: 0.875rem; color: var(--text-muted); margin-top: 0.5rem; }
 
