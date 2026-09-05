@@ -97,8 +97,13 @@ def ojs_get(base_url, api_key, path, params=None, timeout=DEFAULT_TIMEOUT, retri
 def fetch_all(base_url, api_key, path, params=None, timeout=DEFAULT_TIMEOUT, retries=MAX_RETRIES):
     """Fetch all items from a paginated OJS endpoint.
 
-    OJS stats endpoints ignore `limit` and return at most 10 items,
-    so pagination only works for non-stats endpoints (issues, submissions).
+    Some OJS endpoints (e.g. submissions, issues) silently clamp their page
+    size below whatever `limit` we request, so comparing the returned count
+    to our requested page size is not a reliable end-of-data signal — it can
+    stop after the very first page (observed: submissions/issues capped at
+    30 items regardless of `limit=100`). Instead, rely on `itemsMax` (the
+    server-reported total) when present, and advance the offset by the
+    number of items actually returned rather than our requested page size.
 
     Raises FetchError if a request ultimately fails after retries — this is
     distinct from an endpoint that legitimately returns zero items.
@@ -125,13 +130,18 @@ def fetch_all(base_url, api_key, path, params=None, timeout=DEFAULT_TIMEOUT, ret
             items = [items] if items else []
         all_items.extend(items)
 
-        # Stats endpoints return itemsMax; if it's <= page, we've got all
+        if not items:
+            break
+
         items_max = data.get("itemsMax", 0) if isinstance(data, dict) else 0
-        if "stats/" in path and items_max > 0 and len(all_items) >= items_max:
+        if items_max > 0:
+            if len(all_items) >= items_max:
+                break
+        elif len(items) < page_size:
+            # No itemsMax to trust — fall back to "got less than we asked for".
             break
-        if not items or len(items) < page_size:
-            break
-        offset += page_size
+
+        offset += len(items)
 
     return all_items
 
