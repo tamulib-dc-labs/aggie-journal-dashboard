@@ -1,0 +1,94 @@
+{
+  "site_name": "wcq",
+  "site_title": "Wellness Counseling Quarterly",
+  "site_url": "https://wcq-ojs-tamu.tdl.org/wcq",
+  "date_start": "2026-08-29",
+  "date_end": "2026-09-04",
+  "fetched_at": "2026-09-05T00:59:04Z",
+  "issues": [],
+  "submissions": [
+    {
+      "id": 1,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-08-04 19:00:08",
+      "date_last_activity": "2026-08-04 19:00:09",
+      "last_modified": "2026-08-04 19:00:08",
+      "url_published": "https://wcq-ojs-tamu.tdl.org/wcq/article/view/1"
+    }
+  ],
+  "submission_status_breakdown": {
+    "Draft": 1
+  },
+  "submission_stage_breakdown": {
+    "Submission": 1
+  },
+  "publication_stats": [],
+  "issue_stats": [],
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 9
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 9
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 7
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 8
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 2
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 5
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 1
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 1
+    }
+  ],
+  "summary": {
+    "total_issues": 0,
+    "published_issues": 0,
+    "unpublished_issues": 0,
+    "total_submissions": 1,
+    "published_submissions": 0,
+    "new_issues_in_period": 0,
+    "new_submissions_in_period": 0,
+    "total_view_count": 0,
+    "total_abstract_views": 0,
+    "total_galley_views": 0,
+    "total_pdf_views": 0,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 0,
+    "total_users": 9
+  }
+}
