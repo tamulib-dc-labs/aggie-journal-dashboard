@@ -195,21 +195,21 @@ def normalize_issue_stats(items):
     return result
 
 
-def fetch_site_data(name, site, date_start=None, date_end=None):
-    """Fetch all data for a single OJS site and return a snapshot dict."""
+def fetch_site_base_data(name, site):
+    """Fetch the parts of a site's data that don't vary by date range.
+
+    `issues`, `submissions`, and `stats/users` are never filtered by
+    dateStart/dateEnd (OJS doesn't take date params for the first two, and
+    stats/users ignores them entirely), so fetching them fresh for every one
+    of the 6 standard snapshot ranges was 3 redundant round-trips for every
+    1 that actually differs. Fetch them once per site and reuse the result
+    for every range's snapshot instead.
+    """
     api_key = site["key"]
     base_url = site["site"]
     title = site.get("title", name)
 
-    logger.info(f"  Fetching data for '{title}' ({name})...")
-    snapshot = {
-        "site_name": name,
-        "site_title": title,
-        "site_url": base_url,
-        "date_start": date_start,
-        "date_end": date_end,
-        "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
-    }
+    logger.info(f"  Fetching base data for '{title}' ({name})...")
 
     # Issues
     logger.info("    Issues...")
@@ -229,7 +229,6 @@ def fetch_site_data(name, site, date_start=None, date_end=None):
             "url": i.get("publishedUrl", ""),
             "description": i.get("description", {}).get("en", ""),
         })
-    snapshot["issues"] = issues
 
     # Submissions
     logger.info("    Submissions...")
@@ -255,9 +254,46 @@ def fetch_site_data(name, site, date_start=None, date_end=None):
             "last_modified": s.get("lastModified"),
             "url_published": s.get("urlPublished", ""),
         })
+
+    # User stats (no date filtering)
+    logger.info("    User stats...")
+    user_stats = fetch_all(base_url, api_key, "stats/users", timeout=STATS_TIMEOUT)
+
+    return {
+        "issues": issues,
+        "submissions": submissions,
+        "submission_status_breakdown": dict(status_counts),
+        "submission_stage_breakdown": dict(stage_counts),
+        "user_stats": user_stats,
+    }
+
+
+def fetch_site_data(name, site, base_data, date_start=None, date_end=None):
+    """Build a snapshot dict for one date range, reusing `base_data` (from
+    fetch_site_base_data) for the parts that don't vary by date range."""
+    base_url = site["site"]
+    title = site.get("title", name)
+
+    logger.info(f"  Fetching '{title}' ({name}) for {date_start or 'start'}..{date_end or 'end'}...")
+    snapshot = {
+        "site_name": name,
+        "site_title": title,
+        "site_url": base_url,
+        "date_start": date_start,
+        "date_end": date_end,
+        "fetched_at": time.strftime("%Y-%m-%dT%H:%M:%SZ"),
+    }
+
+    issues = base_data["issues"]
+    submissions = base_data["submissions"]
+    user_stats = base_data["user_stats"]
+    snapshot["issues"] = issues
     snapshot["submissions"] = submissions
-    snapshot["submission_status_breakdown"] = dict(status_counts)
-    snapshot["submission_stage_breakdown"] = dict(stage_counts)
+    snapshot["submission_status_breakdown"] = base_data["submission_status_breakdown"]
+    snapshot["submission_stage_breakdown"] = base_data["submission_stage_breakdown"]
+    snapshot["user_stats"] = user_stats
+
+    api_key = site["key"]
 
     # Stats params
     stats_params = {}
@@ -266,24 +302,19 @@ def fetch_site_data(name, site, date_start=None, date_end=None):
     if date_end:
         stats_params["dateEnd"] = date_end
 
-    # Publication stats
+    # Publication stats (the one endpoint that genuinely depends on date range)
     logger.info("    Publication stats...")
     pub_stats = normalize_publication_stats(
         fetch_all(base_url, api_key, "stats/publications", params=stats_params or None, timeout=STATS_TIMEOUT)
     )
     snapshot["publication_stats"] = pub_stats
 
-    # Issue stats
+    # Issue stats (also depends on date range)
     logger.info("    Issue stats...")
     issue_stats = normalize_issue_stats(
         fetch_all(base_url, api_key, "stats/issues", params=stats_params or None, timeout=STATS_TIMEOUT)
     )
     snapshot["issue_stats"] = issue_stats
-
-    # User stats (no date filtering)
-    logger.info("    User stats...")
-    user_stats = fetch_all(base_url, api_key, "stats/users", timeout=STATS_TIMEOUT)
-    snapshot["user_stats"] = user_stats
 
     # Compute summary — filter issues and submissions by date range
     published_ids = {s["id"] for s in submissions if s["status"] == 3}
@@ -480,6 +511,13 @@ def main():
         site_dir = out_dir / name
         site_dir.mkdir(parents=True, exist_ok=True)
 
+        logger.info(f"\n[{name}] Fetching base data (issues, submissions, user stats)...")
+        try:
+            base_data = fetch_site_base_data(name, site)
+        except FetchError as e:
+            logger.error(f"  Failed to fetch base data for '{name}': {e} — keeping all existing snapshots")
+            base_data = None
+
         snapshot_labels = []
         all_time_data = None
         for r in ranges:
@@ -490,7 +528,9 @@ def main():
 
             logger.info(f"\n[{name}] Snapshot: {label} ({ds or 'start'} to {de or 'end'})")
             try:
-                data = fetch_site_data(name, site, ds, de)
+                if base_data is None:
+                    raise FetchError("base data unavailable")
+                data = fetch_site_data(name, site, base_data, ds, de)
             except FetchError as e:
                 logger.error(f"  Failed to fetch '{label}' snapshot for '{name}': {e}")
                 if filepath.exists():
