@@ -302,49 +302,6 @@
       ]
     },
     {
-      "name": "jume",
-      "title": "Journal of Urban Mathematics Education",
-      "directory": "jume",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
       "name": "pal",
       "title": "Practical Academic Librarianship",
       "directory": "pal",
@@ -1013,7 +970,50 @@
           "date_end": "2026-09-04"
         }
       ]
+    },
+    {
+      "name": "jume",
+      "title": "Journal of Urban Mathematics Education",
+      "directory": "jume",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-07",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-06",
+          "date_end": "2026-09-04"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-08-29",
+          "date_end": "2026-09-04"
+        }
+      ]
     }
   ],
-  "fetched_at": "2026-09-05T00:58:51Z"
+  "fetched_at": "2026-09-05T11:34:13Z"
 }
