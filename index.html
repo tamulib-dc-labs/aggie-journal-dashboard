@@ -13,7 +13,12 @@
   <div class="container">
     <header>
       <h1>
-        <svg class="icon" aria-hidden="true"><use href="#aux_chart-mixed"></use></svg>
+        <!-- Aggie UX "chart-mixed" icon, inlined from https://aux.tamu.edu/icons/aux-prod-icons/chart-mixed.svg
+             (aux.tamu.edu doesn't send CORS headers for non-tamu.edu origins, so the hosted
+             sprite can't be fetched cross-origin from GitHub Pages — inlining avoids that). -->
+        <svg class="icon" aria-hidden="true" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <path d="M58.38 16.83h-8.21c-.83 0-1.5.67-1.5 1.5v44.13c0 .83.67 1.5 1.5 1.5h8.21c.83 0 1.5-.67 1.5-1.5V18.33c0-.83-.67-1.5-1.5-1.5Zm-1.5 44.13h-5.21V19.83h5.21v41.13ZM43.53 33.97h-8.21c-.83 0-1.5.67-1.5 1.5v26.99c0 .83.67 1.5 1.5 1.5h8.21c.83 0 1.5-.67 1.5-1.5V35.47c0-.83-.67-1.5-1.5-1.5Zm-1.5 26.99h-5.21V36.97h5.21v23.99ZM28.68 24.95h-8.21c-.83 0-1.5.67-1.5 1.5v36.01c0 .83.67 1.5 1.5 1.5h8.21c.83 0 1.5-.67 1.5-1.5V26.44c0-.83-.67-1.5-1.5-1.5Zm-1.5 36.01h-5.21V27.94h5.21v33.01ZM13.83 45.13H5.62c-.83 0-1.5.67-1.5 1.5v15.83c0 .83.67 1.5 1.5 1.5h8.21c.83 0 1.5-.67 1.5-1.5V46.63c0-.83-.67-1.5-1.5-1.5Zm-1.5 15.83H7.12V48.13h5.21v12.83Zm-2.6-23.01c2.75 0 4.99-2.24 4.99-4.99 0-1.04-.32-2-.87-2.8l8.97-11.37c.55.21 1.14.34 1.76.34 1.41 0 2.68-.6 3.59-1.54l6.31 3.12c-.01.14-.04.27-.04.41 0 2.75 2.24 4.99 4.99 4.99s4.99-2.24 4.99-4.99c0-.79-.2-1.53-.53-2.19l8.69-9.24c.53.2 1.1.32 1.71.32 2.75 0 4.99-2.24 4.99-4.99S57.02.01 54.27.01 49.28 2.25 49.28 5c0 1.05.33 2.03.89 2.83l-8.38 8.91c-.71-.39-1.51-.63-2.38-.63-1.53 0-2.89.71-3.8 1.8l-6.14-3.03c.04-.25.08-.5.08-.75 0-2.75-2.24-4.99-4.99-4.99s-4.99 2.24-4.99 4.99c0 1.04.32 2 .87 2.8L11.47 28.3a4.92 4.92 0 0 0-1.76-.34c-2.75 0-4.99 2.24-4.99 4.99s2.24 4.99 4.99 4.99ZM54.27 3.01c1.1 0 1.99.89 1.99 1.99s-.89 1.99-1.99 1.99S52.28 6.1 52.28 5s.89-1.99 1.99-1.99Zm-14.85 16.1c1.1 0 1.99.89 1.99 1.99s-.89 1.99-1.99 1.99-1.99-.89-1.99-1.99.89-1.99 1.99-1.99Zm-14.85-6.98c1.1 0 1.99.89 1.99 1.99s-.89 1.99-1.99 1.99-1.99-.89-1.99-1.99.89-1.99 1.99-1.99ZM9.72 30.95c1.1 0 1.99.89 1.99 1.99s-.89 1.99-1.99 1.99-1.99-.89-1.99-1.99.89-1.99 1.99-1.99Z" style="stroke-width:0"/>
+        </svg>
         Aggie Journals Dashboard
       </h1>
     </header>
@@ -146,17 +151,5 @@
   </div>
 
   <script src="assets/js/dashboard.js"></script>
-  <script>
-    // Aggie UX icon sprite — https://aggieux.tamu.edu icons are referenced via <svg><use href="#aux_...">
-    let icons = new XMLHttpRequest();
-    icons.open("GET", "https://aux.tamu.edu/icons/aux-sprite.svg", true);
-    icons.send();
-    icons.onload = function (e) {
-      var div = document.createElement("div");
-      div.hidden = true;
-      div.innerHTML = icons.responseText;
-      document.body.insertBefore(div, document.body.childNodes[0]);
-    }
-  </script>
 </body>
 </html>

@@ -30,8 +30,10 @@ class Dashboard {
       const index = await resp.json();
       this.sites = index.sites;
       this.fetchedAt = index.fetched_at;
-      document.getElementById("updated-time").textContent =
-        "Data fetched: " + new Date(this.fetchedAt).toLocaleString();
+      const updatedTimeEl = document.getElementById("updated-time");
+      if (updatedTimeEl) {
+        updatedTimeEl.textContent = "Data fetched: " + new Date(this.fetchedAt).toLocaleString();
+      }
     } catch (err) {
       console.error("Failed to fetch sites index:", err);
       document.getElementById("app").innerHTML =
