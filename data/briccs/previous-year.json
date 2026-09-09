@@ -1,0 +1,94 @@
+{
+  "site_name": "briccs",
+  "site_title": "Building Research Innovation at Community Colleges Proceedings",
+  "site_url": "https://briccs-ojs-tamu.tdl.org/briccs",
+  "date_start": "2025-01-01",
+  "date_end": "2025-12-31",
+  "fetched_at": "2026-09-09T13:08:19Z",
+  "issues": [],
+  "submissions": [
+    {
+      "id": 1,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2026-03-31 15:27:52",
+      "date_last_activity": "2026-03-31 15:54:08",
+      "last_modified": "2026-03-31 15:27:52",
+      "url_published": "https://briccs-ojs-tamu.tdl.org/briccs/article/view/1"
+    }
+  ],
+  "submission_status_breakdown": {
+    "Draft": 1
+  },
+  "submission_stage_breakdown": {
+    "Published": 1
+  },
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 6
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 5
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 0
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 0
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 1
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 1
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 1
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 0
+    }
+  ],
+  "publication_stats": [],
+  "issue_stats": [],
+  "summary": {
+    "total_issues": 0,
+    "published_issues": 0,
+    "unpublished_issues": 0,
+    "total_submissions": 1,
+    "published_submissions": 0,
+    "new_issues_in_period": 0,
+    "new_submissions_in_period": 0,
+    "total_view_count": 0,
+    "total_abstract_views": 0,
+    "total_galley_views": 0,
+    "total_pdf_views": 0,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 0,
+    "total_users": 6
+  }
+}

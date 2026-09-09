@@ -1013,7 +1013,44 @@
           "date_end": "2026-09-04"
         }
       ]
+    },
+    {
+      "name": "briccs",
+      "title": "Building Research Innovation at Community Colleges Proceedings",
+      "directory": "briccs",
+      "snapshots": [
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-08"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-11",
+          "date_end": "2026-09-08"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-10",
+          "date_end": "2026-09-08"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-09-02",
+          "date_end": "2026-09-08"
+        }
+      ]
     }
   ],
-  "fetched_at": "2026-09-05T16:11:30Z"
+  "fetched_at": "2026-09-09T13:08:17Z"
 }
