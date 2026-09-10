@@ -148,6 +148,34 @@
         </table>
       </div>
     </div>
+
+    <!-- All Journals view — shown when "All Journals" is selected instead of a single site.
+         Aggregates each site's existing snapshot JSON client-side; no extra data files. -->
+    <div id="all-journals-tab" class="tab-content" role="tabpanel" aria-labelledby="tab-all-journals" tabindex="0">
+      <h2 class="visually-hidden">All journals</h2>
+      <div class="stat-grid" id="all-stat-grid"></div>
+      <div class="chart-container" id="all-journal-chart"></div>
+      <h3>Publications across all journals</h3>
+      <div class="all-pub-controls">
+        <label for="all-pub-filter">Filter</label>
+        <input type="search" id="all-pub-filter" placeholder="Title, author, or journal…" autocomplete="off">
+        <span id="all-pub-count" class="all-pub-count" aria-live="polite"></span>
+      </div>
+      <div class="table-wrapper">
+        <table>
+          <caption class="visually-hidden">Publications across all journals, sortable by column</caption>
+          <thead>
+            <tr>
+              <th scope="col" aria-sort="none"><button type="button" data-sort="journal">Journal</button></th>
+              <th scope="col" aria-sort="none"><button type="button" data-sort="title">Title</button></th>
+              <th scope="col" aria-sort="none"><button type="button" data-sort="authors">Authors</button></th>
+              <th scope="col" aria-sort="descending"><button type="button" data-sort="total_views">Total Views</button></th>
+            </tr>
+          </thead>
+          <tbody id="all-pub-table-body"></tbody>
+        </table>
+      </div>
+    </div>
   </div>
 
   <script src="assets/js/dashboard.js"></script>

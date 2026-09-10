@@ -314,6 +314,40 @@ tr:hover td { background: var(--gray-100); }
 .loading { text-align: center; padding: 3rem; color: var(--text-muted); }
 .error-msg { color: var(--error); padding: 1rem; background: rgba(208,67,67,0.08); border: 1px solid var(--error); border-radius: 4px; margin-bottom: 1rem; }
 
+/* All Journals view */
+.all-pub-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.all-pub-controls label { font-family: var(--work-sans); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); }
+.all-pub-controls input[type="search"] {
+  flex: 1;
+  min-width: 220px;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border, #d9d9d9);
+  background: var(--surface, #ffffff);
+  color: var(--text, #202020);
+  font-size: 0.9rem;
+}
+.all-pub-count { font-size: 0.8rem; color: var(--text-muted, #5c5c5c); }
+
+#all-journals-tab th button[data-sort] {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+}
+#all-journals-tab th button[data-sort]:hover { text-decoration: underline; }
+#all-journals-tab th[aria-sort="ascending"] button[data-sort]::after { content: " \25B2"; }
+#all-journals-tab th[aria-sort="descending"] button[data-sort]::after { content: " \25BC"; }
+
 /* Pie chart legend */
 .pie-legend-item { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.85rem; }
 .pie-legend-color { width: 14px; height: 14px; border-radius: 2px; }

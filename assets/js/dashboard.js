@@ -8,6 +8,10 @@ class Dashboard {
     this.currentSite = null;
     this.currentSnapshot = "last-90-days";
     this.data = null;
+    this.scope = "single"; // "single" = one journal, "all" = cross-journal aggregate
+    this.allData = null; // { publications: [...], totals: {...}, perJournal: [...] }
+    this.allSort = { key: "total_views", dir: "desc" };
+    this.allFilter = "";
     this.init();
   }
 
@@ -44,22 +48,29 @@ class Dashboard {
   renderSiteSelector() {
     const container = document.getElementById("site-selector-container");
     if (!container) return;
-    container.innerHTML = this.sites
-      .map(
-        (site) =>
-          `<button class="site-btn ${site.name === this.currentSite ? "active" : ""}"
-             data-site="${site.name}" aria-pressed="${site.name === this.currentSite}">${site.title || site.name}</button>`
-      )
-      .join("");
+    const allBtn = `<button class="site-btn ${this.scope === "all" ? "active" : ""}"
+             data-scope="all" aria-pressed="${this.scope === "all"}">All Journals</button>`;
+    container.innerHTML =
+      allBtn +
+      this.sites
+        .map(
+          (site) =>
+            `<button class="site-btn ${this.scope === "single" && site.name === this.currentSite ? "active" : ""}"
+             data-site="${site.name}" aria-pressed="${this.scope === "single" && site.name === this.currentSite}">${site.title || site.name}</button>`
+        )
+        .join("");
 
     container.addEventListener("click", (e) => {
-      if (e.target.classList.contains("site-btn")) {
+      if (e.target.dataset.scope === "all") {
+        this.selectAllJournals();
+      } else if (e.target.classList.contains("site-btn")) {
         this.selectSite(e.target.dataset.site);
       }
     });
   }
 
   selectSite(siteName) {
+    this.scope = "single";
     this.currentSite = siteName;
     document
       .querySelectorAll("#site-selector-container .site-btn")
@@ -71,6 +82,20 @@ class Dashboard {
     this.currentSnapshot = "last-90-days";
     this.renderDateControls();
     this.loadSnapshot();
+  }
+
+  selectAllJournals() {
+    this.scope = "all";
+    document
+      .querySelectorAll("#site-selector-container .site-btn")
+      .forEach((btn) => {
+        const isActive = btn.dataset.scope === "all";
+        btn.classList.toggle("active", isActive);
+        btn.setAttribute("aria-pressed", String(isActive));
+      });
+    this.currentSnapshot = "last-90-days";
+    this.renderDateControls();
+    this.loadAllJournals();
   }
 
   renderDateControls() {
@@ -96,7 +121,8 @@ class Dashboard {
 
     document.getElementById("snapshot-select").addEventListener("change", (e) => {
       this.currentSnapshot = e.target.value;
-      this.loadSnapshot();
+      if (this.scope === "all") this.loadAllJournals();
+      else this.loadSnapshot();
     });
   }
 
@@ -159,6 +185,218 @@ class Dashboard {
     this.announce(`Dashboard updated for ${site?.title || this.currentSite}, ${label} range.`);
   }
 
+  async loadAllJournals() {
+    this.showLoading();
+    this.renderDateControls();
+
+    const results = await Promise.all(
+      this.sites.map(async (site) => {
+        let snap =
+          site.snapshots?.find((s) => s.label === this.currentSnapshot) ||
+          site.snapshots?.find((s) => s.label === "all-time");
+        if (!snap) return { site, data: null };
+        try {
+          const resp = await fetch(`data/${site.directory}/${snap.file}`);
+          if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+          return { site, data: await resp.json() };
+        } catch (err) {
+          console.error(`All Journals: failed to load ${site.name}:`, err);
+          return { site, data: null };
+        }
+      })
+    );
+
+    const publications = [];
+    const perJournal = [];
+    const totals = {
+      journals: 0,
+      failed: 0,
+      publications: 0,
+      total_views: 0,
+      pdf_views: 0,
+      abstract_views: 0,
+      new_submissions: 0,
+    };
+
+    for (const { site, data } of results) {
+      if (!data || !data.summary) {
+        totals.failed++;
+        continue;
+      }
+      totals.journals++;
+      const s = data.summary;
+      totals.total_views += s.total_view_count || 0;
+      totals.pdf_views += s.total_pdf_views || 0;
+      totals.abstract_views += s.total_abstract_views || 0;
+      totals.new_submissions +=
+        s.new_submissions_in_period !== undefined
+          ? s.new_submissions_in_period
+          : s.total_submissions || 0;
+
+      const pubs = data.publication_stats || [];
+      totals.publications += pubs.length;
+      for (const p of pubs) {
+        publications.push({
+          journal: site.title || site.name,
+          title: p.title || "",
+          authors: p.authors || "",
+          total_views: p.total_views || 0,
+          pdf_views: p.pdf_views || 0,
+          url_published: p.url_published || "",
+        });
+      }
+      perJournal.push({
+        journal: site.title || site.name,
+        total_views: s.total_view_count || 0,
+      });
+    }
+
+    this.allData = { publications, perJournal, totals };
+    this.allFilter = "";
+    this.allSort = { key: "total_views", dir: "desc" };
+    this.renderAllJournals();
+
+    this.announce(
+      `All Journals view updated, ${this.formatSnapshotLabel(this.currentSnapshot)} range: ` +
+        `${totals.publications} publications across ${totals.journals} journals.`
+    );
+  }
+
+  renderAllJournals() {
+    if (!this.allData) return;
+    document.getElementById("app").innerHTML = "";
+    this.renderTabs();
+
+    const { totals, perJournal } = this.allData;
+
+    const grid = document.getElementById("all-stat-grid");
+    if (grid) {
+      const cards = [
+        { value: this.formatNumber(totals.journals), label: "Journals", variant: "accent" },
+        { value: this.formatNumber(totals.publications), label: "Publications", variant: "green" },
+        { value: this.formatNumber(totals.total_views), label: "Total Views", sub: `${this.formatNumber(totals.pdf_views)} PDF`, variant: "purple" },
+        { value: this.formatNumber(totals.abstract_views), label: "Abstract Views", variant: "orange" },
+        { value: this.formatNumber(totals.new_submissions), label: "New Submissions", sub: "in selected range", variant: "accent" },
+      ];
+      grid.innerHTML = cards
+        .map(
+          (c) => `
+        <div class="stat-card ${c.variant}">
+          <div class="stat-value">${c.value}</div>
+          <div class="stat-label">${c.label}</div>
+          ${c.sub ? `<div class="stat-sub">${c.sub}</div>` : ""}
+        </div>`
+        )
+        .join("");
+    }
+
+    const chart = document.getElementById("all-journal-chart");
+    if (chart) {
+      const top = [...perJournal].sort((a, b) => b.total_views - a.total_views).slice(0, 10);
+      const maxVal = Math.max(...top.map((j) => j.total_views), 1);
+      chart.innerHTML =
+        "<h3>Top Journals by Views</h3>" +
+        (totals.failed
+          ? `<p class="stat-sub">${totals.failed} journal(s) could not be loaded for this range.</p>`
+          : "") +
+        top
+          .map(
+            (j) => `
+        <div class="chart-bar-row">
+          <div class="bar-label" title="${this.escapeHtml(j.journal)}">${this.truncate(this.escapeHtml(j.journal), 25)}</div>
+          <div class="chart-bar-track">
+            <div class="chart-bar-fill accent" style="width: ${((j.total_views / maxVal) * 100).toFixed(1)}%">${this.formatNumber(j.total_views)}</div>
+          </div>
+        </div>`
+          )
+          .join("");
+    }
+
+    const filterInput = document.getElementById("all-pub-filter");
+    if (filterInput && !filterInput.dataset.wired) {
+      filterInput.dataset.wired = "1";
+      filterInput.addEventListener("input", (e) => {
+        this.allFilter = e.target.value.toLowerCase();
+        this.renderAllPublicationsTable();
+      });
+    }
+    document.querySelectorAll("#all-journals-tab th button[data-sort]").forEach((btn) => {
+      if (btn.dataset.wired) return;
+      btn.dataset.wired = "1";
+      btn.addEventListener("click", () => {
+        const key = btn.dataset.sort;
+        if (this.allSort.key === key) {
+          this.allSort.dir = this.allSort.dir === "asc" ? "desc" : "asc";
+        } else {
+          this.allSort = { key, dir: key === "total_views" ? "desc" : "asc" };
+        }
+        this.renderAllPublicationsTable();
+      });
+    });
+
+    this.renderAllPublicationsTable();
+    this.activateTab("all-journals");
+  }
+
+  renderAllPublicationsTable() {
+    const body = document.getElementById("all-pub-table-body");
+    if (!body || !this.allData) return;
+    const { key, dir } = this.allSort;
+    const mult = dir === "asc" ? 1 : -1;
+
+    let rows = this.allData.publications;
+    if (this.allFilter) {
+      rows = rows.filter(
+        (r) =>
+          r.title.toLowerCase().includes(this.allFilter) ||
+          r.authors.toLowerCase().includes(this.allFilter) ||
+          r.journal.toLowerCase().includes(this.allFilter)
+      );
+    }
+    rows = [...rows].sort((a, b) => {
+      const av = a[key];
+      const bv = b[key];
+      if (typeof av === "number" && typeof bv === "number") return (av - bv) * mult;
+      return String(av).localeCompare(String(bv)) * mult;
+    });
+
+    const total = rows.length;
+    const shown = rows.slice(0, 100);
+    const countEl = document.getElementById("all-pub-count");
+    if (countEl) {
+      countEl.textContent =
+        total > 100 ? `Showing top 100 of ${this.formatNumber(total)}` : `${this.formatNumber(total)} publication${total === 1 ? "" : "s"}`;
+    }
+
+    document.querySelectorAll("#all-journals-tab th[aria-sort]").forEach((th) => {
+      const btn = th.querySelector("button[data-sort]");
+      th.setAttribute(
+        "aria-sort",
+        btn && btn.dataset.sort === key ? (dir === "asc" ? "ascending" : "descending") : "none"
+      );
+    });
+
+    if (shown.length === 0) {
+      body.innerHTML = '<tr><td colspan="4" class="loading">No matching publications</td></tr>';
+      return;
+    }
+    body.innerHTML = shown
+      .map(
+        (r) => `
+      <tr>
+        <td>${this.escapeHtml(r.journal)}</td>
+        <td>${
+          r.url_published
+            ? `<a href="${r.url_published}" target="_blank" rel="noopener" title="${this.escapeHtml(r.title)}">${this.truncate(this.escapeHtml(r.title), 60)}<span class="visually-hidden"> (opens in a new tab)</span></a>`
+            : this.truncate(this.escapeHtml(r.title), 60)
+        }</td>
+        <td>${this.escapeHtml(r.authors)}</td>
+        <td>${this.formatNumber(r.total_views)}</td>
+      </tr>`
+      )
+      .join("");
+  }
+
   announce(message) {
     const region = document.getElementById("live-region");
     if (region) region.textContent = message;
@@ -167,13 +405,16 @@ class Dashboard {
   renderTabs() {
     const container = document.getElementById("main-tabs");
     if (!container) return;
-    const tabs = [
-      { id: "overview", label: "Overview" },
-      { id: "publications", label: "Publications" },
-      { id: "issues", label: "Issues" },
-      { id: "submissions", label: "Submissions" },
-      { id: "users", label: "Users" },
-    ];
+    const tabs =
+      this.scope === "all"
+        ? [{ id: "all-journals", label: "All Journals" }]
+        : [
+            { id: "overview", label: "Overview" },
+            { id: "publications", label: "Publications" },
+            { id: "issues", label: "Issues" },
+            { id: "submissions", label: "Submissions" },
+            { id: "users", label: "Users" },
+          ];
     container.innerHTML = tabs
       .map(
         (t, i) => `
