@@ -4,7 +4,7 @@
   "site_url": "https://aletheia-ojs-tamu.tdl.org/aletheia",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-09-04T20:48:23Z",
+  "fetched_at": "2026-09-22T18:14:59Z",
   "issues": [],
   "submissions": [
     {
@@ -160,8 +160,6 @@
     "Copyediting": 5,
     "Production": 5
   },
-  "publication_stats": [],
-  "issue_stats": [],
   "user_stats": [
     {
       "id": "total",
@@ -209,6 +207,8 @@
       "value": 1
     }
   ],
+  "publication_stats": [],
+  "issue_stats": [],
   "summary": {
     "total_issues": 0,
     "published_issues": 0,

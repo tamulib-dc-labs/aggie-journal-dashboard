@@ -1,49 +1,6 @@
 {
   "sites": [
     {
-      "name": "gadamer",
-      "title": "Journal of Gadamer Studies",
-      "directory": "gadamer",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
       "name": "tndr",
       "title": "Texas New Deal Review",
       "directory": "tndr",
@@ -90,49 +47,6 @@
       "name": "twj",
       "title": "Texas Water Journal",
       "directory": "twj",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-05",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "alethia",
-      "title": "Aletheia: Texas A&M's Undergraduate Journal of Philosophy",
-      "directory": "alethia",
       "snapshots": [
         {
           "label": "all-time",
@@ -302,206 +216,9 @@
       ]
     },
     {
-      "name": "bovine_proc",
-      "title": "American Association of Bovine Practitioners Conference Proceedings",
-      "directory": "bovine_proc",
-      "snapshots": [
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-06",
-          "date_end": "2026-09-03"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-28",
-          "date_end": "2026-09-03"
-        }
-      ]
-    },
-    {
-      "name": "wcq",
-      "title": "Wellness Counseling Quarterly",
-      "directory": "wcq",
-      "snapshots": [
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-07",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-06",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-29",
-          "date_end": "2026-09-04"
-        }
-      ]
-    },
-    {
-      "name": "jume",
-      "title": "Journal of Urban Mathematics Education",
-      "directory": "jume",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-07",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-06",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-29",
-          "date_end": "2026-09-04"
-        }
-      ]
-    },
-    {
       "name": "icce",
       "title": "Coastal Engineering Proceedings",
       "directory": "icce",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-07",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-06",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-29",
-          "date_end": "2026-09-04"
-        }
-      ]
-    },
-    {
-      "name": "instars",
-      "title": "Instars: A Journal of Student Research",
-      "directory": "instars",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-06-07",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-08-06",
-          "date_end": "2026-09-04"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-08-29",
-          "date_end": "2026-09-04"
-        }
-      ]
-    },
-    {
-      "name": "dlrapj",
-      "title": "Dual Language Research and Practice Journal",
-      "directory": "dlrapj",
       "snapshots": [
         {
           "label": "all-time",
@@ -1050,7 +767,290 @@
           "date_end": "2026-09-09"
         }
       ]
+    },
+    {
+      "name": "bovine_proc",
+      "title": "American Association of Bovine Practitioners Conference Proceedings",
+      "directory": "bovine_proc",
+      "snapshots": [
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-09"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-12",
+          "date_end": "2026-09-09"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-09-03",
+          "date_end": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "name": "gadamer",
+      "title": "Journal of Gadamer Studies",
+      "directory": "gadamer",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-24",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-23",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-09-15",
+          "date_end": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "name": "wcq",
+      "title": "Wellness Counseling Quarterly",
+      "directory": "wcq",
+      "snapshots": [
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-24",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-23",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-09-15",
+          "date_end": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "name": "alethia",
+      "title": "Aletheia: Texas A&M's Undergraduate Journal of Philosophy",
+      "directory": "alethia",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-24",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-23",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-09-15",
+          "date_end": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "name": "jume",
+      "title": "Journal of Urban Mathematics Education",
+      "directory": "jume",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-24",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-23",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-09-15",
+          "date_end": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "name": "instars",
+      "title": "Instars: A Journal of Student Research",
+      "directory": "instars",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-24",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-23",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-09-15",
+          "date_end": "2026-09-21"
+        }
+      ]
+    },
+    {
+      "name": "dlrapj",
+      "title": "Dual Language Research and Practice Journal",
+      "directory": "dlrapj",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-06-24",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-08-23",
+          "date_end": "2026-09-21"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-09-15",
+          "date_end": "2026-09-21"
+        }
+      ]
     }
   ],
-  "fetched_at": "2026-09-10T13:42:57Z"
+  "fetched_at": "2026-09-22T18:35:51Z"
 }

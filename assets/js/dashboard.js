@@ -178,6 +178,7 @@ class Dashboard {
     this.renderTopIssues();
     this.renderSubmissionsTable();
     this.renderUserRoles();
+    this.renderAbout();
     this.activateTab("overview");
 
     const site = this.sites.find((s) => s.name === this.currentSite);
@@ -414,6 +415,7 @@ class Dashboard {
             { id: "issues", label: "Issues" },
             { id: "submissions", label: "Submissions" },
             { id: "users", label: "Users" },
+            { id: "about", label: "About" },
           ];
     container.innerHTML = tabs
       .map(
@@ -695,6 +697,29 @@ class Dashboard {
       </tr>`
       )
       .join("");
+  }
+
+  renderAbout() {
+    const container = document.getElementById("about-content");
+    if (!container) return;
+    const site = this.sites.find((s) => s.name === this.currentSite);
+    const title = this.data.site_title || site?.title || this.currentSite;
+    const url = this.data.site_url;
+    const fetchedAt = this.data.fetched_at;
+
+    container.innerHTML = `
+      <h3>${this.escapeHtml(title)}</h3>
+      <p>
+        ${
+          url
+            ? `<a href="${url}" target="_blank" rel="noopener">${this.escapeHtml(url)}<span class="visually-hidden"> (opens in a new tab)</span></a>`
+            : "Journal URL not available"
+        }
+      </p>
+      <p class="stat-sub">
+        Data last updated: ${fetchedAt ? new Date(fetchedAt).toLocaleString() : "unknown"}
+      </p>
+    `;
   }
 
   // --- Utility ---

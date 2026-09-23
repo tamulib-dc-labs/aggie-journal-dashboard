@@ -4,7 +4,7 @@
   "site_url": "https://gadamer-ojs-tamu.tdl.org/gadamer",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-09-04T18:55:56Z",
+  "fetched_at": "2026-09-22T18:13:59Z",
   "issues": [
     {
       "id": 1,
@@ -32,6 +32,28 @@
     }
   ],
   "submissions": [
+    {
+      "id": 44,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-09-19 10:31:22",
+      "date_last_activity": "2026-09-19 10:31:22",
+      "last_modified": "2026-09-19 10:31:22",
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/44"
+    },
+    {
+      "id": 43,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-09-10 14:02:16",
+      "date_last_activity": "2026-09-10 14:02:16",
+      "last_modified": "2026-09-10 14:02:16",
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/43"
+    },
     {
       "id": 42,
       "status": 1,
@@ -91,10 +113,10 @@
       "id": 19,
       "status": 1,
       "status_label": "Draft",
-      "stage_id": 1,
-      "stage_label": "Submission",
+      "stage_id": 5,
+      "stage_label": "Published",
       "date_submitted": "2026-04-08 12:11:57",
-      "date_last_activity": "2026-05-10 18:40:59",
+      "date_last_activity": "2026-09-05 18:22:38",
       "last_modified": "2026-04-08 12:11:57",
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/19"
     },
@@ -287,17 +309,64 @@
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 10,
+    "Draft": 12,
     "Stalled": 1,
     "Declined": 2,
     "Published": 10
   },
   "submission_stage_breakdown": {
+    "Submission": 5,
     "Production": 2,
-    "Published": 12,
-    "Copyediting": 5,
-    "Submission": 4
+    "Published": 13,
+    "Copyediting": 5
   },
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 90
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 4
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 3
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 3
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 36
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 71
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 23
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 1
+    }
+  ],
   "publication_stats": [
     {
       "id": 21,
@@ -443,58 +512,11 @@
       "url": "https://gadamer-ojs-tamu.tdl.org/gadamer/issue/view/1"
     }
   ],
-  "user_stats": [
-    {
-      "id": "total",
-      "name": "All Users",
-      "value": 88
-    },
-    {
-      "id": 1,
-      "name": "Site Administrator",
-      "value": 0
-    },
-    {
-      "id": 16,
-      "name": "Journal Manager",
-      "value": 4
-    },
-    {
-      "id": 17,
-      "name": "Section Editor",
-      "value": 3
-    },
-    {
-      "id": 4097,
-      "name": "Assistant",
-      "value": 3
-    },
-    {
-      "id": 65536,
-      "name": "Author",
-      "value": 35
-    },
-    {
-      "id": 4096,
-      "name": "Reviewer",
-      "value": 70
-    },
-    {
-      "id": 1048576,
-      "name": "Reader",
-      "value": 22
-    },
-    {
-      "id": 2097152,
-      "name": "Subscription Manager",
-      "value": 1
-    }
-  ],
   "summary": {
     "total_issues": 2,
     "published_issues": 1,
     "unpublished_issues": 1,
-    "total_submissions": 23,
+    "total_submissions": 25,
     "published_submissions": 10,
     "new_issues_in_period": 1,
     "new_submissions_in_period": 16,
@@ -505,6 +527,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 97,
-    "total_users": 88
+    "total_users": 90
   }
 }

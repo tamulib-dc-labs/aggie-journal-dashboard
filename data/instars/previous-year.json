@@ -4,7 +4,7 @@
   "site_url": "https://instars-ojs-tamu.tdl.org/instars",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-09-05T15:18:46Z",
+  "fetched_at": "2026-09-22T18:25:57Z",
   "issues": [
     {
       "id": 1,
@@ -1279,7 +1279,7 @@
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2025-12-05 12:14:59",
-      "date_last_activity": "2026-02-25 03:13:29",
+      "date_last_activity": "2026-09-10 02:57:45",
       "last_modified": "2025-12-05 12:14:59",
       "url_published": "https://instars-ojs-tamu.tdl.org/instars/article/view/1000"
     },
@@ -10942,6 +10942,53 @@
     "Production": 143,
     "Published": 103
   },
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 658
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 20
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 40
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 39
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 614
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 57
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 546
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 3
+    }
+  ],
   "publication_stats": [
     {
       "id": 359,
@@ -13916,53 +13963,6 @@
       "url": "https://instars-ojs-tamu.tdl.org/instars/issue/view/6"
     }
   ],
-  "user_stats": [
-    {
-      "id": "total",
-      "name": "All Users",
-      "value": 657
-    },
-    {
-      "id": 1,
-      "name": "Site Administrator",
-      "value": 0
-    },
-    {
-      "id": 16,
-      "name": "Journal Manager",
-      "value": 20
-    },
-    {
-      "id": 17,
-      "name": "Section Editor",
-      "value": 40
-    },
-    {
-      "id": 4097,
-      "name": "Assistant",
-      "value": 39
-    },
-    {
-      "id": 65536,
-      "name": "Author",
-      "value": 614
-    },
-    {
-      "id": 4096,
-      "name": "Reviewer",
-      "value": 57
-    },
-    {
-      "id": 1048576,
-      "name": "Reader",
-      "value": 545
-    },
-    {
-      "id": 2097152,
-      "name": "Subscription Manager",
-      "value": 3
-    }
-  ],
   "summary": {
     "total_issues": 10,
     "published_issues": 10,
@@ -13978,6 +13978,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 2600,
-    "total_users": 657
+    "total_users": 658
   }
 }

@@ -2,9 +2,9 @@
   "site_name": "alethia",
   "site_title": "Aletheia: Texas A&M's Undergraduate Journal of Philosophy",
   "site_url": "https://aletheia-ojs-tamu.tdl.org/aletheia",
-  "date_start": "2026-06-06",
-  "date_end": "2026-09-03",
-  "fetched_at": "2026-09-04T20:48:26Z",
+  "date_start": "2026-06-24",
+  "date_end": "2026-09-21",
+  "fetched_at": "2026-09-22T18:15:00Z",
   "issues": [],
   "submissions": [
     {
@@ -160,8 +160,6 @@
     "Copyediting": 5,
     "Production": 5
   },
-  "publication_stats": [],
-  "issue_stats": [],
   "user_stats": [
     {
       "id": "total",
@@ -209,6 +207,8 @@
       "value": 1
     }
   ],
+  "publication_stats": [],
+  "issue_stats": [],
   "summary": {
     "total_issues": 0,
     "published_issues": 0,
@@ -216,7 +216,7 @@
     "total_submissions": 13,
     "published_submissions": 0,
     "new_issues_in_period": 0,
-    "new_submissions_in_period": 1,
+    "new_submissions_in_period": 0,
     "total_view_count": 0,
     "total_abstract_views": 0,
     "total_galley_views": 0,

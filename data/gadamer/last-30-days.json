@@ -2,9 +2,9 @@
   "site_name": "gadamer",
   "site_title": "Journal of Gadamer Studies",
   "site_url": "https://gadamer-ojs-tamu.tdl.org/gadamer",
-  "date_start": "2026-08-05",
-  "date_end": "2026-09-03",
-  "fetched_at": "2026-09-04T18:56:06Z",
+  "date_start": "2026-08-23",
+  "date_end": "2026-09-21",
+  "fetched_at": "2026-09-22T18:14:01Z",
   "issues": [
     {
       "id": 1,
@@ -32,6 +32,28 @@
     }
   ],
   "submissions": [
+    {
+      "id": 44,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-09-19 10:31:22",
+      "date_last_activity": "2026-09-19 10:31:22",
+      "last_modified": "2026-09-19 10:31:22",
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/44"
+    },
+    {
+      "id": 43,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-09-10 14:02:16",
+      "date_last_activity": "2026-09-10 14:02:16",
+      "last_modified": "2026-09-10 14:02:16",
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/43"
+    },
     {
       "id": 42,
       "status": 1,
@@ -91,10 +113,10 @@
       "id": 19,
       "status": 1,
       "status_label": "Draft",
-      "stage_id": 1,
-      "stage_label": "Submission",
+      "stage_id": 5,
+      "stage_label": "Published",
       "date_submitted": "2026-04-08 12:11:57",
-      "date_last_activity": "2026-05-10 18:40:59",
+      "date_last_activity": "2026-09-05 18:22:38",
       "last_modified": "2026-04-08 12:11:57",
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/19"
     },
@@ -287,167 +309,22 @@
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 10,
+    "Draft": 12,
     "Stalled": 1,
     "Declined": 2,
     "Published": 10
   },
   "submission_stage_breakdown": {
+    "Submission": 5,
     "Production": 2,
-    "Published": 12,
-    "Copyediting": 5,
-    "Submission": 4
+    "Published": 13,
+    "Copyediting": 5
   },
-  "publication_stats": [
-    {
-      "id": 22,
-      "title": "The Work of Art Revisited: Gadamer's Hermeneutic Concept of Gebilde",
-      "authors": "Tate",
-      "abstract_views": 133,
-      "galley_views": 31,
-      "pdf_views": 31,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 164,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/22",
-      "doi": null
-    },
-    {
-      "id": 21,
-      "title": "Gadamer’s Return to Parmenides",
-      "authors": "Montagnino",
-      "abstract_views": 134,
-      "galley_views": 28,
-      "pdf_views": 28,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 162,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/21",
-      "doi": null
-    },
-    {
-      "id": 29,
-      "title": "Stirrings (Still) of an Unlikely Metaphysical Reading of Hermeneutics",
-      "authors": "Grondin",
-      "abstract_views": 126,
-      "galley_views": 34,
-      "pdf_views": 34,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 160,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/29",
-      "doi": null
-    },
-    {
-      "id": 24,
-      "title": "The Distances in Which We Live: Towards a Hermeneutics of Prayer",
-      "authors": "Davey",
-      "abstract_views": 131,
-      "galley_views": 28,
-      "pdf_views": 28,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 159,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/24",
-      "doi": null
-    },
-    {
-      "id": 11,
-      "title": "Hilde Domin: Song for Encouragement II (1966) by Hans-Georg Gadamer",
-      "authors": "Gronouwe et al.",
-      "abstract_views": 130,
-      "galley_views": 24,
-      "pdf_views": 24,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 154,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/11",
-      "doi": null
-    },
-    {
-      "id": 26,
-      "title": "Dostal's Comments on The Event of Meaning in Gadamer's Hermeneutics",
-      "authors": "Dostal",
-      "abstract_views": 125,
-      "galley_views": 24,
-      "pdf_views": 24,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 149,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/26",
-      "doi": null
-    },
-    {
-      "id": 30,
-      "title": "Gadamer’s Social Epistemology: A Review of Carolyn Culbertson’s Gadamer and the Social Turn in Epistemology",
-      "authors": "Holsomback",
-      "abstract_views": 123,
-      "galley_views": 24,
-      "pdf_views": 24,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 147,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/30",
-      "doi": null
-    },
-    {
-      "id": 25,
-      "title": "\"This, Here, Now\": The Status of the Immediacy of Experience in Gadamer’s Hermeneutics",
-      "authors": "Arthos",
-      "abstract_views": 122,
-      "galley_views": 20,
-      "pdf_views": 20,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 142,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/25",
-      "doi": null
-    },
-    {
-      "id": 23,
-      "title": "Response to Robert Dostal and Csaba Olay: Book Symposium on The Event of Meaning in Gadamer’s Hermeneutics",
-      "authors": "DaVia et al.",
-      "abstract_views": 127,
-      "galley_views": 14,
-      "pdf_views": 14,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 141,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/23",
-      "doi": null
-    },
-    {
-      "id": 28,
-      "title": "Olay’s Comments on the Event of Meaning in Gadamer’s Hermeneutics",
-      "authors": "Olay",
-      "abstract_views": 120,
-      "galley_views": 17,
-      "pdf_views": 17,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 137,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/28",
-      "doi": null
-    }
-  ],
-  "issue_stats": [
-    {
-      "id": 1,
-      "identification": "Vol. 1 No. 1 (2026)",
-      "volume": "",
-      "number": "",
-      "year": "",
-      "total_views": 200,
-      "toc_views": 200,
-      "issue_galley_views": 0,
-      "url": "https://gadamer-ojs-tamu.tdl.org/gadamer/issue/view/1"
-    }
-  ],
   "user_stats": [
     {
       "id": "total",
       "name": "All Users",
-      "value": 88
+      "value": 90
     },
     {
       "id": 1,
@@ -472,17 +349,17 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 35
+      "value": 36
     },
     {
       "id": 4096,
       "name": "Reviewer",
-      "value": 70
+      "value": 71
     },
     {
       "id": 1048576,
       "name": "Reader",
-      "value": 22
+      "value": 23
     },
     {
       "id": 2097152,
@@ -490,21 +367,166 @@
       "value": 1
     }
   ],
+  "publication_stats": [
+    {
+      "id": 22,
+      "title": "The Work of Art Revisited: Gadamer's Hermeneutic Concept of Gebilde",
+      "authors": "Tate",
+      "abstract_views": 29,
+      "galley_views": 33,
+      "pdf_views": 33,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 62,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/22",
+      "doi": null
+    },
+    {
+      "id": 21,
+      "title": "Gadamer’s Return to Parmenides",
+      "authors": "Montagnino",
+      "abstract_views": 25,
+      "galley_views": 29,
+      "pdf_views": 29,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 54,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/21",
+      "doi": null
+    },
+    {
+      "id": 25,
+      "title": "\"This, Here, Now\": The Status of the Immediacy of Experience in Gadamer’s Hermeneutics",
+      "authors": "Arthos",
+      "abstract_views": 22,
+      "galley_views": 30,
+      "pdf_views": 30,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 52,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/25",
+      "doi": null
+    },
+    {
+      "id": 29,
+      "title": "Stirrings (Still) of an Unlikely Metaphysical Reading of Hermeneutics",
+      "authors": "Grondin",
+      "abstract_views": 18,
+      "galley_views": 29,
+      "pdf_views": 29,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 47,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/29",
+      "doi": null
+    },
+    {
+      "id": 11,
+      "title": "Hilde Domin: Song for Encouragement II (1966) by Hans-Georg Gadamer",
+      "authors": "Gronouwe et al.",
+      "abstract_views": 24,
+      "galley_views": 21,
+      "pdf_views": 21,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 45,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/11",
+      "doi": null
+    },
+    {
+      "id": 28,
+      "title": "Olay’s Comments on the Event of Meaning in Gadamer’s Hermeneutics",
+      "authors": "Olay",
+      "abstract_views": 23,
+      "galley_views": 22,
+      "pdf_views": 22,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 45,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/28",
+      "doi": null
+    },
+    {
+      "id": 30,
+      "title": "Gadamer’s Social Epistemology: A Review of Carolyn Culbertson’s Gadamer and the Social Turn in Epistemology",
+      "authors": "Holsomback",
+      "abstract_views": 22,
+      "galley_views": 22,
+      "pdf_views": 22,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 44,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/30",
+      "doi": null
+    },
+    {
+      "id": 24,
+      "title": "The Distances in Which We Live: Towards a Hermeneutics of Prayer",
+      "authors": "Davey",
+      "abstract_views": 17,
+      "galley_views": 25,
+      "pdf_views": 25,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 42,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/24",
+      "doi": null
+    },
+    {
+      "id": 26,
+      "title": "Dostal's Comments on The Event of Meaning in Gadamer's Hermeneutics",
+      "authors": "Dostal",
+      "abstract_views": 17,
+      "galley_views": 17,
+      "pdf_views": 17,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 34,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/26",
+      "doi": null
+    },
+    {
+      "id": 23,
+      "title": "Response to Robert Dostal and Csaba Olay: Book Symposium on The Event of Meaning in Gadamer’s Hermeneutics",
+      "authors": "DaVia et al.",
+      "abstract_views": 14,
+      "galley_views": 15,
+      "pdf_views": 15,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 29,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/23",
+      "doi": null
+    }
+  ],
+  "issue_stats": [
+    {
+      "id": 1,
+      "identification": "Vol. 1 No. 1 (2026)",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 72,
+      "toc_views": 72,
+      "issue_galley_views": 0,
+      "url": "https://gadamer-ojs-tamu.tdl.org/gadamer/issue/view/1"
+    }
+  ],
   "summary": {
     "total_issues": 2,
     "published_issues": 1,
     "unpublished_issues": 1,
-    "total_submissions": 23,
+    "total_submissions": 25,
     "published_submissions": 10,
     "new_issues_in_period": 0,
-    "new_submissions_in_period": 0,
-    "total_view_count": 1515,
-    "total_abstract_views": 1271,
-    "total_galley_views": 244,
-    "total_pdf_views": 244,
+    "new_submissions_in_period": 2,
+    "total_view_count": 454,
+    "total_abstract_views": 211,
+    "total_galley_views": 243,
+    "total_pdf_views": 243,
     "total_html_views": 0,
     "total_other_views": 0,
-    "total_issue_views": 200,
-    "total_users": 88
+    "total_issue_views": 72,
+    "total_users": 90
   }
 }
