@@ -4,7 +4,7 @@
   "site_url": "https://tndr-ojs-tamu.tdl.org/tndr",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-09-04T20:24:16Z",
+  "fetched_at": "2026-10-01T12:26:19Z",
   "issues": [
     {
       "id": 2,
@@ -165,6 +165,53 @@
     "Copyediting": 3,
     "Submission": 2
   },
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 23
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 6
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 4
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 4
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 12
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 18
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 10
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 3
+    }
+  ],
   "publication_stats": [
     {
       "id": 2,
@@ -217,53 +264,6 @@
       "toc_views": 215,
       "issue_galley_views": 59,
       "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/2"
-    }
-  ],
-  "user_stats": [
-    {
-      "id": "total",
-      "name": "All Users",
-      "value": 23
-    },
-    {
-      "id": 1,
-      "name": "Site Administrator",
-      "value": 0
-    },
-    {
-      "id": 16,
-      "name": "Journal Manager",
-      "value": 6
-    },
-    {
-      "id": 17,
-      "name": "Section Editor",
-      "value": 4
-    },
-    {
-      "id": 4097,
-      "name": "Assistant",
-      "value": 4
-    },
-    {
-      "id": 65536,
-      "name": "Author",
-      "value": 12
-    },
-    {
-      "id": 4096,
-      "name": "Reviewer",
-      "value": 18
-    },
-    {
-      "id": 1048576,
-      "name": "Reader",
-      "value": 10
-    },
-    {
-      "id": 2097152,
-      "name": "Subscription Manager",
-      "value": 3
     }
   ],
   "summary": {

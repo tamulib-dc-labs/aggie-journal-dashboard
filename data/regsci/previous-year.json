@@ -4,7 +4,7 @@
   "site_url": "https://regsci-ojs-tamu.tdl.org/regsci",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-09-05T15:48:27Z",
+  "fetched_at": "2026-10-01T12:18:29Z",
   "issues": [
     {
       "id": 3,
@@ -3159,7 +3159,7 @@
     {
       "id": "total",
       "name": "All Users",
-      "value": 572
+      "value": 574
     },
     {
       "id": 1,
@@ -3184,7 +3184,7 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 202
+      "value": 203
     },
     {
       "id": 4096,
@@ -3194,7 +3194,7 @@
     {
       "id": 1048576,
       "name": "Reader",
-      "value": 220
+      "value": 222
     },
     {
       "id": 2097152,
@@ -5207,6 +5207,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 3661,
-    "total_users": 572
+    "total_users": 574
   }
 }

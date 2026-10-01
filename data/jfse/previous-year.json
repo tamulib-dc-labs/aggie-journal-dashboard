@@ -4,7 +4,7 @@
   "site_url": "https://jfse-ojs-tamu.tdl.org/jfse",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-09-05T15:46:45Z",
+  "fetched_at": "2026-10-01T12:16:56Z",
   "issues": [
     {
       "id": 1,
@@ -177,6 +177,17 @@
   ],
   "submissions": [
     {
+      "id": 197,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-09-14 16:34:08",
+      "date_last_activity": "2026-09-23 10:29:16",
+      "last_modified": "2026-09-14 16:34:08",
+      "url_published": "https://jfse-ojs-tamu.tdl.org/jfse/article/view/197"
+    },
+    {
       "id": 195,
       "status": 4,
       "status_label": "Declined",
@@ -194,8 +205,8 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-08-03 16:46:21",
-      "date_last_activity": "2026-08-16 19:43:12",
-      "last_modified": "2026-08-03 16:46:21",
+      "date_last_activity": "2026-09-06 15:59:15",
+      "last_modified": "2026-09-06 15:59:15",
       "url_published": "https://jfse-ojs-tamu.tdl.org/jfse/article/view/196"
     },
     {
@@ -235,10 +246,10 @@
       "id": 191,
       "status": 1,
       "status_label": "Draft",
-      "stage_id": 3,
-      "stage_label": "Copyediting",
+      "stage_id": 4,
+      "stage_label": "Production",
       "date_submitted": "2026-06-16 20:28:06",
-      "date_last_activity": "2026-08-13 18:55:21",
+      "date_last_activity": "2026-09-30 13:38:33",
       "last_modified": "2026-06-16 20:28:06",
       "url_published": "https://jfse-ojs-tamu.tdl.org/jfse/article/view/191"
     },
@@ -337,7 +348,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-04-20 11:25:11",
-      "date_last_activity": "2026-06-14 12:20:52",
+      "date_last_activity": "2026-09-30 14:11:41",
       "last_modified": "2026-04-20 11:25:11",
       "url_published": "https://jfse-ojs-tamu.tdl.org/jfse/article/view/182"
     },
@@ -359,7 +370,7 @@
       "stage_id": 4,
       "stage_label": "Production",
       "date_submitted": "2026-04-02 06:48:23",
-      "date_last_activity": "2026-05-27 18:47:06",
+      "date_last_activity": "2026-09-24 09:08:13",
       "last_modified": "2026-04-02 06:48:23",
       "url_published": "https://jfse-ojs-tamu.tdl.org/jfse/article/view/180"
     },
@@ -2026,21 +2037,21 @@
     }
   ],
   "submission_status_breakdown": {
+    "Draft": 12,
     "Declined": 52,
-    "Draft": 11,
     "Published": 105
   },
   "submission_stage_breakdown": {
-    "Submission": 27,
     "Copyediting": 29,
-    "Production": 85,
+    "Submission": 27,
+    "Production": 86,
     "Published": 27
   },
   "user_stats": [
     {
       "id": "total",
       "name": "All Users",
-      "value": 281
+      "value": 282
     },
     {
       "id": 1,
@@ -2065,12 +2076,12 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 142
+      "value": 143
     },
     {
       "id": 4096,
       "name": "Reviewer",
-      "value": 148
+      "value": 149
     },
     {
       "id": 1048576,
@@ -3521,7 +3532,7 @@
     "total_issues": 14,
     "published_issues": 14,
     "unpublished_issues": 0,
-    "total_submissions": 168,
+    "total_submissions": 169,
     "published_submissions": 105,
     "new_issues_in_period": 2,
     "new_submissions_in_period": 35,
@@ -3532,6 +3543,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 3771,
-    "total_users": 281
+    "total_users": 282
   }
 }

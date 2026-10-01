@@ -4,7 +4,7 @@
   "site_url": "https://instars-ojs-tamu.tdl.org/instars",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-09-22T18:25:57Z",
+  "fetched_at": "2026-10-01T12:13:50Z",
   "issues": [
     {
       "id": 1,
@@ -10946,7 +10946,7 @@
     {
       "id": "total",
       "name": "All Users",
-      "value": 658
+      "value": 659
     },
     {
       "id": 1,
@@ -10976,7 +10976,7 @@
     {
       "id": 4096,
       "name": "Reviewer",
-      "value": 57
+      "value": 58
     },
     {
       "id": 1048576,
@@ -13978,6 +13978,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 2600,
-    "total_users": 658
+    "total_users": 659
   }
 }

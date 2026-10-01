@@ -4,7 +4,7 @@
   "site_url": "https://jume-ojs-tamu.tdl.org/jume",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-09-22T18:17:40Z",
+  "fetched_at": "2026-10-01T12:21:38Z",
   "issues": [
     {
       "id": 1,
@@ -453,6 +453,39 @@
   ],
   "submissions": [
     {
+      "id": 953,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-09-26 08:52:35",
+      "date_last_activity": "2026-09-26 08:52:36",
+      "last_modified": "2026-09-26 08:52:35",
+      "url_published": "https://jume-ojs-tamu.tdl.org/jume/article/view/953"
+    },
+    {
+      "id": 952,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-09-25 23:37:19",
+      "date_last_activity": "2026-09-25 23:37:21",
+      "last_modified": "2026-09-25 23:37:19",
+      "url_published": "https://jume-ojs-tamu.tdl.org/jume/article/view/952"
+    },
+    {
+      "id": 948,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-09-24 00:41:14",
+      "date_last_activity": "2026-09-24 00:41:16",
+      "last_modified": "2026-09-24 00:41:14",
+      "url_published": "https://jume-ojs-tamu.tdl.org/jume/article/view/948"
+    },
+    {
       "id": 950,
       "status": 1,
       "status_label": "Draft",
@@ -473,17 +506,6 @@
       "date_last_activity": "2026-09-09 00:29:30",
       "last_modified": "2026-09-09 00:29:28",
       "url_published": "https://jume-ojs-tamu.tdl.org/jume/article/view/949"
-    },
-    {
-      "id": 948,
-      "status": 1,
-      "status_label": "Draft",
-      "stage_id": 1,
-      "stage_label": "Submission",
-      "date_submitted": "2026-08-31 03:59:56",
-      "date_last_activity": "2026-08-31 04:02:44",
-      "last_modified": "2026-08-31 03:59:56",
-      "url_published": "https://jume-ojs-tamu.tdl.org/jume/article/view/948"
     },
     {
       "id": 947,
@@ -685,8 +707,8 @@
     },
     {
       "id": 929,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2026-06-20 10:08:55",
@@ -707,8 +729,8 @@
     },
     {
       "id": 927,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2026-06-16 09:25:54",
@@ -718,8 +740,8 @@
     },
     {
       "id": 926,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2026-06-16 08:34:48",
@@ -751,8 +773,8 @@
     },
     {
       "id": 921,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2026-06-15 01:32:47",
@@ -762,8 +784,8 @@
     },
     {
       "id": 923,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2026-06-15 00:20:51",
@@ -773,8 +795,8 @@
     },
     {
       "id": 922,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2026-06-14 23:31:35",
@@ -806,12 +828,12 @@
     },
     {
       "id": 918,
-      "status": 1,
-      "status_label": "Draft",
-      "stage_id": 1,
-      "stage_label": "Submission",
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
       "date_submitted": "2026-06-11 07:49:45",
-      "date_last_activity": "2026-06-11 07:49:46",
+      "date_last_activity": "2026-09-28 22:50:19",
       "last_modified": "2026-06-11 07:49:45",
       "url_published": "https://jume-ojs-tamu.tdl.org/jume/article/view/918"
     },
@@ -828,8 +850,8 @@
     },
     {
       "id": 916,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2026-06-10 18:17:22",
@@ -929,10 +951,10 @@
       "id": 907,
       "status": 1,
       "status_label": "Draft",
-      "stage_id": 1,
-      "stage_label": "Submission",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
       "date_submitted": "2026-05-25 16:41:40",
-      "date_last_activity": "2026-05-25 16:41:40",
+      "date_last_activity": "2026-09-28 22:48:34",
       "last_modified": "2026-05-25 16:41:40",
       "url_published": "https://jume-ojs-tamu.tdl.org/jume/article/view/907"
     },
@@ -1026,8 +1048,8 @@
     },
     {
       "id": 898,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2026-05-06 06:12:18",
@@ -1603,7 +1625,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-12-18 21:48:03",
-      "date_last_activity": "2026-09-11 21:01:46",
+      "date_last_activity": "2026-09-26 23:11:09",
       "last_modified": "2025-12-18 21:48:03",
       "url_published": "https://jume-ojs-tamu.tdl.org/jume/article/view/842"
     },
@@ -1867,7 +1889,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-10-27 05:48:52",
-      "date_last_activity": "2026-09-17 00:00:19",
+      "date_last_activity": "2026-09-30 19:45:47",
       "last_modified": "2025-10-27 05:48:52",
       "url_published": "https://jume-ojs-tamu.tdl.org/jume/article/view/816"
     },
@@ -2104,8 +2126,8 @@
     },
     {
       "id": 795,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2025-08-13 01:26:56",
@@ -9870,13 +9892,13 @@
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 125,
-    "Declined": 507,
+    "Draft": 117,
+    "Declined": 517,
     "Published": 224
   },
   "submission_stage_breakdown": {
     "Submission": 306,
-    "Copyediting": 323,
+    "Copyediting": 325,
     "Published": 62,
     "Production": 165
   },
@@ -9884,7 +9906,7 @@
     {
       "id": "total",
       "name": "All Users",
-      "value": 1222
+      "value": 1224
     },
     {
       "id": 1,
@@ -9909,7 +9931,7 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 676
+      "value": 677
     },
     {
       "id": 4096,
@@ -9919,7 +9941,7 @@
     {
       "id": 1048576,
       "name": "Reader",
-      "value": 799
+      "value": 801
     },
     {
       "id": 2097152,
@@ -13232,7 +13254,7 @@
     "total_issues": 37,
     "published_issues": 35,
     "unpublished_issues": 2,
-    "total_submissions": 856,
+    "total_submissions": 858,
     "published_submissions": 224,
     "new_issues_in_period": 3,
     "new_submissions_in_period": 128,
@@ -13243,6 +13265,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 8488,
-    "total_users": 1222
+    "total_users": 1224
   }
 }

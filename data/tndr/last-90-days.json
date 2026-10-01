@@ -2,9 +2,9 @@
   "site_name": "tndr",
   "site_title": "Texas New Deal Review",
   "site_url": "https://tndr-ojs-tamu.tdl.org/tndr",
-  "date_start": "2026-06-06",
-  "date_end": "2026-09-03",
-  "fetched_at": "2026-09-04T20:24:18Z",
+  "date_start": "2026-07-03",
+  "date_end": "2026-09-30",
+  "fetched_at": "2026-10-01T12:26:20Z",
   "issues": [
     {
       "id": 2,
@@ -165,110 +165,6 @@
     "Copyediting": 3,
     "Submission": 2
   },
-  "publication_stats": [
-    {
-      "id": 10,
-      "title": "Texas Exceptionalism - the Texas Centennial and the New Deal",
-      "authors": "Johnson",
-      "abstract_views": 155,
-      "galley_views": 0,
-      "pdf_views": 0,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 155,
-      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/10",
-      "doi": null
-    },
-    {
-      "id": 3,
-      "title": "The Federal Writers Project Helps Fashion Twentieth Century Texas: Texas, A Guide to the Lone Star State, 1940",
-      "authors": "Matthews",
-      "abstract_views": 140,
-      "galley_views": 86,
-      "pdf_views": 86,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 226,
-      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/3",
-      "doi": null
-    },
-    {
-      "id": 7,
-      "title": "Paternalism behind the Veil",
-      "authors": "Goodwin",
-      "abstract_views": 151,
-      "galley_views": 0,
-      "pdf_views": 0,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 151,
-      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/7",
-      "doi": null
-    },
-    {
-      "id": 1,
-      "title": "English US With Stone, Canvas and Mortar:  : When Art and Architecture Went to Work for the New Deal in Texas",
-      "authors": "Cummins",
-      "abstract_views": 143,
-      "galley_views": 37,
-      "pdf_views": 37,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 180,
-      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/1",
-      "doi": null
-    },
-    {
-      "id": 2,
-      "title": "\"Where Are the New Deal Historians of Texas? Revisited\"",
-      "authors": "Volanto",
-      "abstract_views": 137,
-      "galley_views": 25,
-      "pdf_views": 25,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 162,
-      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/2",
-      "doi": null
-    },
-    {
-      "id": 6,
-      "title": "Texas Exceptionalism, the Texas Centennial and the New Deal",
-      "authors": "Johnson",
-      "abstract_views": 1,
-      "galley_views": 0,
-      "pdf_views": 0,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 1,
-      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/6",
-      "doi": null
-    }
-  ],
-  "issue_stats": [
-    {
-      "id": 3,
-      "identification": "Vol. 2 No. 1 (2026): Texas New Deal Review",
-      "volume": "",
-      "number": "",
-      "year": "",
-      "total_views": 468,
-      "toc_views": 200,
-      "issue_galley_views": 268,
-      "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/3"
-    },
-    {
-      "id": 2,
-      "identification": "Vol. 1 No. 1 (2025): Texas New Deal Review",
-      "volume": "",
-      "number": "",
-      "year": "",
-      "total_views": 242,
-      "toc_views": 227,
-      "issue_galley_views": 15,
-      "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/2"
-    }
-  ],
   "user_stats": [
     {
       "id": "total",
@@ -316,21 +212,112 @@
       "value": 3
     }
   ],
+  "publication_stats": [
+    {
+      "id": 10,
+      "title": "Texas Exceptionalism - the Texas Centennial and the New Deal",
+      "authors": "Johnson",
+      "abstract_views": 163,
+      "galley_views": 0,
+      "pdf_views": 0,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 163,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/10",
+      "doi": null
+    },
+    {
+      "id": 7,
+      "title": "Paternalism behind the Veil",
+      "authors": "Goodwin",
+      "abstract_views": 169,
+      "galley_views": 0,
+      "pdf_views": 0,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 169,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/7",
+      "doi": null
+    },
+    {
+      "id": 3,
+      "title": "The Federal Writers Project Helps Fashion Twentieth Century Texas: Texas, A Guide to the Lone Star State, 1940",
+      "authors": "Matthews",
+      "abstract_views": 32,
+      "galley_views": 91,
+      "pdf_views": 91,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 123,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/3",
+      "doi": null
+    },
+    {
+      "id": 1,
+      "title": "English US With Stone, Canvas and Mortar:  : When Art and Architecture Went to Work for the New Deal in Texas",
+      "authors": "Cummins",
+      "abstract_views": 41,
+      "galley_views": 28,
+      "pdf_views": 28,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 69,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/1",
+      "doi": null
+    },
+    {
+      "id": 2,
+      "title": "\"Where Are the New Deal Historians of Texas? Revisited\"",
+      "authors": "Volanto",
+      "abstract_views": 30,
+      "galley_views": 15,
+      "pdf_views": 15,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 45,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/2",
+      "doi": null
+    }
+  ],
+  "issue_stats": [
+    {
+      "id": 3,
+      "identification": "Vol. 2 No. 1 (2026): Texas New Deal Review",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 483,
+      "toc_views": 212,
+      "issue_galley_views": 271,
+      "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/3"
+    },
+    {
+      "id": 2,
+      "identification": "Vol. 1 No. 1 (2025): Texas New Deal Review",
+      "volume": "",
+      "number": "",
+      "year": "",
+      "total_views": 121,
+      "toc_views": 102,
+      "issue_galley_views": 19,
+      "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/2"
+    }
+  ],
   "summary": {
     "total_issues": 3,
     "published_issues": 2,
     "unpublished_issues": 1,
     "total_submissions": 10,
     "published_submissions": 5,
-    "new_issues_in_period": 1,
+    "new_issues_in_period": 0,
     "new_submissions_in_period": 0,
-    "total_view_count": 875,
-    "total_abstract_views": 727,
-    "total_galley_views": 148,
-    "total_pdf_views": 148,
+    "total_view_count": 569,
+    "total_abstract_views": 435,
+    "total_galley_views": 134,
+    "total_pdf_views": 134,
     "total_html_views": 0,
     "total_other_views": 0,
-    "total_issue_views": 710,
+    "total_issue_views": 604,
     "total_users": 23
   }
 }
