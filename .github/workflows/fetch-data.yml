@@ -11,6 +11,11 @@ on:
         description: "End date (YYYY-MM-DD) — leave blank for standard ranges"
         required: false
         default: ""
+      fiscal_year:
+        description: "Fetch only the previous fiscal year (Sep 1 - Aug 31) — ignores dates above"
+        type: boolean
+        required: false
+        default: false
   schedule:
     # Run at 6:00 AM UTC on the 1st of every month
     - cron: "0 6 1 * *"
@@ -44,8 +49,12 @@ jobs:
 
       - name: Fetch data
         run: |
-          # Build args for custom date range if provided
+          # Build args for fiscal year or custom date range if provided
           EXTRA_ARGS=""
+          if [ "${{ inputs.fiscal_year }}" = "true" ]; then
+            python fetch_data.py --fiscal-year
+            exit 0
+          fi
           if [ -n "${{ inputs.date_start }}" ]; then
             EXTRA_ARGS="$EXTRA_ARGS --date-start ${{ inputs.date_start }}"
           fi

@@ -2,9 +2,9 @@
   "site_name": "elapbj",
   "site_title": "Education Law and Policy Briefs Journal",
   "site_url": "https://epbj-ojs-tamu.tdl.org/epbj",
-  "date_start": "2026-09-01",
-  "date_end": "2026-09-30",
-  "fetched_at": "2026-10-01T12:06:28Z",
+  "date_start": "2026-09-08",
+  "date_end": "2026-10-07",
+  "fetched_at": "2026-10-08T14:20:05Z",
   "issues": [
     {
       "id": 1,
@@ -45,13 +45,46 @@
   ],
   "submissions": [
     {
+      "id": 43,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-06 13:46:46",
+      "date_last_activity": "2026-10-06 13:46:46",
+      "last_modified": "2026-10-06 13:46:46",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/43"
+    },
+    {
+      "id": 42,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-06 10:53:59",
+      "date_last_activity": "2026-10-06 10:53:59",
+      "last_modified": "2026-10-06 10:53:59",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/42"
+    },
+    {
+      "id": 41,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-05 12:00:16",
+      "date_last_activity": "2026-10-05 12:04:37",
+      "last_modified": "2026-10-05 12:04:37",
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/41"
+    },
+    {
       "id": 40,
       "status": 1,
       "status_label": "Draft",
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-09-02 23:39:50",
-      "date_last_activity": "2026-09-13 19:07:44",
+      "date_last_activity": "2026-10-04 00:00:19",
       "last_modified": "2026-09-02 23:39:50",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/40"
     },
@@ -114,10 +147,10 @@
       "id": 34,
       "status": 1,
       "status_label": "Draft",
-      "stage_id": 3,
-      "stage_label": "Copyediting",
+      "stage_id": 4,
+      "stage_label": "Production",
       "date_submitted": "2026-04-29 19:51:42",
-      "date_last_activity": "2026-09-15 13:06:44",
+      "date_last_activity": "2026-10-05 13:08:45",
       "last_modified": "2026-04-29 19:51:42",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/34"
     },
@@ -216,7 +249,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-01-28 15:41:45",
-      "date_last_activity": "2026-01-09 00:00:11",
+      "date_last_activity": "2026-10-05 13:09:58",
       "last_modified": "2025-01-28 15:41:45",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/25"
     },
@@ -409,21 +442,21 @@
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 21,
+    "Draft": 24,
     "Declined": 6,
     "Published": 6
   },
   "submission_stage_breakdown": {
-    "Copyediting": 14,
-    "Submission": 10,
-    "Published": 7,
-    "Production": 2
+    "Submission": 13,
+    "Copyediting": 13,
+    "Production": 3,
+    "Published": 7
   },
   "user_stats": [
     {
       "id": "total",
       "name": "All Users",
-      "value": 88
+      "value": 90
     },
     {
       "id": 1,
@@ -448,17 +481,17 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 59
+      "value": 61
     },
     {
       "id": 4096,
       "name": "Reviewer",
-      "value": 56
+      "value": 57
     },
     {
       "id": 1048576,
       "name": "Reader",
-      "value": 64
+      "value": 65
     },
     {
       "id": 2097152,
@@ -471,12 +504,12 @@
       "id": 17,
       "title": "Increased Water Consumption and Quality of Food Policies for Schools",
       "authors": "De Jong et al.",
-      "abstract_views": 58,
+      "abstract_views": 66,
       "galley_views": 50,
       "pdf_views": 50,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 108,
+      "total_views": 116,
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/17",
       "doi": null
     },
@@ -484,12 +517,12 @@
       "id": 13,
       "title": "School Enhancement: An Alternative to “School Turnaround” ",
       "authors": "Irby et al.",
-      "abstract_views": 35,
-      "galley_views": 56,
-      "pdf_views": 56,
+      "abstract_views": 41,
+      "galley_views": 64,
+      "pdf_views": 64,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 91,
+      "total_views": 105,
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/13",
       "doi": null
     },
@@ -497,25 +530,38 @@
       "id": 1,
       "title": "Vengeful Equity: Gendering the School-to-Prison Pipeline",
       "authors": "Mackey",
-      "abstract_views": 19,
-      "galley_views": 24,
-      "pdf_views": 24,
+      "abstract_views": 27,
+      "galley_views": 25,
+      "pdf_views": 25,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 43,
+      "total_views": 52,
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/1",
+      "doi": null
+    },
+    {
+      "id": 2,
+      "title": "Policy Challenges to Governing Learner Appropriate Online Class Sizes in Higher Education",
+      "authors": "Irby et al.",
+      "abstract_views": 20,
+      "galley_views": 15,
+      "pdf_views": 15,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 35,
+      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/2",
       "doi": null
     },
     {
       "id": 16,
       "title": "Opportunity outside the City: Understanding and Promoting Equity in Rural Schools",
       "authors": "Gagnon",
-      "abstract_views": 15,
+      "abstract_views": 19,
       "galley_views": 14,
       "pdf_views": 14,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 29,
+      "total_views": 33,
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/16",
       "doi": null
     },
@@ -523,26 +569,13 @@
       "id": 22,
       "title": "Districts of Innovation: A Policy Brief of the Latest Effort to Re/Empower Local Control of Texas Public Schools",
       "authors": "Hemmer",
-      "abstract_views": 12,
-      "galley_views": 15,
-      "pdf_views": 15,
+      "abstract_views": 16,
+      "galley_views": 11,
+      "pdf_views": 11,
       "html_views": 0,
       "other_views": 0,
       "total_views": 27,
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/22",
-      "doi": null
-    },
-    {
-      "id": 2,
-      "title": "Policy Challenges to Governing Learner Appropriate Online Class Sizes in Higher Education",
-      "authors": "Irby et al.",
-      "abstract_views": 14,
-      "galley_views": 12,
-      "pdf_views": 12,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 26,
-      "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/2",
       "doi": null
     }
   ],
@@ -553,8 +586,8 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 69,
-      "toc_views": 69,
+      "total_views": 75,
+      "toc_views": 75,
       "issue_galley_views": 0,
       "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/3"
     },
@@ -564,8 +597,8 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 20,
-      "toc_views": 20,
+      "total_views": 22,
+      "toc_views": 22,
       "issue_galley_views": 0,
       "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/1"
     },
@@ -575,8 +608,8 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 11,
-      "toc_views": 11,
+      "total_views": 13,
+      "toc_views": 13,
       "issue_galley_views": 0,
       "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/2"
     }
@@ -585,17 +618,17 @@
     "total_issues": 3,
     "published_issues": 3,
     "unpublished_issues": 0,
-    "total_submissions": 33,
+    "total_submissions": 36,
     "published_submissions": 6,
     "new_issues_in_period": 0,
-    "new_submissions_in_period": 1,
-    "total_view_count": 324,
-    "total_abstract_views": 153,
-    "total_galley_views": 171,
-    "total_pdf_views": 171,
+    "new_submissions_in_period": 3,
+    "total_view_count": 368,
+    "total_abstract_views": 189,
+    "total_galley_views": 179,
+    "total_pdf_views": 179,
     "total_html_views": 0,
     "total_other_views": 0,
-    "total_issue_views": 100,
-    "total_users": 88
+    "total_issue_views": 110,
+    "total_users": 90
   }
 }

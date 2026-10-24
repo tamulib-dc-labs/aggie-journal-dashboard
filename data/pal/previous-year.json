@@ -4,7 +4,7 @@
   "site_url": "https://pal-ojs-tamu.tdl.org/pal",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-10-01T12:24:34Z",
+  "fetched_at": "2026-10-08T14:31:00Z",
   "issues": [
     {
       "id": 173,
@@ -315,7 +315,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-08-26 14:42:51",
-      "date_last_activity": "2026-09-24 00:00:16",
+      "date_last_activity": "2026-10-06 07:47:52",
       "last_modified": "2026-08-26 14:42:51",
       "url_published": "https://pal-ojs-tamu.tdl.org/pal/article/view/7256"
     },
@@ -348,7 +348,7 @@
       "stage_id": 4,
       "stage_label": "Production",
       "date_submitted": "2026-06-15 11:13:29",
-      "date_last_activity": "2026-08-18 13:58:34",
+      "date_last_activity": "2026-10-05 12:47:16",
       "last_modified": "2026-08-18 12:49:52",
       "url_published": "https://pal-ojs-tamu.tdl.org/pal/article/view/7253"
     },
@@ -392,7 +392,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-05-18 16:08:20",
-      "date_last_activity": "2026-09-30 16:01:24",
+      "date_last_activity": "2026-10-06 12:24:56",
       "last_modified": "2026-05-18 16:08:20",
       "url_published": "https://pal-ojs-tamu.tdl.org/pal/article/view/7249"
     },

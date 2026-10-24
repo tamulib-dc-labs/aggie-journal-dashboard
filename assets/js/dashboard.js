@@ -728,6 +728,7 @@ class Dashboard {
       "all-time": "All Time",
       "current-year": "Current Year",
       "previous-year": "Previous Year",
+      "previous-fiscal-year": "Previous Fiscal Year",
       "last-90-days": "Last 90 Days",
       "last-30-days": "Last 30 Days",
       "last-7-days": "Last 7 Days",

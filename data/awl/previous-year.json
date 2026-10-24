@@ -4,7 +4,7 @@
   "site_url": "https://awl-ojs-tamu.tdl.org/awl",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-10-01T12:01:20Z",
+  "fetched_at": "2026-10-08T14:22:19Z",
   "issues": [
     {
       "id": 6,
@@ -561,6 +561,39 @@
   ],
   "submissions": [
     {
+      "id": 704,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-06 14:59:04",
+      "date_last_activity": "2026-10-06 14:59:05",
+      "last_modified": "2026-10-06 14:59:04",
+      "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/704"
+    },
+    {
+      "id": 703,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-03 14:45:56",
+      "date_last_activity": "2026-10-03 14:45:58",
+      "last_modified": "2026-10-03 14:45:56",
+      "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/703"
+    },
+    {
+      "id": 702,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-02 04:30:29",
+      "date_last_activity": "2026-10-02 04:30:30",
+      "last_modified": "2026-10-02 04:30:29",
+      "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/702"
+    },
+    {
       "id": 701,
       "status": 1,
       "status_label": "Draft",
@@ -589,7 +622,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-09-16 09:20:51",
-      "date_last_activity": "2026-09-24 07:26:40",
+      "date_last_activity": "2026-10-04 00:00:23",
       "last_modified": "2026-09-16 09:20:51",
       "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/699"
     },
@@ -600,7 +633,7 @@
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2026-09-14 03:52:22",
-      "date_last_activity": "2026-09-23 09:36:09",
+      "date_last_activity": "2026-10-06 15:01:11",
       "last_modified": "2026-09-14 03:52:22",
       "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/698"
     },
@@ -611,7 +644,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-09-11 15:27:28",
-      "date_last_activity": "2026-09-23 09:34:36",
+      "date_last_activity": "2026-10-04 00:00:23",
       "last_modified": "2026-09-11 15:27:28",
       "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/697"
     },
@@ -666,7 +699,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-08-08 11:08:04",
-      "date_last_activity": "2026-09-30 12:54:10",
+      "date_last_activity": "2026-10-03 01:53:00",
       "last_modified": "2026-08-08 11:08:04",
       "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/692"
     },
@@ -842,7 +875,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-05-17 06:38:31",
-      "date_last_activity": "2026-09-09 14:54:27",
+      "date_last_activity": "2026-10-05 14:23:31",
       "last_modified": "2026-05-17 06:38:31",
       "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/676"
     },
@@ -892,8 +925,8 @@
     },
     {
       "id": 670,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-04-29 06:34:44",
@@ -908,7 +941,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-04-28 16:35:46",
-      "date_last_activity": "2026-09-21 17:04:09",
+      "date_last_activity": "2026-10-04 22:58:19",
       "last_modified": "2026-04-28 16:35:46",
       "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/669"
     },
@@ -1189,8 +1222,8 @@
     },
     {
       "id": 642,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-12-16 10:24:11",
@@ -1238,7 +1271,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-12-02 06:30:26",
-      "date_last_activity": "2026-08-12 12:06:43",
+      "date_last_activity": "2026-10-05 14:00:11",
       "last_modified": "2026-02-02 13:18:37",
       "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/638"
     },
@@ -1255,8 +1288,8 @@
     },
     {
       "id": 636,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-11-26 06:40:14",
@@ -1266,8 +1299,8 @@
     },
     {
       "id": 635,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-11-25 09:09:20",
@@ -1312,17 +1345,17 @@
       "id": 621,
       "status": 1,
       "status_label": "Draft",
-      "stage_id": 3,
-      "stage_label": "Copyediting",
+      "stage_id": 4,
+      "stage_label": "Production",
       "date_submitted": "2025-11-10 15:43:39",
-      "date_last_activity": "2026-09-16 12:27:47",
+      "date_last_activity": "2026-10-01 10:17:19",
       "last_modified": "2025-11-24 12:51:41",
       "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/621"
     },
     {
       "id": 631,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-11-09 10:26:43",
@@ -1425,7 +1458,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-10-02 20:01:26",
-      "date_last_activity": "2026-09-23 09:27:56",
+      "date_last_activity": "2026-10-05 04:54:21",
       "last_modified": "2026-01-08 14:14:47",
       "url_published": "https://awl-ojs-tamu.tdl.org/awl/article/view/622"
     },
@@ -7789,21 +7822,21 @@
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 52,
-    "Declined": 234,
+    "Draft": 50,
+    "Declined": 239,
     "Published": 371
   },
   "submission_stage_breakdown": {
-    "Submission": 104,
-    "Copyediting": 175,
+    "Submission": 107,
+    "Copyediting": 174,
     "Published": 106,
-    "Production": 272
+    "Production": 273
   },
   "user_stats": [
     {
       "id": "total",
       "name": "All Users",
-      "value": 936
+      "value": 938
     },
     {
       "id": 1,
@@ -7828,7 +7861,7 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 690
+      "value": 692
     },
     {
       "id": 4096,
@@ -7838,7 +7871,7 @@
     {
       "id": 1048576,
       "name": "Reader",
-      "value": 685
+      "value": 687
     },
     {
       "id": 2097152,
@@ -13109,7 +13142,7 @@
     "total_issues": 46,
     "published_issues": 44,
     "unpublished_issues": 2,
-    "total_submissions": 657,
+    "total_submissions": 660,
     "published_submissions": 371,
     "new_issues_in_period": 2,
     "new_submissions_in_period": 83,
@@ -13120,6 +13153,6 @@
     "total_html_views": 49,
     "total_other_views": 0,
     "total_issue_views": 12932,
-    "total_users": 936
+    "total_users": 938
   }
 }

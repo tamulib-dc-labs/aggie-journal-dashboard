@@ -227,7 +227,7 @@ def fetch_site_base_data(name, site):
             "published_date": i.get("datePublished"),
             "doi": doi_obj.get("doi") if doi_obj else None,
             "url": i.get("publishedUrl", ""),
-            "description": i.get("description", {}).get("en", ""),
+            "description": (i.get("description") or {}).get("en", ""),
         })
 
     # Submissions
@@ -443,6 +443,44 @@ def get_standard_ranges():
     ]
 
 
+def get_fiscal_year_range():
+    """Return the most recently completed fiscal year (Sep 1 - Aug 31).
+
+    Only fetched on demand (--fiscal-year), not as part of the standard ranges,
+    since it only changes once a year.
+    """
+    today = time.strftime("%Y-%m-%d")
+    # The most recently completed fiscal year ends Aug 31 of this year if
+    # we're in Sep-Dec, otherwise Aug 31 of last year.
+    fy_end_year = int(today[:4]) if int(today[5:7]) >= 9 else int(today[:4]) - 1
+    return {
+        "label": "previous-fiscal-year",
+        "date_start": f"{fy_end_year-1}-09-01",
+        "date_end": f"{fy_end_year}-08-31",
+    }
+
+
+# Snapshots that standard runs don't fetch but should keep listed in sites.json
+ON_DEMAND_LABELS = {"previous-fiscal-year"}
+
+# Display order for the time-range dropdown; unknown labels go last
+SNAPSHOT_ORDER = [
+    "all-time",
+    "current-year",
+    "previous-year",
+    "previous-fiscal-year",
+    "last-90-days",
+    "last-30-days",
+    "last-7-days",
+    "custom",
+]
+
+
+def snapshot_sort_key(snap):
+    label = snap["label"]
+    return SNAPSHOT_ORDER.index(label) if label in SNAPSHOT_ORDER else len(SNAPSHOT_ORDER)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Fetch OJS stats data for static dashboard"
@@ -472,6 +510,11 @@ def main():
         default=None,
         help="Only fetch the named site (key in api_keys.yml) instead of all configured sites.",
     )
+    parser.add_argument(
+        "--fiscal-year",
+        action="store_true",
+        help="Only fetch the previous fiscal year (Sep 1 - Aug 31) snapshot. Not included in standard runs.",
+    )
     args = parser.parse_args()
 
     project_root = Path(__file__).resolve().parent
@@ -492,7 +535,8 @@ def main():
     out_dir.mkdir(parents=True, exist_ok=True)
     fetched_at = time.strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    # Determine if we're fetching a custom date range or standard snapshots
+    # Determine if we're fetching a single on-demand range (custom dates or
+    # fiscal year) or the standard snapshots
     if args.date_start or args.date_end:
         # Custom date range: create/update a labeled snapshot without overwriting sites.json
         ranges = [{
@@ -500,10 +544,20 @@ def main():
             "date_start": args.date_start,
             "date_end": args.date_end,
         }]
-        is_custom = True
+        is_partial = True
+    elif args.fiscal_year:
+        ranges = [get_fiscal_year_range()]
+        is_partial = True
     else:
         ranges = get_standard_ranges()
-        is_custom = False
+        is_partial = False
+
+    index_path = out_dir / "sites.json"
+    existing_snapshots = {}
+    if index_path.exists():
+        with open(index_path, "r") as f:
+            existing_index = json.load(f)
+        existing_snapshots = {s["name"]: s.get("snapshots", []) for s in existing_index.get("sites", [])}
 
     all_site_info = []
 
@@ -557,9 +611,9 @@ def main():
                 "date_end": de,
             })
 
-        # For non-custom runs, also save the all-time snapshot at the top level
+        # For standard runs, also save the all-time snapshot at the top level
         # (reuses the "all-time" fetch above instead of hitting the API again).
-        if not is_custom:
+        if not is_partial:
             top_file = out_dir / f"{name}.json"
             if all_time_data is not None:
                 with open(top_file, "w") as f:
@@ -570,24 +624,14 @@ def main():
             else:
                 logger.warning(f"  No all-time data available for '{name}'; top-level snapshot not created")
 
-        # If custom run, preserve existing snapshot labels from sites.json if it exists
-        if is_custom:
-            existing_index = out_dir / "sites.json"
-            if existing_index.exists():
-                with open(existing_index, "r") as f:
-                    existing = json.load(f)
-                for s in existing.get("sites", []):
-                    if s["name"] == name:
-                        # Merge existing snapshots with the new custom one
-                        existing_labels = {snap["label"]: snap for snap in s.get("snapshots", [])}
-                        existing_labels["custom"] = snapshot_labels[0]
-                        # Put custom at the end for readability
-                        ordered = list(existing_labels.values())
-                        # Reorder to keep all-time first, custom last
-                        ordered.sort(key=lambda x: (x["label"] != "all-time", x["label"] == "custom", x["label"]))
-                        snapshot_labels = ordered
-                        break
-            else:
+        prior = existing_snapshots.get(name)
+        if is_partial:
+            # Merge the newly fetched range into this site's existing snapshots
+            if prior is not None:
+                merged = {snap["label"]: snap for snap in prior}
+                merged.update({snap["label"]: snap for snap in snapshot_labels})
+                snapshot_labels = list(merged.values())
+            elif not any(snap["label"] == "all-time" for snap in snapshot_labels):
                 # Create an "all-time" snapshot entry so the dropdown isn't empty
                 snapshot_labels.insert(0, {
                     "label": "all-time",
@@ -595,6 +639,14 @@ def main():
                     "date_start": None,
                     "date_end": None,
                 })
+        elif prior:
+            # Standard runs don't fetch on-demand ranges; keep them listed
+            fetched = {snap["label"] for snap in snapshot_labels}
+            snapshot_labels += [
+                snap for snap in prior
+                if snap["label"] in ON_DEMAND_LABELS and snap["label"] not in fetched
+            ]
+        snapshot_labels.sort(key=snapshot_sort_key)
 
         all_site_info.append({
             "name": name,
@@ -604,10 +656,7 @@ def main():
         })
 
     # Save sites index, merging with any existing entries for sites not fetched this run
-    index_path = out_dir / "sites.json"
     if args.site and index_path.exists():
-        with open(index_path, "r") as f:
-            existing_index = json.load(f)
         other_sites = [s for s in existing_index.get("sites", []) if s["name"] != args.site]
         all_site_info = other_sites + all_site_info
 

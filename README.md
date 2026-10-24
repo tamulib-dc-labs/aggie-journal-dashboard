@@ -47,6 +47,9 @@ python fetch_data.py
 # Fetch a custom date range only
 python fetch_data.py --date-start 2025-01-01 --date-end 2025-12-31
 
+# Fetch the previous fiscal year (Sep 1 – Aug 31) only — on demand, not part of standard runs
+python fetch_data.py --fiscal-year
+
 # Use a custom config file
 python fetch_data.py --config /path/to/api_keys.yml
 
@@ -63,6 +66,10 @@ The fetcher creates snapshots for these standard ranges:
 - **Last 90 Days** — rolling 90-day window
 - **Last 30 Days** — rolling 30-day window
 - **Last 7 Days** — rolling 7-day window
+
+The **Previous Fiscal Year** (most recently completed Sep 1 – Aug 31) snapshot
+is fetched only on demand with `--fiscal-year`, since it changes once a year.
+Standard runs keep it listed in `sites.json` without re-fetching it.
 
 You can select any snapshot from the dropdown in the dashboard UI.
 
@@ -89,6 +96,7 @@ ojs-dashboard/
 │       ├── snapshot.json     # All-time data
 │       ├── current-year.json
 │       ├── previous-year.json
+│       ├── previous-fiscal-year.json
 │       ├── last-90-days.json
 │       ├── last-30-days.json
 │       └── last-7-days.json
@@ -104,7 +112,9 @@ The workflow triggers on:
 - **First day of each month** at 6:00 AM UTC (automatic refresh)
 - **Manual dispatch** via the Actions tab
 
-Manual runs support `--date-start` and `--date-end` inputs for custom date ranges.
+Manual runs support `--date-start` and `--date-end` inputs for custom date ranges,
+and a **fiscal_year** checkbox to fetch only the previous fiscal year snapshot.
+Scheduled runs never fetch the fiscal year.
 
 Fetching every configured journal is slow (each site makes several stats calls
 per date range, with generous timeouts/retries for large journals), so this
