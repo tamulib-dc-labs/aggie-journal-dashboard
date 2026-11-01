@@ -4,7 +4,7 @@
   "site_url": "https://epbj-ojs-tamu.tdl.org/epbj",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-10-08T14:20:03Z",
+  "fetched_at": "2026-11-01T12:20:16Z",
   "issues": [
     {
       "id": 1,
@@ -40,6 +40,18 @@
       "published_date": "2024-05-16 00:00:00",
       "doi": null,
       "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/3",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "identification": "Vol. 4 No. 1 (2026)",
+      "volume": 4,
+      "number": "1",
+      "year": 2026,
+      "published": true,
+      "published_date": "2026-10-12 13:00:35",
+      "doi": null,
+      "url": "https://epbj-ojs-tamu.tdl.org/epbj/issue/view/4",
       "description": ""
     }
   ],
@@ -84,7 +96,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-09-02 23:39:50",
-      "date_last_activity": "2026-10-04 00:00:19",
+      "date_last_activity": "2026-10-12 13:12:05",
       "last_modified": "2026-09-02 23:39:50",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/40"
     },
@@ -106,7 +118,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-08-20 08:12:10",
-      "date_last_activity": "2026-09-28 12:12:40",
+      "date_last_activity": "2026-10-12 13:13:08",
       "last_modified": "2026-08-20 08:12:10",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/37"
     },
@@ -117,7 +129,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-08-17 15:04:02",
-      "date_last_activity": "2026-09-15 12:51:17",
+      "date_last_activity": "2026-10-12 13:13:54",
       "last_modified": "2026-08-17 15:04:02",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/38"
     },
@@ -128,7 +140,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-05-21 19:05:10",
-      "date_last_activity": "2026-09-15 13:11:15",
+      "date_last_activity": "2026-10-12 13:17:33",
       "last_modified": "2026-05-21 19:05:10",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/36"
     },
@@ -139,18 +151,18 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-05-04 13:36:57",
-      "date_last_activity": "2026-09-15 13:13:12",
+      "date_last_activity": "2026-10-10 00:00:27",
       "last_modified": "2026-05-04 13:36:57",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/35"
     },
     {
       "id": 34,
-      "status": 1,
-      "status_label": "Draft",
-      "stage_id": 4,
-      "stage_label": "Production",
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
       "date_submitted": "2026-04-29 19:51:42",
-      "date_last_activity": "2026-10-05 13:08:45",
+      "date_last_activity": "2026-10-26 13:34:14",
       "last_modified": "2026-04-29 19:51:42",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/34"
     },
@@ -172,7 +184,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-04-01 15:17:12",
-      "date_last_activity": "2026-09-15 13:18:43",
+      "date_last_activity": "2026-10-10 00:00:23",
       "last_modified": "2026-04-01 15:17:12",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/32"
     },
@@ -183,7 +195,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-03-15 08:02:55",
-      "date_last_activity": "2026-09-15 13:21:09",
+      "date_last_activity": "2026-10-10 00:00:20",
       "last_modified": "2026-03-15 08:02:55",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/31"
     },
@@ -354,12 +366,12 @@
     },
     {
       "id": 15,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 3,
+      "status_label": "Published",
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2023-02-14 20:11:34",
-      "date_last_activity": "2026-09-28 12:46:53",
+      "date_last_activity": "2026-10-12 13:06:39",
       "last_modified": "2023-11-14 19:25:34",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/15"
     },
@@ -436,21 +448,21 @@
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": null,
-      "date_last_activity": "2019-12-05 15:52:55",
-      "last_modified": "2019-12-05 15:52:55",
+      "date_last_activity": "2026-10-12 13:19:09",
+      "last_modified": "2026-10-12 13:19:09",
       "url_published": "https://epbj-ojs-tamu.tdl.org/epbj/article/view/12"
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 24,
-    "Declined": 6,
-    "Published": 6
+    "Draft": 22,
+    "Published": 8,
+    "Declined": 6
   },
   "submission_stage_breakdown": {
     "Submission": 13,
     "Copyediting": 13,
-    "Production": 3,
-    "Published": 7
+    "Published": 8,
+    "Production": 2
   },
   "user_stats": [
     {
@@ -615,11 +627,11 @@
     }
   ],
   "summary": {
-    "total_issues": 3,
-    "published_issues": 3,
+    "total_issues": 4,
+    "published_issues": 4,
     "unpublished_issues": 0,
     "total_submissions": 36,
-    "published_submissions": 6,
+    "published_submissions": 8,
     "new_issues_in_period": 0,
     "new_submissions_in_period": 6,
     "total_view_count": 1424,

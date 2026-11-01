@@ -4,7 +4,7 @@
   "site_url": "https://jaawge-ojs-tamu.tdl.org/jaawge",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-10-01T12:15:50Z",
+  "fetched_at": "2026-11-01T12:29:41Z",
   "issues": [
     {
       "id": 3,
@@ -140,18 +140,73 @@
     },
     {
       "id": 18,
-      "identification": "Vol. 6 No. 1 (2026): Summer 2026",
+      "identification": "Vol. 6 No. 1 (2026): Fall 2026",
       "volume": 6,
       "number": "1",
       "year": 2026,
-      "published": false,
-      "published_date": null,
-      "doi": null,
+      "published": true,
+      "published_date": "2026-10-15 21:55:46",
+      "doi": "10.21423/jaawge-v6i1",
       "url": "https://jaawge-ojs-tamu.tdl.org/jaawge/issue/view/18",
       "description": ""
     }
   ],
   "submissions": [
+    {
+      "id": 223,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-31 12:37:08",
+      "date_last_activity": "2026-10-31 12:56:03",
+      "last_modified": "2026-10-31 12:56:03",
+      "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/223"
+    },
+    {
+      "id": 222,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-10-28 13:24:41",
+      "date_last_activity": "2026-10-29 15:48:06",
+      "last_modified": "2026-10-28 13:24:41",
+      "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/222"
+    },
+    {
+      "id": 221,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-22 11:55:49",
+      "date_last_activity": "2026-10-30 08:26:19",
+      "last_modified": "2026-10-22 11:55:49",
+      "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/221"
+    },
+    {
+      "id": 219,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-13 13:41:22",
+      "date_last_activity": "2026-10-21 08:32:40",
+      "last_modified": "2026-10-13 13:41:22",
+      "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/219"
+    },
+    {
+      "id": 220,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 5,
+      "stage_label": "Published",
+      "date_submitted": "2026-10-12 17:42:00",
+      "date_last_activity": "2026-10-15 21:55:47",
+      "last_modified": "2026-10-12 17:42:00",
+      "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/220"
+    },
     {
       "id": 218,
       "status": 1,
@@ -159,7 +214,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-08-01 08:31:27",
-      "date_last_activity": "2026-09-10 15:32:12",
+      "date_last_activity": "2026-10-29 11:27:22",
       "last_modified": "2026-08-01 08:31:27",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/218"
     },
@@ -170,7 +225,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-07-26 19:36:40",
-      "date_last_activity": "2026-09-10 15:33:55",
+      "date_last_activity": "2026-10-29 18:07:59",
       "last_modified": "2026-07-26 19:36:40",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/217"
     },
@@ -181,7 +236,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-04-29 17:09:40",
-      "date_last_activity": "2026-09-10 15:35:20",
+      "date_last_activity": "2026-10-29 15:05:26",
       "last_modified": "2026-04-29 17:09:40",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/216"
     },
@@ -192,7 +247,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-04-28 09:41:57",
-      "date_last_activity": "2026-09-10 15:36:22",
+      "date_last_activity": "2026-10-29 09:16:39",
       "last_modified": "2026-04-28 09:41:57",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/215"
     },
@@ -225,8 +280,8 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-03-20 10:56:18",
-      "date_last_activity": "2026-09-16 13:08:38",
-      "last_modified": "2026-09-16 09:30:26",
+      "date_last_activity": "2026-10-30 15:46:25",
+      "last_modified": "2026-10-29 12:31:52",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/212"
     },
     {
@@ -236,7 +291,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-03-14 18:51:31",
-      "date_last_activity": "2026-09-10 12:02:05",
+      "date_last_activity": "2026-10-21 09:10:01",
       "last_modified": "2026-03-14 18:51:31",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/211"
     },
@@ -269,7 +324,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-02-26 14:10:34",
-      "date_last_activity": "2026-09-10 14:47:40",
+      "date_last_activity": "2026-10-29 11:55:05",
       "last_modified": "2026-09-10 14:32:39",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/208"
     },
@@ -280,8 +335,8 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-02-08 21:06:37",
-      "date_last_activity": "2026-09-16 10:56:23",
-      "last_modified": "2026-06-02 12:26:41",
+      "date_last_activity": "2026-10-29 14:27:05",
+      "last_modified": "2026-10-29 14:27:05",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/207"
     },
     {
@@ -302,18 +357,18 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-12-20 08:32:31",
-      "date_last_activity": "2026-07-19 00:00:19",
-      "last_modified": "2026-07-10 14:48:57",
+      "date_last_activity": "2026-10-29 15:28:46",
+      "last_modified": "2026-10-29 15:17:43",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/205"
     },
     {
       "id": 204,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-09-15 00:31:44",
-      "date_last_activity": "2026-09-10 14:25:26",
+      "date_last_activity": "2026-10-21 09:22:49",
       "last_modified": "2026-07-10 14:20:20",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/204"
     },
@@ -324,7 +379,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-08-29 13:59:20",
-      "date_last_activity": "2026-09-10 12:51:58",
+      "date_last_activity": "2026-10-21 09:15:37",
       "last_modified": "2026-04-23 17:14:58",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/203"
     },
@@ -346,7 +401,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-07-24 11:02:25",
-      "date_last_activity": "2026-09-10 09:49:32",
+      "date_last_activity": "2026-10-12 16:44:46",
       "last_modified": "2026-05-21 10:06:35",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/201"
     },
@@ -357,18 +412,18 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-07-23 17:56:09",
-      "date_last_activity": "2026-09-16 08:30:32",
+      "date_last_activity": "2026-10-30 15:38:06",
       "last_modified": "2026-04-23 16:55:36",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/200"
     },
     {
       "id": 199,
-      "status": 5,
-      "status_label": "Stalled",
+      "status": 3,
+      "status_label": "Published",
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2025-05-13 23:05:23",
-      "date_last_activity": "2026-07-10 16:21:04",
+      "date_last_activity": "2026-10-15 21:55:47",
       "last_modified": "2025-05-13 23:05:23",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/199"
     },
@@ -396,12 +451,12 @@
     },
     {
       "id": 196,
-      "status": 5,
-      "status_label": "Stalled",
+      "status": 3,
+      "status_label": "Published",
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2025-04-03 11:37:41",
-      "date_last_activity": "2026-07-10 16:21:55",
+      "date_last_activity": "2026-10-15 21:55:48",
       "last_modified": "2025-09-02 15:20:19",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/196"
     },
@@ -412,18 +467,18 @@
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2025-03-24 14:39:32",
-      "date_last_activity": "2025-03-26 12:43:18",
-      "last_modified": "2025-03-24 14:39:32",
+      "date_last_activity": "2026-10-21 09:46:29",
+      "last_modified": "2026-10-21 09:46:29",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/195"
     },
     {
       "id": 194,
-      "status": 5,
-      "status_label": "Stalled",
+      "status": 3,
+      "status_label": "Published",
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2025-03-18 12:12:39",
-      "date_last_activity": "2026-06-29 12:16:06",
+      "date_last_activity": "2026-10-15 21:55:48",
       "last_modified": "2025-03-18 12:12:39",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/194"
     },
@@ -484,12 +539,12 @@
     },
     {
       "id": 189,
-      "status": 5,
-      "status_label": "Stalled",
+      "status": 3,
+      "status_label": "Published",
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2024-12-05 15:31:56",
-      "date_last_activity": "2026-07-10 16:22:38",
+      "date_last_activity": "2026-10-20 08:08:18",
       "last_modified": "2024-12-05 15:31:56",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/189"
     },
@@ -748,8 +803,8 @@
     },
     {
       "id": 166,
-      "status": 1,
-      "status_label": "Draft",
+      "status": 4,
+      "status_label": "Declined",
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2024-02-16 05:44:45",
@@ -814,12 +869,12 @@
     },
     {
       "id": 157,
-      "status": 5,
-      "status_label": "Stalled",
+      "status": 3,
+      "status_label": "Published",
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2023-10-31 02:35:55",
-      "date_last_activity": "2026-07-10 16:26:43",
+      "date_last_activity": "2026-10-15 21:55:49",
       "last_modified": "2024-10-28 10:37:58",
       "url_published": "https://jaawge-ojs-tamu.tdl.org/jaawge/article/view/157"
     },
@@ -2245,21 +2300,20 @@
   ],
   "submission_status_breakdown": {
     "Draft": 20,
-    "Declined": 93,
-    "Published": 72,
-    "Stalled": 5
+    "Declined": 97,
+    "Published": 78
   },
   "submission_stage_breakdown": {
-    "Copyediting": 92,
-    "Production": 3,
-    "Submission": 21,
-    "Published": 74
+    "Submission": 24,
+    "Copyediting": 93,
+    "Published": 75,
+    "Production": 3
   },
   "user_stats": [
     {
       "id": "total",
       "name": "All Users",
-      "value": 528
+      "value": 533
     },
     {
       "id": 1,
@@ -2284,12 +2338,12 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 190
+      "value": 192
     },
     {
       "id": 4096,
       "name": "Reviewer",
-      "value": 411
+      "value": 416
     },
     {
       "id": 1048576,
@@ -3365,10 +3419,10 @@
   ],
   "summary": {
     "total_issues": 12,
-    "published_issues": 11,
-    "unpublished_issues": 1,
-    "total_submissions": 190,
-    "published_submissions": 72,
+    "published_issues": 12,
+    "unpublished_issues": 0,
+    "total_submissions": 195,
+    "published_submissions": 78,
     "new_issues_in_period": 2,
     "new_submissions_in_period": 18,
     "total_view_count": 37934,
@@ -3378,6 +3432,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 4602,
-    "total_users": 528
+    "total_users": 533
   }
 }

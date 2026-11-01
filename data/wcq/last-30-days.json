@@ -2,9 +2,9 @@
   "site_name": "wcq",
   "site_title": "Wellness Counseling Quarterly",
   "site_url": "https://wcq-ojs-tamu.tdl.org/wcq",
-  "date_start": "2026-09-01",
-  "date_end": "2026-09-30",
-  "fetched_at": "2026-10-01T13:24:56Z",
+  "date_start": "2026-10-02",
+  "date_end": "2026-10-31",
+  "fetched_at": "2026-11-01T13:23:29Z",
   "issues": [],
   "submissions": [
     {
@@ -29,7 +29,7 @@
     {
       "id": "total",
       "name": "All Users",
-      "value": 10
+      "value": 11
     },
     {
       "id": 1,
@@ -44,7 +44,7 @@
     {
       "id": 17,
       "name": "Section Editor",
-      "value": 7
+      "value": 8
     },
     {
       "id": 4097,
@@ -54,22 +54,22 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 2
+      "value": 8
     },
     {
       "id": 4096,
       "name": "Reviewer",
-      "value": 6
+      "value": 9
     },
     {
       "id": 1048576,
       "name": "Reader",
-      "value": 1
+      "value": 0
     },
     {
       "id": 2097152,
       "name": "Subscription Manager",
-      "value": 1
+      "value": 0
     }
   ],
   "publication_stats": [],
@@ -89,6 +89,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 0,
-    "total_users": 10
+    "total_users": 11
   }
 }

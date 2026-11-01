@@ -1,0 +1,78 @@
+{
+  "site_name": "nexus",
+  "site_title": "The Nexus: Advancing the Special Education Workforce",
+  "site_url": "https://nexus-ojs-tamu.tdl.org/nexus",
+  "date_start": "2026-10-02",
+  "date_end": "2026-10-31",
+  "fetched_at": "2026-11-01T13:24:25Z",
+  "issues": [],
+  "submissions": [],
+  "submission_status_breakdown": {},
+  "submission_stage_breakdown": {},
+  "user_stats": [
+    {
+      "id": "total",
+      "name": "All Users",
+      "value": 4
+    },
+    {
+      "id": 1,
+      "name": "Site Administrator",
+      "value": 0
+    },
+    {
+      "id": 16,
+      "name": "Journal Manager",
+      "value": 4
+    },
+    {
+      "id": 17,
+      "name": "Section Editor",
+      "value": 0
+    },
+    {
+      "id": 4097,
+      "name": "Assistant",
+      "value": 0
+    },
+    {
+      "id": 65536,
+      "name": "Author",
+      "value": 0
+    },
+    {
+      "id": 4096,
+      "name": "Reviewer",
+      "value": 0
+    },
+    {
+      "id": 1048576,
+      "name": "Reader",
+      "value": 0
+    },
+    {
+      "id": 2097152,
+      "name": "Subscription Manager",
+      "value": 0
+    }
+  ],
+  "publication_stats": [],
+  "issue_stats": [],
+  "summary": {
+    "total_issues": 0,
+    "published_issues": 0,
+    "unpublished_issues": 0,
+    "total_submissions": 0,
+    "published_submissions": 0,
+    "new_issues_in_period": 0,
+    "new_submissions_in_period": 0,
+    "total_view_count": 0,
+    "total_abstract_views": 0,
+    "total_galley_views": 0,
+    "total_pdf_views": 0,
+    "total_html_views": 0,
+    "total_other_views": 0,
+    "total_issue_views": 0,
+    "total_users": 4
+  }
+}

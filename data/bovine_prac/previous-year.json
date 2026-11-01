@@ -4,7 +4,7 @@
   "site_url": "https://bovine-ojs-tamu.tdl.org/bovine",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-10-01T12:29:52Z",
+  "fetched_at": "2026-11-01T12:41:39Z",
   "issues": [
     {
       "id": 21,
@@ -1113,13 +1113,24 @@
   ],
   "submissions": [
     {
+      "id": 9519,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
+      "date_submitted": "2026-10-15 15:36:11",
+      "date_last_activity": "2026-10-29 20:20:47",
+      "last_modified": "2026-10-15 15:36:11",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9519"
+    },
+    {
       "id": 9518,
       "status": 1,
       "status_label": "Draft",
-      "stage_id": 1,
-      "stage_label": "Submission",
+      "stage_id": 3,
+      "stage_label": "Copyediting",
       "date_submitted": "2026-09-27 22:25:07",
-      "date_last_activity": "2026-09-28 06:57:53",
+      "date_last_activity": "2026-10-26 10:29:27",
       "last_modified": "2026-09-27 22:25:07",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9518"
     },
@@ -1174,7 +1185,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-08-14 16:10:44",
-      "date_last_activity": "2026-09-30 18:39:01",
+      "date_last_activity": "2026-10-15 00:00:17",
       "last_modified": "2026-08-14 16:10:44",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9512"
     },
@@ -1193,10 +1204,10 @@
       "id": 9509,
       "status": 1,
       "status_label": "Draft",
-      "stage_id": 3,
-      "stage_label": "Copyediting",
+      "stage_id": 5,
+      "stage_label": "Published",
       "date_submitted": "2026-08-12 19:55:23",
-      "date_last_activity": "2026-09-18 12:49:16",
+      "date_last_activity": "2026-10-22 12:36:08",
       "last_modified": "2026-08-12 19:55:23",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9509"
     },
@@ -1207,7 +1218,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-07-20 09:54:12",
-      "date_last_activity": "2026-09-22 21:46:29",
+      "date_last_activity": "2026-10-26 11:31:59",
       "last_modified": "2026-07-20 09:54:12",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9507"
     },
@@ -1240,7 +1251,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-06-30 13:38:05",
-      "date_last_activity": "2026-08-14 16:03:03",
+      "date_last_activity": "2026-10-31 00:00:14",
       "last_modified": "2026-06-30 13:38:05",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9505"
     },
@@ -1251,7 +1262,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-06-28 19:32:03",
-      "date_last_activity": "2026-09-18 12:53:17",
+      "date_last_activity": "2026-10-26 11:04:25",
       "last_modified": "2026-06-28 19:32:03",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9504"
     },
@@ -1262,7 +1273,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-06-22 19:18:47",
-      "date_last_activity": "2026-09-09 13:16:12",
+      "date_last_activity": "2026-10-21 13:46:05",
       "last_modified": "2026-06-22 19:18:47",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9503"
     },
@@ -1284,7 +1295,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-06-17 06:53:35",
-      "date_last_activity": "2026-09-30 19:49:45",
+      "date_last_activity": "2026-10-19 16:04:06",
       "last_modified": "2026-06-17 06:53:35",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9501"
     },
@@ -1394,7 +1405,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-04-01 13:46:21",
-      "date_last_activity": "2026-07-15 07:24:19",
+      "date_last_activity": "2026-10-23 14:04:15",
       "last_modified": "2026-04-01 13:46:21",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/9309"
     },
@@ -10122,17 +10133,6 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/94"
     },
     {
-      "id": 2852,
-      "status": 3,
-      "status_label": "Published",
-      "stage_id": 1,
-      "stage_label": "Submission",
-      "date_submitted": "2015-06-01 00:00:00",
-      "date_last_activity": "2019-08-30 17:40:50",
-      "last_modified": "2021-03-16 20:34:14",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2852"
-    },
-    {
       "id": 2866,
       "status": 1,
       "status_label": "Draft",
@@ -10287,15 +10287,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2853"
     },
     {
-      "id": 2851,
+      "id": 2852,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2015-06-01 00:00:00",
-      "date_last_activity": "2019-08-30 17:08:24",
-      "last_modified": "2019-12-18 14:34:30",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2851"
+      "date_last_activity": "2019-08-30 17:40:50",
+      "last_modified": "2021-03-16 20:34:14",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2852"
     },
     {
       "id": 2850,
@@ -10309,15 +10309,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2850"
     },
     {
-      "id": 2843,
+      "id": 2851,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
-      "date_submitted": "2014-12-31 00:00:00",
-      "date_last_activity": "2019-09-04 11:38:48",
-      "last_modified": "2019-12-18 14:34:34",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2843"
+      "date_submitted": "2015-06-01 00:00:00",
+      "date_last_activity": "2019-08-30 17:08:24",
+      "last_modified": "2019-12-18 14:34:30",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2851"
     },
     {
       "id": 2838,
@@ -10331,6 +10331,17 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2838"
     },
     {
+      "id": 2844,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2014-12-31 00:00:00",
+      "date_last_activity": "2019-09-04 11:45:33",
+      "last_modified": "2019-12-18 14:34:33",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2844"
+    },
+    {
       "id": 2842,
       "status": 3,
       "status_label": "Published",
@@ -10340,17 +10351,6 @@
       "date_last_activity": "2019-09-04 11:51:20",
       "last_modified": "2019-12-18 14:34:35",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2842"
-    },
-    {
-      "id": 2839,
-      "status": 3,
-      "status_label": "Published",
-      "stage_id": 1,
-      "stage_label": "Submission",
-      "date_submitted": "2014-12-31 00:00:00",
-      "date_last_activity": "2019-09-04 20:10:11",
-      "last_modified": "2019-12-18 14:34:38",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2839"
     },
     {
       "id": 2846,
@@ -10408,15 +10408,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2842"
     },
     {
-      "id": 2839,
+      "id": 2838,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2014-12-31 00:00:00",
-      "date_last_activity": "2019-09-04 20:10:11",
-      "last_modified": "2019-12-18 14:34:38",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2839"
+      "date_last_activity": "2019-08-29 10:29:47",
+      "last_modified": "2019-12-19 15:08:53",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2838"
     },
     {
       "id": 2841,
@@ -10441,15 +10441,26 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2840"
     },
     {
-      "id": 2837,
+      "id": 2839,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2014-12-31 00:00:00",
+      "date_last_activity": "2019-09-04 20:10:11",
+      "last_modified": "2019-12-18 14:34:38",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2839"
+    },
+    {
+      "id": 2836,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2014-06-01 00:00:00",
-      "date_last_activity": "2019-11-19 12:49:16",
-      "last_modified": "2019-12-19 15:23:19",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2837"
+      "date_last_activity": "2019-11-19 08:05:43",
+      "last_modified": "2019-12-18 14:34:39",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2836"
     },
     {
       "id": 2829,
@@ -10463,15 +10474,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2829"
     },
     {
-      "id": 2836,
+      "id": 2837,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2014-06-01 00:00:00",
-      "date_last_activity": "2019-11-19 08:05:43",
-      "last_modified": "2019-12-18 14:34:39",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2836"
+      "date_last_activity": "2019-11-19 12:49:16",
+      "last_modified": "2019-12-19 15:23:19",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2837"
     },
     {
       "id": 2835,
@@ -10672,15 +10683,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2814"
     },
     {
-      "id": 2819,
+      "id": 2816,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2013-12-31 00:00:00",
-      "date_last_activity": "2019-11-19 09:01:50",
-      "last_modified": "2019-12-18 14:34:51",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2819"
+      "date_last_activity": "2019-11-19 08:27:15",
+      "last_modified": "2019-12-18 14:34:53",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2816"
     },
     {
       "id": 2815,
@@ -10727,17 +10738,6 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2812"
     },
     {
-      "id": 74,
-      "status": 3,
-      "status_label": "Published",
-      "stage_id": 1,
-      "stage_label": "Submission",
-      "date_submitted": "2013-06-01 00:00:00",
-      "date_last_activity": "2019-08-07 14:02:58",
-      "last_modified": "2021-03-16 21:11:34",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/74"
-    },
-    {
       "id": 72,
       "status": 3,
       "status_label": "Published",
@@ -10769,6 +10769,17 @@
       "date_last_activity": "2019-08-07 13:58:42",
       "last_modified": "2021-03-16 21:04:47",
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/70"
+    },
+    {
+      "id": 74,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2013-06-01 00:00:00",
+      "date_last_activity": "2019-08-07 14:02:58",
+      "last_modified": "2021-03-16 21:11:34",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/74"
     },
     {
       "id": 75,
@@ -11002,15 +11013,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2793"
     },
     {
-      "id": 2791,
+      "id": 2797,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2012-05-31 00:00:00",
-      "date_last_activity": null,
-      "last_modified": "2019-11-19 12:56:23",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2791"
+      "date_last_activity": "2019-11-19 14:50:37",
+      "last_modified": "2019-12-18 14:40:13",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2797"
     },
     {
       "id": 2796,
@@ -11332,15 +11343,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2765"
     },
     {
-      "id": 2768,
+      "id": 2766,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2010-12-31 00:00:00",
-      "date_last_activity": "2019-11-19 16:15:30",
-      "last_modified": "2019-12-18 14:40:31",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2768"
+      "date_last_activity": "2019-11-19 16:01:01",
+      "last_modified": "2019-12-18 14:40:33",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2766"
     },
     {
       "id": 2765,
@@ -11376,15 +11387,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2769"
     },
     {
-      "id": 2757,
+      "id": 2756,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2010-06-01 00:00:00",
-      "date_last_activity": "2019-11-19 16:41:21",
-      "last_modified": "2019-12-18 14:40:40",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2757"
+      "date_last_activity": "2019-11-19 16:38:38",
+      "last_modified": "2019-12-18 14:40:41",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2756"
     },
     {
       "id": 2755,
@@ -11453,15 +11464,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2763"
     },
     {
-      "id": 2756,
+      "id": 2757,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2010-06-01 00:00:00",
-      "date_last_activity": "2019-11-19 16:38:38",
-      "last_modified": "2019-12-18 14:40:41",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2756"
+      "date_last_activity": "2019-11-19 16:41:21",
+      "last_modified": "2019-12-18 14:40:40",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2757"
     },
     {
       "id": 2762,
@@ -11662,15 +11673,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2733"
     },
     {
-      "id": 2732,
+      "id": 2737,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2008-12-31 00:00:00",
-      "date_last_activity": "2019-11-20 09:52:55",
-      "last_modified": "2021-03-17 14:04:19",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2732"
+      "date_last_activity": "2019-11-20 10:05:26",
+      "last_modified": "2019-12-18 15:12:50",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/2737"
     },
     {
       "id": 2736,
@@ -11992,15 +12003,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/45"
     },
     {
-      "id": 46,
+      "id": 41,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2008-03-01 00:00:00",
-      "date_last_activity": "2019-08-06 15:18:27",
-      "last_modified": "2021-03-17 19:09:06",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/46"
+      "date_last_activity": "2019-08-06 15:17:01",
+      "last_modified": "2021-03-17 18:55:28",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/41"
     },
     {
       "id": 42,
@@ -12322,15 +12333,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1759"
     },
     {
-      "id": 1760,
+      "id": 1764,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2006-06-01 00:00:00",
-      "date_last_activity": "2019-11-20 13:44:46",
-      "last_modified": "2021-03-17 19:22:17",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1760"
+      "date_last_activity": null,
+      "last_modified": "2021-03-17 19:25:37",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1764"
     },
     {
       "id": 1749,
@@ -12652,15 +12663,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1726"
     },
     {
-      "id": 1722,
+      "id": 1725,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2005-02-01 00:00:00",
-      "date_last_activity": null,
-      "last_modified": "2021-03-17 21:19:57",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1722"
+      "date_last_activity": "2019-11-20 15:51:27",
+      "last_modified": "2021-03-17 21:24:00",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1725"
     },
     {
       "id": 1724,
@@ -12938,17 +12949,6 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1706"
     },
     {
-      "id": 1708,
-      "status": 3,
-      "status_label": "Published",
-      "stage_id": 1,
-      "stage_label": "Submission",
-      "date_submitted": "2004-02-01 00:00:00",
-      "date_last_activity": "2019-11-21 09:47:50",
-      "last_modified": "2021-03-18 13:39:32",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1708"
-    },
-    {
       "id": 1694,
       "status": 3,
       "status_label": "Published",
@@ -12971,26 +12971,37 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1695"
     },
     {
-      "id": 1696,
+      "id": 1708,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2004-02-01 00:00:00",
-      "date_last_activity": "2019-11-21 09:13:02",
-      "last_modified": "2021-03-18 13:30:20",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1696"
+      "date_last_activity": "2019-11-21 09:47:50",
+      "last_modified": "2021-03-18 13:39:32",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1708"
     },
     {
-      "id": 1692,
+      "id": 1693,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2004-02-01 00:00:00",
-      "date_last_activity": null,
-      "last_modified": "2021-03-18 13:26:52",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1692"
+      "date_last_activity": "2019-11-21 09:07:10",
+      "last_modified": "2021-03-18 13:27:41",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1693"
+    },
+    {
+      "id": 1695,
+      "status": 3,
+      "status_label": "Published",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2004-02-01 00:00:00",
+      "date_last_activity": "2019-11-21 09:09:58",
+      "last_modified": "2021-03-18 13:29:37",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1695"
     },
     {
       "id": 1694,
@@ -13312,15 +13323,15 @@
       "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1665"
     },
     {
-      "id": 1666,
+      "id": 1654,
       "status": 3,
       "status_label": "Published",
       "stage_id": 1,
       "stage_label": "Submission",
       "date_submitted": "2002-02-01 00:00:00",
-      "date_last_activity": "2019-11-21 15:15:26",
-      "last_modified": "2021-03-18 21:43:46",
-      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1666"
+      "date_last_activity": "2019-11-21 14:20:05",
+      "last_modified": "2021-03-18 21:17:45",
+      "url_published": "https://bovine-ojs-tamu.tdl.org/bovine/article/view/1654"
     },
     {
       "id": 1655,
@@ -25765,21 +25776,21 @@
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 308,
+    "Draft": 309,
     "Published": 1842,
     "Declined": 91
   },
   "submission_stage_breakdown": {
-    "Submission": 1509,
-    "Published": 620,
-    "Copyediting": 34,
+    "Copyediting": 35,
+    "Published": 621,
+    "Submission": 1508,
     "Production": 78
   },
   "user_stats": [
     {
       "id": "total",
       "name": "All Users",
-      "value": 613
+      "value": 620
     },
     {
       "id": 1,
@@ -25804,17 +25815,17 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 204
+      "value": 205
     },
     {
       "id": 4096,
       "name": "Reviewer",
-      "value": 355
+      "value": 361
     },
     {
       "id": 1048576,
       "name": "Reader",
-      "value": 295
+      "value": 296
     },
     {
       "id": 2097152,
@@ -50491,8 +50502,8 @@
     "total_issues": 92,
     "published_issues": 92,
     "unpublished_issues": 0,
-    "total_submissions": 2241,
-    "published_submissions": 1816,
+    "total_submissions": 2242,
+    "published_submissions": 1817,
     "new_issues_in_period": 2,
     "new_submissions_in_period": 63,
     "total_view_count": 410480,
@@ -50502,6 +50513,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 11664,
-    "total_users": 613
+    "total_users": 620
   }
 }

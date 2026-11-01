@@ -1,6 +1,98 @@
 {
   "sites": [
     {
+      "name": "gadamer",
+      "title": "Journal of Gadamer Studies",
+      "directory": "gadamer",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "awl",
+      "title": "Advancing Women in Leadership",
+      "directory": "awl",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
       "name": "dlrapj",
       "title": "Dual Language Research and Practice Journal",
       "directory": "dlrapj",
@@ -15,7 +107,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -26,20 +118,167 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "elapbj",
+      "title": "Education Law and Policy Briefs Journal",
+      "directory": "elapbj",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "ereview",
+      "title": "e-Review of Tourism Research",
+      "directory": "ereview",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "instars",
+      "title": "Instars: A Journal of Student Research",
+      "directory": "instars",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -58,7 +297,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -69,20 +308,20 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -101,7 +340,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -112,20 +351,69 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "jfse",
+      "title": "Journal of Forensic Science Education",
+      "directory": "jfse",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -144,7 +432,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -155,20 +443,20 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -187,7 +475,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -198,20 +486,210 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "pal",
+      "title": "Practical Academic Librarianship",
+      "directory": "pal",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "ch",
+      "title": "Society of the Study of Curriculum History",
+      "directory": "ch",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "tndr",
+      "title": "Texas New Deal Review",
+      "directory": "tndr",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "twj",
+      "title": "Texas Water Journal",
+      "directory": "twj",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -230,7 +708,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -241,20 +719,69 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "alethia",
+      "title": "Aletheia: Texas A&M's Undergraduate Journal of Philosophy",
+      "directory": "alethia",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -273,7 +800,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -284,20 +811,69 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "omg",
+      "title": "Oil Mill Gazeteer",
+      "directory": "omg",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -322,7 +898,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -333,20 +909,20 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -365,7 +941,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -376,566 +952,20 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
-        }
-      ]
-    },
-    {
-      "name": "bovine_proc",
-      "title": "American Association of Bovine Practitioners Conference Proceedings",
-      "directory": "bovine_proc",
-      "snapshots": [
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
-        }
-      ]
-    },
-    {
-      "name": "wcq",
-      "title": "Wellness Counseling Quarterly",
-      "directory": "wcq",
-      "snapshots": [
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
-        }
-      ]
-    },
-    {
-      "name": "briccs",
-      "title": "Building Research Innovation at Community Colleges Proceedings",
-      "directory": "briccs",
-      "snapshots": [
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-09-30"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-03",
-          "date_end": "2026-09-30"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-01",
-          "date_end": "2026-09-30"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-09-30"
-        }
-      ]
-    },
-    {
-      "name": "elapbj",
-      "title": "Education Law and Policy Briefs Journal",
-      "directory": "elapbj",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "name": "ch",
-      "title": "Society of the Study of Curriculum History",
-      "directory": "ch",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "name": "jfse",
-      "title": "Journal of Forensic Science Education",
-      "directory": "jfse",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "name": "pal",
-      "title": "Practical Academic Librarianship",
-      "directory": "pal",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "name": "omg",
-      "title": "Oil Mill Gazeteer",
-      "directory": "omg",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "name": "twj",
-      "title": "Texas Water Journal",
-      "directory": "twj",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "name": "tndr",
-      "title": "Texas New Deal Review",
-      "directory": "tndr",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "name": "instars",
-      "title": "Instars: A Journal of Student Research",
-      "directory": "instars",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "name": "alethia",
-      "title": "Aletheia: Texas A&M's Undergraduate Journal of Philosophy",
-      "directory": "alethia",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -954,7 +984,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -971,88 +1001,33 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
     {
-      "name": "ereview",
-      "title": "e-Review of Tourism Research",
-      "directory": "ereview",
+      "name": "bovine_proc",
+      "title": "American Association of Bovine Practitioners Conference Proceedings",
+      "directory": "bovine_proc",
       "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
         {
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
-        }
-      ]
-    },
-    {
-      "name": "awl",
-      "title": "Advancing Women in Leadership",
-      "directory": "awl",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-07"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -1063,39 +1038,33 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-10",
-          "date_end": "2026-10-07"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-08",
-          "date_end": "2026-10-07"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-10-01",
-          "date_end": "2026-10-07"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
     {
-      "name": "gadamer",
-      "title": "Journal of Gadamer Studies",
-      "directory": "gadamer",
+      "name": "wcq",
+      "title": "Wellness Counseling Quarterly",
+      "directory": "wcq",
       "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
         {
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-10-23"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -1104,28 +1073,133 @@
           "date_end": "2025-12-31"
         },
         {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-26",
-          "date_end": "2026-10-23"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-10-23"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-10-17",
-          "date_end": "2026-10-23"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "briccs",
+      "title": "Building Research Innovation at Community Colleges Proceedings",
+      "directory": "briccs",
+      "snapshots": [
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "jws",
+      "title": "Journal of War and Society",
+      "directory": "jws",
+      "snapshots": [
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "name": "nexus",
+      "title": "The Nexus: Advancing the Special Education Workforce",
+      "directory": "nexus",
+      "snapshots": [
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     },
@@ -1144,7 +1218,7 @@
           "label": "current-year",
           "file": "current-year.json",
           "date_start": "2026-01-01",
-          "date_end": "2026-10-23"
+          "date_end": "2026-10-31"
         },
         {
           "label": "previous-year",
@@ -1155,23 +1229,23 @@
         {
           "label": "last-90-days",
           "file": "last-90-days.json",
-          "date_start": "2026-07-26",
-          "date_end": "2026-10-23"
+          "date_start": "2026-08-03",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-30-days",
           "file": "last-30-days.json",
-          "date_start": "2026-09-24",
-          "date_end": "2026-10-23"
+          "date_start": "2026-10-02",
+          "date_end": "2026-10-31"
         },
         {
           "label": "last-7-days",
           "file": "last-7-days.json",
-          "date_start": "2026-10-17",
-          "date_end": "2026-10-23"
+          "date_start": "2026-10-25",
+          "date_end": "2026-10-31"
         }
       ]
     }
   ],
-  "fetched_at": "2026-10-24T07:55:00Z"
+  "fetched_at": "2026-11-01T12:14:10Z"
 }

@@ -2,9 +2,9 @@
   "site_name": "tndr",
   "site_title": "Texas New Deal Review",
   "site_url": "https://tndr-ojs-tamu.tdl.org/tndr",
-  "date_start": "2026-10-01",
-  "date_end": "2026-10-07",
-  "fetched_at": "2026-10-08T14:34:57Z",
+  "date_start": "2026-10-25",
+  "date_end": "2026-10-31",
+  "fetched_at": "2026-11-01T12:38:54Z",
   "issues": [
     {
       "id": 2,
@@ -214,29 +214,29 @@
   ],
   "publication_stats": [
     {
-      "id": 1,
-      "title": "English US With Stone, Canvas and Mortar:  : When Art and Architecture Went to Work for the New Deal in Texas",
-      "authors": "Cummins",
-      "abstract_views": 12,
-      "galley_views": 1,
-      "pdf_views": 1,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 13,
-      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/1",
-      "doi": null
-    },
-    {
       "id": 3,
       "title": "The Federal Writers Project Helps Fashion Twentieth Century Texas: Texas, A Guide to the Lone Star State, 1940",
       "authors": "Matthews",
       "abstract_views": 3,
-      "galley_views": 8,
-      "pdf_views": 8,
+      "galley_views": 9,
+      "pdf_views": 9,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 11,
+      "total_views": 12,
       "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/3",
+      "doi": null
+    },
+    {
+      "id": 1,
+      "title": "English US With Stone, Canvas and Mortar:  : When Art and Architecture Went to Work for the New Deal in Texas",
+      "authors": "Cummins",
+      "abstract_views": 5,
+      "galley_views": 2,
+      "pdf_views": 2,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 7,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/1",
       "doi": null
     },
     {
@@ -253,29 +253,29 @@
       "doi": null
     },
     {
-      "id": 2,
-      "title": "\"Where Are the New Deal Historians of Texas? Revisited\"",
-      "authors": "Volanto",
-      "abstract_views": 4,
-      "galley_views": 1,
-      "pdf_views": 1,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 5,
-      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/2",
-      "doi": null
-    },
-    {
       "id": 10,
       "title": "Texas Exceptionalism - the Texas Centennial and the New Deal",
       "authors": "Johnson",
-      "abstract_views": 4,
+      "abstract_views": 2,
       "galley_views": 0,
       "pdf_views": 0,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 4,
+      "total_views": 2,
       "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/10",
+      "doi": null
+    },
+    {
+      "id": 2,
+      "title": "\"Where Are the New Deal Historians of Texas? Revisited\"",
+      "authors": "Volanto",
+      "abstract_views": 2,
+      "galley_views": 0,
+      "pdf_views": 0,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 2,
+      "url_published": "https://tndr-ojs-tamu.tdl.org/tndr/article/view/2",
       "doi": null
     }
   ],
@@ -287,8 +287,8 @@
       "number": "",
       "year": "",
       "total_views": 12,
-      "toc_views": 11,
-      "issue_galley_views": 1,
+      "toc_views": 10,
+      "issue_galley_views": 2,
       "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/2"
     },
     {
@@ -297,9 +297,9 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 7,
+      "total_views": 9,
       "toc_views": 4,
-      "issue_galley_views": 3,
+      "issue_galley_views": 5,
       "url": "https://tndr-ojs-tamu.tdl.org/tndr/issue/view/3"
     }
   ],
@@ -311,13 +311,13 @@
     "published_submissions": 5,
     "new_issues_in_period": 0,
     "new_submissions_in_period": 0,
-    "total_view_count": 37,
-    "total_abstract_views": 27,
-    "total_galley_views": 10,
-    "total_pdf_views": 10,
+    "total_view_count": 27,
+    "total_abstract_views": 16,
+    "total_galley_views": 11,
+    "total_pdf_views": 11,
     "total_html_views": 0,
     "total_other_views": 0,
-    "total_issue_views": 19,
+    "total_issue_views": 21,
     "total_users": 23
   }
 }

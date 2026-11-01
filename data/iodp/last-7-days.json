@@ -2,9 +2,9 @@
   "site_name": "iodp",
   "site_title": "International Ocean Discovery Program Manuscript Submission and Review",
   "site_url": "https://iodp-ojs-tamu.tdl.org/iodp",
-  "date_start": "2026-09-24",
-  "date_end": "2026-09-30",
-  "fetched_at": "2026-10-01T12:34:03Z",
+  "date_start": "2026-10-25",
+  "date_end": "2026-10-31",
+  "fetched_at": "2026-11-01T12:45:22Z",
   "issues": [
     {
       "id": 1,
@@ -44,12 +44,12 @@
     },
     {
       "id": 196,
-      "status": 1,
-      "status_label": "Draft",
-      "stage_id": 3,
-      "stage_label": "Copyediting",
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
       "date_submitted": "2026-07-17 17:43:51",
-      "date_last_activity": "2026-09-10 14:48:40",
+      "date_last_activity": "2026-10-28 12:58:49",
       "last_modified": "2026-07-17 17:43:51",
       "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/196"
     },
@@ -60,7 +60,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-07-17 17:04:05",
-      "date_last_activity": "2026-09-30 16:57:07",
+      "date_last_activity": "2026-10-05 15:34:29",
       "last_modified": "2026-09-10 14:35:24",
       "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/195"
     },
@@ -71,7 +71,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-07-17 06:32:21",
-      "date_last_activity": "2026-09-14 13:25:54",
+      "date_last_activity": "2026-10-28 08:49:07",
       "last_modified": "2026-07-17 06:32:21",
       "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/194"
     },
@@ -93,7 +93,7 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2026-06-17 03:35:57",
-      "date_last_activity": "2026-09-28 08:45:42",
+      "date_last_activity": "2026-10-02 12:11:29",
       "last_modified": "2026-07-20 11:17:05",
       "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/192"
     },
@@ -115,7 +115,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-04-13 18:34:29",
-      "date_last_activity": "2026-05-29 00:00:16",
+      "date_last_activity": "2026-10-11 15:14:24",
       "last_modified": "2026-04-13 18:34:29",
       "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/190"
     },
@@ -176,12 +176,12 @@
     },
     {
       "id": 182,
-      "status": 1,
-      "status_label": "Draft",
-      "stage_id": 3,
-      "stage_label": "Copyediting",
+      "status": 5,
+      "status_label": "Stalled",
+      "stage_id": 5,
+      "stage_label": "Published",
       "date_submitted": "2026-01-06 18:04:39",
-      "date_last_activity": "2026-08-30 14:06:09",
+      "date_last_activity": "2026-10-05 06:57:15",
       "last_modified": "2026-01-06 18:04:39",
       "url_published": "https://iodp-ojs-tamu.tdl.org/iodp/article/view/182"
     },
@@ -1364,14 +1364,14 @@
     }
   ],
   "submission_status_breakdown": {
-    "Draft": 12,
-    "Stalled": 90,
+    "Draft": 10,
+    "Stalled": 92,
     "Declined": 20
   },
   "submission_stage_breakdown": {
     "Submission": 16,
-    "Published": 87,
-    "Copyediting": 17,
+    "Published": 89,
+    "Copyediting": 15,
     "Production": 2
   },
   "user_stats": [

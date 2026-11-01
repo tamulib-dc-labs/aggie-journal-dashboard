@@ -4,7 +4,7 @@
   "site_url": "https://instars-ojs-tamu.tdl.org/instars",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-10-08T14:28:01Z",
+  "fetched_at": "2026-11-01T12:27:43Z",
   "issues": [
     {
       "id": 1,
@@ -129,6 +129,17 @@
   ],
   "submissions": [
     {
+      "id": 1098,
+      "status": 1,
+      "status_label": "Draft",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-31 09:55:31",
+      "date_last_activity": "2026-10-31 09:55:32",
+      "last_modified": "2026-10-31 09:55:31",
+      "url_published": "https://instars-ojs-tamu.tdl.org/instars/article/view/1098"
+    },
+    {
       "id": 1105,
       "status": 1,
       "status_label": "Draft",
@@ -204,17 +215,6 @@
       "date_last_activity": "2026-05-05 22:25:55",
       "last_modified": "2026-05-05 22:25:55",
       "url_published": "https://instars-ojs-tamu.tdl.org/instars/article/view/1100"
-    },
-    {
-      "id": 1098,
-      "status": 1,
-      "status_label": "Draft",
-      "stage_id": 1,
-      "stage_label": "Submission",
-      "date_submitted": "2026-05-05 22:14:07",
-      "date_last_activity": "2026-05-05 22:14:09",
-      "last_modified": "2026-05-05 22:14:08",
-      "url_published": "https://instars-ojs-tamu.tdl.org/instars/article/view/1098"
     },
     {
       "id": 1097,
@@ -1386,10 +1386,10 @@
       "id": 989,
       "status": 1,
       "status_label": "Draft",
-      "stage_id": 1,
-      "stage_label": "Submission",
+      "stage_id": 4,
+      "stage_label": "Production",
       "date_submitted": "2025-09-29 05:54:05",
-      "date_last_activity": "2026-01-21 14:04:32",
+      "date_last_activity": "2026-10-27 04:04:18",
       "last_modified": "2025-09-29 05:54:05",
       "url_published": "https://instars-ojs-tamu.tdl.org/instars/article/view/989"
     },
@@ -10937,16 +10937,16 @@
     "Published": 220
   },
   "submission_stage_breakdown": {
-    "Submission": 85,
+    "Submission": 84,
     "Copyediting": 651,
-    "Production": 143,
+    "Production": 144,
     "Published": 103
   },
   "user_stats": [
     {
       "id": "total",
       "name": "All Users",
-      "value": 659
+      "value": 660
     },
     {
       "id": 1,
@@ -10981,7 +10981,7 @@
     {
       "id": 1048576,
       "name": "Reader",
-      "value": 546
+      "value": 547
     },
     {
       "id": 2097152,
@@ -13978,6 +13978,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 2600,
-    "total_users": 659
+    "total_users": 660
   }
 }

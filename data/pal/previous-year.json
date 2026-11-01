@@ -4,7 +4,7 @@
   "site_url": "https://pal-ojs-tamu.tdl.org/pal",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-10-08T14:31:00Z",
+  "fetched_at": "2026-11-01T12:37:25Z",
   "issues": [
     {
       "id": 173,
@@ -309,13 +309,24 @@
   ],
   "submissions": [
     {
+      "id": 7257,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-10-27 06:57:09",
+      "date_last_activity": "2026-10-27 06:57:11",
+      "last_modified": "2026-10-27 06:57:09",
+      "url_published": "https://pal-ojs-tamu.tdl.org/pal/article/view/7257"
+    },
+    {
       "id": 7256,
       "status": 1,
       "status_label": "Draft",
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2026-08-26 14:42:51",
-      "date_last_activity": "2026-10-06 07:47:52",
+      "date_last_activity": "2026-10-19 10:41:30",
       "last_modified": "2026-08-26 14:42:51",
       "url_published": "https://pal-ojs-tamu.tdl.org/pal/article/view/7256"
     },
@@ -546,7 +557,7 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-09-16 14:32:17",
-      "date_last_activity": "2026-09-14 07:54:19",
+      "date_last_activity": "2026-10-21 00:00:20",
       "last_modified": "2026-02-26 08:47:31",
       "url_published": "https://pal-ojs-tamu.tdl.org/pal/article/view/7232"
     },
@@ -3192,13 +3203,13 @@
     }
   ],
   "submission_status_breakdown": {
+    "Declined": 172,
     "Draft": 7,
-    "Declined": 171,
     "Published": 84
   },
   "submission_stage_breakdown": {
+    "Submission": 92,
     "Copyediting": 83,
-    "Submission": 91,
     "Published": 51,
     "Production": 37
   },
@@ -3206,7 +3217,7 @@
     {
       "id": "total",
       "name": "All Users",
-      "value": 470
+      "value": 469
     },
     {
       "id": 1,
@@ -3236,7 +3247,7 @@
     {
       "id": 4096,
       "name": "Reviewer",
-      "value": 102
+      "value": 101
     },
     {
       "id": 1048576,
@@ -4433,7 +4444,7 @@
     "total_issues": 25,
     "published_issues": 25,
     "unpublished_issues": 0,
-    "total_submissions": 262,
+    "total_submissions": 263,
     "published_submissions": 84,
     "new_issues_in_period": 2,
     "new_submissions_in_period": 26,
@@ -4444,6 +4455,6 @@
     "total_html_views": 0,
     "total_other_views": 0,
     "total_issue_views": 3060,
-    "total_users": 470
+    "total_users": 469
   }
 }
