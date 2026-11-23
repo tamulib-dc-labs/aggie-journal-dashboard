@@ -136,55 +136,6 @@
       ]
     },
     {
-      "name": "ereview",
-      "title": "e-Review of Tourism Research",
-      "directory": "ereview",
-      "snapshots": [
-        {
-          "label": "all-time",
-          "file": "snapshot.json",
-          "date_start": null,
-          "date_end": null
-        },
-        {
-          "label": "current-year",
-          "file": "current-year.json",
-          "date_start": "2026-01-01",
-          "date_end": "2026-10-31"
-        },
-        {
-          "label": "previous-year",
-          "file": "previous-year.json",
-          "date_start": "2025-01-01",
-          "date_end": "2025-12-31"
-        },
-        {
-          "label": "previous-fiscal-year",
-          "file": "previous-fiscal-year.json",
-          "date_start": "2025-09-01",
-          "date_end": "2026-08-31"
-        },
-        {
-          "label": "last-90-days",
-          "file": "last-90-days.json",
-          "date_start": "2026-08-03",
-          "date_end": "2026-10-31"
-        },
-        {
-          "label": "last-30-days",
-          "file": "last-30-days.json",
-          "date_start": "2026-10-02",
-          "date_end": "2026-10-31"
-        },
-        {
-          "label": "last-7-days",
-          "file": "last-7-days.json",
-          "date_start": "2026-10-25",
-          "date_end": "2026-10-31"
-        }
-      ]
-    },
-    {
       "name": "instars",
       "title": "Instars: A Journal of Student Research",
       "directory": "instars",
@@ -1245,7 +1196,56 @@
           "date_end": "2026-11-22"
         }
       ]
+    },
+    {
+      "name": "ereview",
+      "title": "e-Review of Tourism Research",
+      "directory": "ereview",
+      "snapshots": [
+        {
+          "label": "all-time",
+          "file": "snapshot.json",
+          "date_start": null,
+          "date_end": null
+        },
+        {
+          "label": "current-year",
+          "file": "current-year.json",
+          "date_start": "2026-01-01",
+          "date_end": "2026-11-22"
+        },
+        {
+          "label": "previous-year",
+          "file": "previous-year.json",
+          "date_start": "2025-01-01",
+          "date_end": "2025-12-31"
+        },
+        {
+          "label": "previous-fiscal-year",
+          "file": "previous-fiscal-year.json",
+          "date_start": "2025-09-01",
+          "date_end": "2026-08-31"
+        },
+        {
+          "label": "last-90-days",
+          "file": "last-90-days.json",
+          "date_start": "2026-08-25",
+          "date_end": "2026-11-22"
+        },
+        {
+          "label": "last-30-days",
+          "file": "last-30-days.json",
+          "date_start": "2026-10-24",
+          "date_end": "2026-11-22"
+        },
+        {
+          "label": "last-7-days",
+          "file": "last-7-days.json",
+          "date_start": "2026-11-16",
+          "date_end": "2026-11-22"
+        }
+      ]
     }
   ],
-  "fetched_at": "2026-11-23T13:03:45Z"
+  "fetched_at": "2026-11-23T13:09:20Z"
 }

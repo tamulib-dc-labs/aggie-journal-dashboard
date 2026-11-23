@@ -1,24 +1,535 @@
 {
   "site_name": "dlrapj",
-  "fetched_at": "2026-11-23T12:22:20Z",
-  "issns": [],
-  "source": null,
+  "fetched_at": "2026-11-23T13:11:12Z",
+  "issns": [
+    "2375-2777"
+  ],
+  "source": {
+    "openalex_id": "S4387287991",
+    "url": "https://openalex.org/S4387287991",
+    "display_name": "Dual Language Research and Practice Journal",
+    "issn_l": "2375-2777",
+    "issn": [
+      "2375-2777"
+    ],
+    "host_organization": "Texas A&M University",
+    "homepage_url": null,
+    "is_oa": true,
+    "is_in_doaj": false,
+    "topics": [
+      {
+        "name": "EFL/ESL Teaching and Learning",
+        "count": 8
+      },
+      {
+        "name": "Multilingual Education and Policy",
+        "count": 7
+      },
+      {
+        "name": "Second Language Learning and Teaching",
+        "count": 7
+      },
+      {
+        "name": "Discourse Analysis and Cultural Communication",
+        "count": 6
+      },
+      {
+        "name": "Themes in Literature Analysis",
+        "count": 5
+      },
+      {
+        "name": "COVID-19 and Mental Health",
+        "count": 4
+      },
+      {
+        "name": "Child and Adolescent Psychosocial and Emotional Development",
+        "count": 4
+      },
+      {
+        "name": "English Language Learning and Teaching",
+        "count": 4
+      },
+      {
+        "name": "Online and Blended Learning",
+        "count": 3
+      },
+      {
+        "name": "Translation Studies and Practices",
+        "count": 3
+      }
+    ]
+  },
   "coverage": {
-    "ojs_articles_with_doi": 0,
-    "matched_by_doi": 0,
-    "unmatched_dois": 0,
-    "openalex_works": 0,
+    "ojs_articles_with_doi": 23,
+    "matched_by_doi": 22,
+    "unmatched_dois": 1,
+    "openalex_works": 22,
     "openalex_works_without_ojs_match": 0
   },
   "totals": {
-    "works": 0,
-    "cited_by_count": 0
+    "works": 22,
+    "cited_by_count": 40,
+    "h_index": 3,
+    "i10_index": 2,
+    "two_year_mean_citedness": 0.0
   },
-  "counts_by_year": [],
-  "top_topics": [],
-  "top_fields": [],
-  "top_institutions": [],
-  "top_countries": [],
-  "works": [],
-  "unmatched_articles": []
+  "counts_by_year": [
+    {
+      "year": 2018,
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2019,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2020,
+      "works_count": 11,
+      "oa_works_count": 11,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2021,
+      "works_count": 7,
+      "oa_works_count": 7,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2025,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2026,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 7
+    }
+  ],
+  "top_topics": [
+    {
+      "name": "Multilingual Education and Policy",
+      "count": 6
+    },
+    {
+      "name": "COVID-19 and Mental Health",
+      "count": 4
+    },
+    {
+      "name": "Online and Blended Learning",
+      "count": 2
+    },
+    {
+      "name": "EFL/ESL Teaching and Learning",
+      "count": 2
+    },
+    {
+      "name": "Discourse Analysis and Cultural Communication",
+      "count": 2
+    },
+    {
+      "name": "Global Education and Multiculturalism",
+      "count": 1
+    },
+    {
+      "name": "English Language Learning and Teaching",
+      "count": 1
+    },
+    {
+      "name": "Arabic Language Education Studies",
+      "count": 1
+    },
+    {
+      "name": "Themes in Literature Analysis",
+      "count": 1
+    },
+    {
+      "name": "Publishing and Scholarly Communication",
+      "count": 1
+    }
+  ],
+  "top_fields": [
+    {
+      "name": "Social Sciences",
+      "count": 15
+    },
+    {
+      "name": "Psychology",
+      "count": 4
+    },
+    {
+      "name": "Arts and Humanities",
+      "count": 3
+    }
+  ],
+  "top_institutions": [
+    {
+      "name": "Texas A&M University",
+      "count": 12
+    },
+    {
+      "name": "University of South Florida",
+      "count": 2
+    },
+    {
+      "name": "University of South Dakota",
+      "count": 2
+    },
+    {
+      "name": "Touro College",
+      "count": 1
+    },
+    {
+      "name": "Islamic Azad University North Tehran Branch",
+      "count": 1
+    },
+    {
+      "name": "Islamic Azad University",
+      "count": 1
+    },
+    {
+      "name": "Portland State University",
+      "count": 1
+    },
+    {
+      "name": "Northern Illinois University",
+      "count": 1
+    },
+    {
+      "name": "Augusta University",
+      "count": 1
+    },
+    {
+      "name": "Indiana University – Purdue University Indianapolis",
+      "count": 1
+    }
+  ],
+  "top_countries": [
+    {
+      "name": "US",
+      "count": 22
+    },
+    {
+      "name": "IR",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "openalex_id": "W3168614891",
+      "doi": "10.21423/dlrpj-v4.a18",
+      "ojs_id": 18,
+      "title": "Using Virtual Exchange to Foster Global Competence and Collaborative Leadership in Teacher Education",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 18,
+      "oa_status": "diamond",
+      "primary_topic": "Global Education and Multiculturalism",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3157139325",
+      "doi": "10.21423/dlrpj-v4.a29",
+      "ojs_id": 29,
+      "title": "Developing Online Discussion Boards to Increase Student Engagement During the COVID-19 Pandemic",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 14,
+      "oa_status": "diamond",
+      "primary_topic": "Online and Blended Learning",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3165667658",
+      "doi": "10.21423/dlrpj-v4.a15",
+      "ojs_id": 15,
+      "title": "Technology-Enhanced Language Education Revisited: A Developmental Perspective",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 4,
+      "oa_status": "diamond",
+      "primary_topic": "English Language Learning and Teaching",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2736205380",
+      "doi": "10.21423/dlrpj-v1.a4",
+      "ojs_id": 4,
+      "title": "Expanding Immersion Programs: A Leadership Perspective",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 2,
+      "oa_status": "diamond",
+      "primary_topic": "Multilingual Education and Policy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2919774617",
+      "doi": "10.21423/dlrpj-v2.a7",
+      "ojs_id": 7,
+      "title": "Latina Dual Language Teachers’ Pedagogical Practices: Transnational Perspectives",
+      "year": 2019,
+      "type": "article",
+      "cited_by_count": 2,
+      "oa_status": "diamond",
+      "primary_topic": "Multilingual Education and Policy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3203452961",
+      "doi": "10.21423/dlrpj-v5.a8",
+      "ojs_id": 8,
+      "title": "Reading Achievement in A Dual Language Setting: An Examination of English Language Learners at the Elementary Level",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Multilingual Education and Policy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2929071069",
+      "doi": "10.21423/dlrpj-v5.a10",
+      "ojs_id": 10,
+      "title": "A Comparison of Fourth-Grade Students Taught in English-Only Classrooms and Spanish-Only Classrooms in the Same District",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Multilingual Education and Policy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4324271775",
+      "doi": "10.21423/dlrpj-v4.a28",
+      "ojs_id": 28,
+      "title": "A message from the Editorial Review Board",
+      "year": 2020,
+      "type": "editorial",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Publishing and Scholarly Communication",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4324271792",
+      "doi": "10.21423/dlrpj-v4.a17",
+      "ojs_id": 17,
+      "title": "Can anybody hear me? A qualitative investigation of social presence in an online course in English for Academic Purposes",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Online and Blended Learning",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3176124357",
+      "doi": "10.21423/dlrpj-v4.a38",
+      "ojs_id": 38,
+      "title": "Editorial Review: Technologies and Second Language Learners",
+      "year": 2021,
+      "type": "editorial",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "EFL/ESL Teaching and Learning",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2763521441",
+      "doi": "10.21423/dlrpj-v1.a5",
+      "ojs_id": 5,
+      "title": "Effective Dual Immersion School Transitions: An Expert Panel Synthesis",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Multilingual Education and Policy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2762233519",
+      "doi": "10.21423/dlrpj-v1.a1",
+      "ojs_id": 1,
+      "title": "Going Big!: The Case of a Large District’s Effort to Maximize the Benefits of Dual Language Programming for their Children",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Multilingual Education and Policy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3125980765",
+      "doi": "10.21423/dlrpj-v4.a36",
+      "ojs_id": 36,
+      "title": "There Is No Monster Outside: It Is A Virus (Korean Version)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "COVID-19 and Mental Health",
+      "field": "Psychology",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4324271760",
+      "doi": "10.21423/dlrpj-v4.a27",
+      "ojs_id": 27,
+      "title": "There Is No Monster Outside: It's A Virus (Farsi)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Discourse Analysis and Cultural Communication",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4324271786",
+      "doi": "10.21423/dlrpj-v4.a31",
+      "ojs_id": 31,
+      "title": "There Is No Monster Outside: It's A Virus (Hindi Version)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "COVID-19 and Mental Health",
+      "field": "Psychology",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3096304084",
+      "doi": "10.21423/dlrpj-v4.a25",
+      "ojs_id": 25,
+      "title": "There Is No Monster Outside: It's A Virus! (Arabic)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Arabic Language Education Studies",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3088484506",
+      "doi": "10.21423/dlrpj-v4.a26",
+      "ojs_id": 26,
+      "title": "There Is No Monster Outside: It's A Virus! (Chinese)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Discourse Analysis and Cultural Communication",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3085202883",
+      "doi": "10.21423/dlrpj-v4.a24",
+      "ojs_id": 24,
+      "title": "There Is No Monster Outside: It's A Virus! (English)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "EFL/ESL Teaching and Learning",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4324271776",
+      "doi": "10.21423/dlrpj-v4.a23",
+      "ojs_id": 23,
+      "title": "There Is No Monster Outside: It's A Virus! (Spanish)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Second Language Learning and Teaching",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3099360913",
+      "doi": "10.21423/dlrpj-v4.a32",
+      "ojs_id": 32,
+      "title": "There Is No Monster Outside: It's A Virus! (Swahili Version)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Themes in Literature Analysis",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4324271754",
+      "doi": "10.21423/dlrpj-v4.a30",
+      "ojs_id": 30,
+      "title": "There Is No Monster Outside: It's a Virus! (Bengali Version)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "COVID-19 and Mental Health",
+      "field": "Psychology",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4324271763",
+      "doi": "10.21423/dlrpj-v4.a33",
+      "ojs_id": 33,
+      "title": "There is No Monster Outside: It's A Virus! (German Version)",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "COVID-19 and Mental Health",
+      "field": "Psychology",
+      "in_journal_source": true
+    }
+  ],
+  "unmatched_articles": [
+    {
+      "doi": "10.21423/dlrpj-v1.a6",
+      "ojs_id": 6,
+      "title": "Going Big!: The Case of a Large District’s Effort to Maximize the Benefits of Dual Language Programming for their Children"
+    }
+  ]
 }
