@@ -1,24 +1,1363 @@
 {
   "site_name": "pal",
-  "fetched_at": "2026-11-23T12:23:28Z",
-  "issns": [],
-  "source": null,
+  "fetched_at": "2026-11-23T13:05:54Z",
+  "issns": [
+    "1947-0037"
+  ],
+  "source": {
+    "openalex_id": "S2737658732",
+    "url": "https://openalex.org/S2737658732",
+    "display_name": "Practical academic librarianship",
+    "issn_l": "1947-0037",
+    "issn": [
+      "1947-0037"
+    ],
+    "host_organization": "Special Libraries Association (SLA)",
+    "homepage_url": "http://journals.tdl.org/pal",
+    "is_oa": true,
+    "is_in_doaj": true,
+    "topics": [
+      {
+        "name": "Library Science and Information Literacy",
+        "count": 57
+      },
+      {
+        "name": "Library Science and Information",
+        "count": 49
+      },
+      {
+        "name": "Web and Library Services",
+        "count": 46
+      },
+      {
+        "name": "Library Science and Administration",
+        "count": 18
+      },
+      {
+        "name": "Library Collection Development and Digital Resources",
+        "count": 17
+      },
+      {
+        "name": "Publishing and Scholarly Communication",
+        "count": 9
+      },
+      {
+        "name": "Information Science and Libraries",
+        "count": 6
+      },
+      {
+        "name": "Digital and Traditional Archives Management",
+        "count": 3
+      },
+      {
+        "name": "Research Data Management Practices",
+        "count": 3
+      },
+      {
+        "name": "Libraries and Information Services",
+        "count": 3
+      }
+    ]
+  },
   "coverage": {
     "ojs_articles_with_doi": 0,
     "matched_by_doi": 0,
     "unmatched_dois": 0,
-    "openalex_works": 0,
-    "openalex_works_without_ojs_match": 0
+    "openalex_works": 82,
+    "openalex_works_without_ojs_match": 82
   },
   "totals": {
-    "works": 0,
-    "cited_by_count": 0
+    "works": 84,
+    "cited_by_count": 228,
+    "h_index": 8,
+    "i10_index": 8,
+    "two_year_mean_citedness": 0.24
   },
-  "counts_by_year": [],
-  "top_topics": [],
-  "top_fields": [],
-  "top_institutions": [],
-  "top_countries": [],
-  "works": [],
+  "counts_by_year": [
+    {
+      "year": 2011,
+      "works_count": 6,
+      "oa_works_count": 6,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2012,
+      "works_count": 5,
+      "oa_works_count": 5,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2013,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "works_count": 5,
+      "oa_works_count": 5,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "works_count": 6,
+      "oa_works_count": 6,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2016,
+      "works_count": 4,
+      "oa_works_count": 4,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2017,
+      "works_count": 2,
+      "oa_works_count": 2,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2018,
+      "works_count": 5,
+      "oa_works_count": 5,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2019,
+      "works_count": 0,
+      "oa_works_count": 0,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2020,
+      "works_count": 4,
+      "oa_works_count": 4,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2021,
+      "works_count": 3,
+      "oa_works_count": 3,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2022,
+      "works_count": 5,
+      "oa_works_count": 5,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2023,
+      "works_count": 9,
+      "oa_works_count": 9,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2024,
+      "works_count": 8,
+      "oa_works_count": 8,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2025,
+      "works_count": 11,
+      "oa_works_count": 11,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2026,
+      "works_count": 10,
+      "oa_works_count": 10,
+      "cited_by_count": 18
+    }
+  ],
+  "top_topics": [
+    {
+      "name": "Library Science and Information Literacy",
+      "count": 29
+    },
+    {
+      "name": "Library Science and Information",
+      "count": 18
+    },
+    {
+      "name": "Library Science and Administration",
+      "count": 7
+    },
+    {
+      "name": "Web and Library Services",
+      "count": 7
+    },
+    {
+      "name": "Library Collection Development and Digital Resources",
+      "count": 7
+    },
+    {
+      "name": "Libraries and Information Services",
+      "count": 3
+    },
+    {
+      "name": "Research Data Management Practices",
+      "count": 2
+    },
+    {
+      "name": "Information Retrieval and Search Behavior",
+      "count": 1
+    },
+    {
+      "name": "Web visibility and informetrics",
+      "count": 1
+    },
+    {
+      "name": "Higher Education and Employability",
+      "count": 1
+    }
+  ],
+  "top_fields": [
+    {
+      "name": "Social Sciences",
+      "count": 73
+    },
+    {
+      "name": "Computer Science",
+      "count": 4
+    },
+    {
+      "name": "Arts and Humanities",
+      "count": 3
+    },
+    {
+      "name": "Decision Sciences",
+      "count": 1
+    }
+  ],
+  "top_institutions": [
+    {
+      "name": "University of Kentucky",
+      "count": 8
+    },
+    {
+      "name": "University of Tennessee at Knoxville",
+      "count": 6
+    },
+    {
+      "name": "Texas A&M University",
+      "count": 5
+    },
+    {
+      "name": "University of Oklahoma",
+      "count": 3
+    },
+    {
+      "name": "The Ohio State University",
+      "count": 3
+    },
+    {
+      "name": "John Jay College of Criminal Justice",
+      "count": 2
+    },
+    {
+      "name": "Rutgers, The State University of New Jersey",
+      "count": 2
+    },
+    {
+      "name": "Southern Connecticut State University",
+      "count": 2
+    },
+    {
+      "name": "Oregon State University",
+      "count": 2
+    },
+    {
+      "name": "Carnegie Mellon University",
+      "count": 2
+    }
+  ],
+  "top_countries": [
+    {
+      "name": "US",
+      "count": 64
+    },
+    {
+      "name": "CA",
+      "count": 4
+    },
+    {
+      "name": "GH",
+      "count": 1
+    },
+    {
+      "name": "ZA",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "openalex_id": "W2589589628",
+      "doi": null,
+      "ojs_id": null,
+      "title": "‘Where to start?’: Considerations for faculty and librarians in delivering information literacy instruction for graduate students.",
+      "year": 2011,
+      "type": "article",
+      "cited_by_count": 36,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2179080499",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Curating Exhibitions in Academic Libraries: Practical Steps",
+      "year": 2015,
+      "type": "article",
+      "cited_by_count": 17,
+      "oa_status": "diamond",
+      "primary_topic": "Libraries and Information Services",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2246935417",
+      "doi": "10.7282/t3kw5d8s",
+      "ojs_id": null,
+      "title": "Search Engine Optimization for the Research Librarian: A Case Study Using the Bibliography of U.S. Latina Lesbian History and Culture",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 14,
+      "oa_status": "diamond",
+      "primary_topic": "Web visibility and informetrics",
+      "field": "Computer Science",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2593547379",
+      "doi": null,
+      "ojs_id": null,
+      "title": "The Benefits of Local Involvement: Professional Development through State and Regional Library Associations",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 12,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Administration",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2201203673",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Assessing Information Literacy Comprehension in First-Year Students",
+      "year": 2011,
+      "type": "article",
+      "cited_by_count": 11,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3116793191",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Employers Needs Versus Student Skillsets",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 11,
+      "oa_status": "diamond",
+      "primary_topic": "Higher Education and Employability",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W62913462",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Librarians and statistics: thoughts on a tentative relationship",
+      "year": 2012,
+      "type": "article",
+      "cited_by_count": 10,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2586958619",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Using Student Volunteers in Library Orientations",
+      "year": 2016,
+      "type": "article",
+      "cited_by_count": 10,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7113218862",
+      "doi": null,
+      "ojs_id": null,
+      "title": "A Battle of the Chatbots: An Exploratory Comparison of ChatGPT, Gemini, Copilot, Claude, Perplexity and HuggingChat",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 7,
+      "oa_status": "diamond",
+      "primary_topic": "Information Retrieval and Search Behavior",
+      "field": "Computer Science",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217446610",
+      "doi": null,
+      "ojs_id": null,
+      "title": "A Study of the Deployment of Institutional Repositories in Colleges and Universities in Connecticut",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 7,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2601267674",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Special Collections LibGuides: An Analysis of Uses and Accessibility",
+      "year": 2017,
+      "type": "article",
+      "cited_by_count": 7,
+      "oa_status": "diamond",
+      "primary_topic": "Web and Library Services",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2605801633",
+      "doi": null,
+      "ojs_id": null,
+      "title": "A Comparison of HathiTrust and Google Books using Federal Publications",
+      "year": 2012,
+      "type": "article",
+      "cited_by_count": 6,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2225921784",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Examining electronic resource access policies for unaffiliated patrons at ARL libraries",
+      "year": 2013,
+      "type": "article",
+      "cited_by_count": 6,
+      "oa_status": "diamond",
+      "primary_topic": "Library Collection Development and Digital Resources",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2590761206",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Reading Between the Lines: Extending the Reach of a University Common Reading Program via the Academic Library",
+      "year": 2011,
+      "type": "article",
+      "cited_by_count": 6,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2240516920",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Data Management for Graduate Students: A case study at Oregon State University",
+      "year": 2015,
+      "type": "article",
+      "cited_by_count": 5,
+      "oa_status": "diamond",
+      "primary_topic": "Research Data Management Practices",
+      "field": "Computer Science",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217847873",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Exploring Research Support by Academic Librarians to Faculty Members",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 5,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2796614991",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Should We Shush about the Stereotype? Examining Student-Generated Images of Librarians",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 4,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3115511413",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Using Qualitative Methods to Supplement Quantitative Research: A Case Study in Evaluating Student Usage of Facilities",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 4,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2510667781",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Assessing Librarian Expectations Before and After LibGuides Implementation",
+      "year": 2016,
+      "type": "article",
+      "cited_by_count": 3,
+      "oa_status": "diamond",
+      "primary_topic": "Web and Library Services",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2209979885",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Brave New Library World: Lending E-Readers and E-Books in an Urban Academic Library",
+      "year": 2012,
+      "type": "article",
+      "cited_by_count": 3,
+      "oa_status": "diamond",
+      "primary_topic": "Library Collection Development and Digital Resources",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2798025598",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Interactive whiteboards in library instruction: Facilitating student engagement and active learning",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 3,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W406055626",
+      "doi": "10.13016/m2rc9p",
+      "ojs_id": null,
+      "title": "Library Award for Undergraduate Research: Increasing the Library Profile",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 3,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2590185381",
+      "doi": "10.13016/m2f224",
+      "ojs_id": null,
+      "title": "Making the Cut: Do Faculty Want to Be Involved in Library Database Cancellations?",
+      "year": 2011,
+      "type": "article",
+      "cited_by_count": 3,
+      "oa_status": "diamond",
+      "primary_topic": "Library Collection Development and Digital Resources",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3112670610",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Sense of Direction: Embedding a Virtual Tour in Course-Integrated Instruction Sessions at an Academic Library",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 3,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2560747179",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Trusted Librarian: Corporate Service Models Build Collaborative Academic Partnerships",
+      "year": 2016,
+      "type": "article",
+      "cited_by_count": 3,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2597788139",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Walking the Walk, Talking the Talk: A learning-centered approach to the design of a workshop on teaching for McGill Librarians",
+      "year": 2012,
+      "type": "article",
+      "cited_by_count": 3,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7218090874",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Best Practices for Serving LGBTQ+ Library Users in the 21st Century: A systematic literature review",
+      "year": 2023,
+      "type": "review",
+      "cited_by_count": 2,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Administration",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2248702576",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Data Management Services in Academic Libraries: A case study at Oregon State University",
+      "year": 2015,
+      "type": "article",
+      "cited_by_count": 2,
+      "oa_status": "diamond",
+      "primary_topic": "Research Data Management Practices",
+      "field": "Computer Science",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W319606935",
+      "doi": null,
+      "ojs_id": null,
+      "title": "The Embedded Repository: Introducing an Institutional Repository to a New Audience Via Location-Aware Social Networking",
+      "year": 2012,
+      "type": "article",
+      "cited_by_count": 2,
+      "oa_status": "diamond",
+      "primary_topic": "Web and Library Services",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217915529",
+      "doi": null,
+      "ojs_id": null,
+      "title": "The English Conversation Group: A Library-led Virtual Program for International Students",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 2,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2255569150",
+      "doi": null,
+      "ojs_id": null,
+      "title": "The Review and Weeding of a Reference Collection: A case study",
+      "year": 2015,
+      "type": "article",
+      "cited_by_count": 2,
+      "oa_status": "diamond",
+      "primary_topic": "Library Collection Development and Digital Resources",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7218263753",
+      "doi": null,
+      "ojs_id": null,
+      "title": "What Should We Do Next? Designing an Innovation Portfolio for Academic Libraries",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 2,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217438138",
+      "doi": null,
+      "ojs_id": null,
+      "title": "A Study of the Coverage of Open Educational Resources (OER) Through Websites of Colleges and Universities in Connecticut",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Open Education and E-Learning",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7216683109",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Balancing, Prioritizing, and Reimagining: Comprehensively Updating Asynchronous Library Instruction: * WINNER OF THE 2024 PRACTICAL ACADEMIC LIBRARIANSHIP AWARD *",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W856709538",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Crossing Disciplines, Creating Space: Using Drop-In Research Labs to Support an Interdisciplinary Research-Intensive Capstone Course",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2482310156",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Divide and Conquer: A Not-So-Common Approach to Develop Information Literacy Programs",
+      "year": 2016,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2918877907",
+      "doi": null,
+      "ojs_id": null,
+      "title": "HOW ARE WE DOING? USING FACULTY FEEDBACK TO ASSESS THE IMPACT OF LIBRARY INSTRUCTION ON STUDENT WORK",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217455146",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Pursuing Academic Librarianship: Pathways to Librarian Positions",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7218278919",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Putting the Puzzle Together: Creating a Library Orientation Escape Room for University Freshmen",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217578562",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Searching for Answers: A Case Study in Pursuit of Best Practices for Library FAQs",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Web and Library Services",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217989091",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Weeding Ebooks at an Academic Library * WINNER OF THE 2022 PRACTICAL ACADEMIC LIBRARIANSHIP AWARD *",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Library Collection Development and Digital Resources",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2262394685",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Where have all the books gone? Exploring “virtual libraries” at Cornell University Library’s Engineering and Physical Science Libraries",
+      "year": 2015,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Library Collection Development and Digital Resources",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2905134246",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Whither Goest Government Documents? A Story and a Study",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2198214919",
+      "doi": null,
+      "ojs_id": null,
+      "title": "23 Things Revisited: Participant perceptions of a staff development program over a year later",
+      "year": 2015,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Web and Library Services",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7216598692",
+      "doi": null,
+      "ojs_id": null,
+      "title": "A Year of DIY Graduate Librarianship",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7218171802",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Academic Library Book Sales: Outreach, Community Service, and Budgetary Support",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Administration",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217652176",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Access at the Edge: Library Innovation in the Last Frontier",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Administration",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2920880650",
+      "doi": null,
+      "ojs_id": null,
+      "title": "An Examination of Instructional Intervention on Doctoral Student Perceptions of Scholarly Communication",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217833821",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Apologia pro Bibliotheca: More than Information",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7127236679",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Assessing Awareness and Use of Library Services within Chinese Partner Academic Programs: A Case Study Developing and Analyzing Bilingual Surveys",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2593258536",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Becoming the Change We Seek",
+      "year": 2011,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Publishing and Scholarly Communication",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2766186118",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Breaking the ‘Ice’: Using a Sword to Slay Patron Anxiety in Special Collections",
+      "year": 2017,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Libraries and Information Services",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7216608984",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Can ChatGPT Accurately Evaluate the Quality of Open Access Library and Information Science Journals?",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "scientometrics and bibliometrics research",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7216718919",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Cancelling the ‘Big Deal’ at a Public University: A Discussion of STEM Faculty Perceptions of Cancellation and Post-Cancellation Usage Data",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Collection Development and Digital Resources",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7216953277",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Citation Analysis for Acquisitions Reveals Better Grades for Students Using Library Resources",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217194000",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Coauthoring Library Instruction with Writing Faculty: A Case Study of the Train-the-Trainer Model",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217088082",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Coffee with Calantha: Measuring the Impact of a Discussion-Based Series for Graduate Students",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7110633368",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Conducting an Environmental Scan of Scholarly Communication Programs at The Ohio State University Libraries",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217294873",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Curating Library Exhibits for Learning: The \"Women in the Botanical Arts\" Exhibit as a Model for Academic Library Pedagogy",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Libraries and Information Services",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217285910",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Expanding Library Information Access for Alaska's Rural and Indigenous Students",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217018024",
+      "doi": null,
+      "ojs_id": null,
+      "title": "From Conferences to Conventions: Taking Copyright Education to New Venues",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Intellectual Property Law",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7218064442",
+      "doi": null,
+      "ojs_id": null,
+      "title": "From the Editors: Introduction to Volume 14, Number 2",
+      "year": 2024,
+      "type": "editorial",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217507690",
+      "doi": null,
+      "ojs_id": null,
+      "title": "From the Editors: Introduction to Volume 15, Number 1",
+      "year": 2025,
+      "type": "editorial",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217281979",
+      "doi": null,
+      "ojs_id": null,
+      "title": "From the Editors: Introduction to Volume 15, Number 2",
+      "year": 2025,
+      "type": "editorial",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7218036437",
+      "doi": null,
+      "ojs_id": null,
+      "title": "From the Editors: Introduction to Volume 16, Number 1",
+      "year": 2026,
+      "type": "editorial",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7216796604",
+      "doi": null,
+      "ojs_id": null,
+      "title": "From the Editors: Introduction to Volume 16, Number 2",
+      "year": 2026,
+      "type": "editorial",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7112740309",
+      "doi": null,
+      "ojs_id": null,
+      "title": "How to Gender Include",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Administration",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2587985327",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Information Literacy in Open Courses",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3114815402",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Introduction to This Issue",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7216920584",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Introduction to This Issue",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217831161",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Introduction to Volume 12, Issue 1",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7218201570",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Introduction to Volume 13, Issue 1",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7218171455",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Introduction to Volume 13, Issue 2",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217819374",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Introduction to Volume 14, Issue 1",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217035383",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Others-Oriented Reference: Employing Cultural Humility in the Reference Interview: * WINNER OF THE 2023 PRACTICAL ACADEMIC LIBRARIANSHIP AWARD *",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Administration",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217306368",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Pursuing Academic Librarianship: First Librarian Positions",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217045444",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Studying Our Progress: Assessing Our New Combined Service Desk at the End of the COVID-19 Pandemic",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Web and Library Services",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217050481",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Systematic Review Collaboration and Data Governance in a Medical Library",
+      "year": 2024,
+      "type": "review",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Meta-analysis and systematic reviews",
+      "field": "Decision Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7216928022",
+      "doi": null,
+      "ojs_id": null,
+      "title": "The Research Support Needs of Emerging Researchers Employed at the Education Faculty of a University of Technology",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7217544023",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Thinking Around the Box: using complementary innovation for designing programs and nurturing community",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Administration",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2600049692",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Visual Imagery Styles of Architecture Students in the Context of Library Instruction",
+      "year": 2011,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Library Science and Information Literacy",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7113245940",
+      "doi": null,
+      "ojs_id": null,
+      "title": "Which Libraries Are Open?: How to Quickly Map Library Reopening Statuses and Service Updates Using CARTO",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "diamond",
+      "primary_topic": "Web and Library Services",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    }
+  ],
   "unmatched_articles": []
 }

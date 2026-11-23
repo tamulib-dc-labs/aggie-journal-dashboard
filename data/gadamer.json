@@ -4,7 +4,17 @@
   "site_url": "https://gadamer-ojs-tamu.tdl.org/gadamer",
   "date_start": null,
   "date_end": null,
-  "fetched_at": "2026-11-01T12:14:13Z",
+  "fetched_at": "2026-11-23T13:01:13Z",
+  "journal": {
+    "online_issn": "3069-0242",
+    "print_issn": null,
+    "issns": [
+      "3069-0242"
+    ],
+    "issn_source": "config",
+    "doi_prefix": "10.21423",
+    "dois_enabled": true
+  },
   "issues": [
     {
       "id": 1,
@@ -33,6 +43,18 @@
   ],
   "submissions": [
     {
+      "id": 51,
+      "status": 4,
+      "status_label": "Declined",
+      "stage_id": 1,
+      "stage_label": "Submission",
+      "date_submitted": "2026-11-17 14:40:16",
+      "date_last_activity": "2026-11-18 14:46:41",
+      "last_modified": "2026-11-17 14:40:16",
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/51",
+      "doi": null
+    },
+    {
       "id": 50,
       "status": 3,
       "status_label": "Published",
@@ -41,7 +63,8 @@
       "date_submitted": "2026-10-19 18:37:26",
       "date_last_activity": "2026-10-22 16:07:08",
       "last_modified": "2026-10-19 18:37:26",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/50"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/50",
+      "doi": "10.21423/k6w3j663"
     },
     {
       "id": 49,
@@ -52,7 +75,8 @@
       "date_submitted": "2026-10-16 12:21:20",
       "date_last_activity": "2026-10-22 16:07:09",
       "last_modified": "2026-10-16 12:21:20",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/49"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/49",
+      "doi": "10.21423/s8ctt058"
     },
     {
       "id": 48,
@@ -63,7 +87,8 @@
       "date_submitted": "2026-10-16 12:02:03",
       "date_last_activity": "2026-10-22 16:07:09",
       "last_modified": "2026-10-16 12:02:03",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/48"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/48",
+      "doi": "10.21423/86dt7027"
     },
     {
       "id": 47,
@@ -74,7 +99,8 @@
       "date_submitted": "2026-10-13 10:36:04",
       "date_last_activity": "2026-10-26 15:30:44",
       "last_modified": "2026-10-13 10:36:04",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/47"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/47",
+      "doi": null
     },
     {
       "id": 46,
@@ -85,7 +111,8 @@
       "date_submitted": "2026-10-09 10:33:21",
       "date_last_activity": "2026-10-22 16:07:09",
       "last_modified": "2026-10-09 10:33:21",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/46"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/46",
+      "doi": "10.21423/bx5bqv12"
     },
     {
       "id": 45,
@@ -96,7 +123,8 @@
       "date_submitted": "2026-10-09 04:28:00",
       "date_last_activity": "2026-10-12 13:09:16",
       "last_modified": "2026-10-09 04:28:00",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/45"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/45",
+      "doi": null
     },
     {
       "id": 44,
@@ -107,7 +135,8 @@
       "date_submitted": "2026-09-19 10:31:22",
       "date_last_activity": "2026-09-23 12:02:17",
       "last_modified": "2026-09-19 10:31:22",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/44"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/44",
+      "doi": null
     },
     {
       "id": 43,
@@ -118,7 +147,8 @@
       "date_submitted": "2026-09-10 14:02:16",
       "date_last_activity": "2026-09-30 13:30:40",
       "last_modified": "2026-09-10 14:02:16",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/43"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/43",
+      "doi": null
     },
     {
       "id": 42,
@@ -129,7 +159,8 @@
       "date_submitted": "2026-06-19 15:00:27",
       "date_last_activity": "2026-10-16 11:55:50",
       "last_modified": "2026-06-19 15:00:27",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/42"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/42",
+      "doi": "10.21423/v6rk7s48"
     },
     {
       "id": 41,
@@ -140,7 +171,8 @@
       "date_submitted": "2026-06-12 03:33:05",
       "date_last_activity": "2026-10-22 16:07:09",
       "last_modified": "2026-06-12 03:33:05",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/41"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/41",
+      "doi": "10.21423/sscmdd90"
     },
     {
       "id": 40,
@@ -151,7 +183,8 @@
       "date_submitted": "2026-06-08 12:38:48",
       "date_last_activity": "2026-06-16 11:29:33",
       "last_modified": "2026-06-08 12:38:48",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/40"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/40",
+      "doi": null
     },
     {
       "id": 34,
@@ -162,7 +195,8 @@
       "date_submitted": "2026-04-15 13:20:18",
       "date_last_activity": "2026-06-29 11:34:27",
       "last_modified": "2026-04-15 13:20:18",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/34"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/34",
+      "doi": null
     },
     {
       "id": 33,
@@ -173,7 +207,8 @@
       "date_submitted": "2026-04-14 10:47:22",
       "date_last_activity": "2026-10-22 16:07:10",
       "last_modified": "2026-04-14 10:47:22",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/33"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/33",
+      "doi": "10.21423/tzfjes51"
     },
     {
       "id": 19,
@@ -184,7 +219,8 @@
       "date_submitted": "2026-04-08 12:11:57",
       "date_last_activity": "2026-10-22 16:07:10",
       "last_modified": "2026-04-08 12:11:57",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/19"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/19",
+      "doi": "10.21423/bqew8g04"
     },
     {
       "id": 31,
@@ -195,7 +231,8 @@
       "date_submitted": "2026-02-25 12:20:27",
       "date_last_activity": "2026-05-20 15:52:13",
       "last_modified": "2026-02-25 12:20:27",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/31"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/31",
+      "doi": null
     },
     {
       "id": 30,
@@ -206,7 +243,8 @@
       "date_submitted": "2025-12-17 17:26:04",
       "date_last_activity": "2026-04-23 17:21:08",
       "last_modified": "2025-12-17 17:26:04",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/30"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/30",
+      "doi": "10.21423/yv4v6p36"
     },
     {
       "id": 29,
@@ -217,7 +255,8 @@
       "date_submitted": "2025-12-09 20:29:37",
       "date_last_activity": "2026-04-23 17:21:30",
       "last_modified": "2025-12-09 20:29:37",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/29"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/29",
+      "doi": "10.21423/ym8yyg31"
     },
     {
       "id": 28,
@@ -228,18 +267,8 @@
       "date_submitted": "2025-12-07 21:12:23",
       "date_last_activity": "2026-04-23 17:21:52",
       "last_modified": "2025-12-07 21:12:23",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/28"
-    },
-    {
-      "id": 27,
-      "status": 1,
-      "status_label": "Draft",
-      "stage_id": 1,
-      "stage_label": "Submission",
-      "date_submitted": "2025-12-07 06:19:43",
-      "date_last_activity": "2026-08-17 08:58:22",
-      "last_modified": "2026-08-17 08:58:22",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/27"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/28",
+      "doi": "10.21423/wqr9wt28"
     },
     {
       "id": 26,
@@ -250,7 +279,8 @@
       "date_submitted": "2025-11-22 19:15:56",
       "date_last_activity": "2026-04-23 17:20:47",
       "last_modified": "2025-11-22 19:15:56",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/26"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/26",
+      "doi": "10.21423/r6dyhn04"
     },
     {
       "id": 25,
@@ -261,7 +291,8 @@
       "date_submitted": "2025-11-08 02:29:36",
       "date_last_activity": "2026-04-23 17:22:30",
       "last_modified": "2025-11-08 02:29:36",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/25"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/25",
+      "doi": "10.21423/20maze44"
     },
     {
       "id": 24,
@@ -272,7 +303,8 @@
       "date_submitted": "2025-11-01 14:01:21",
       "date_last_activity": "2026-04-23 17:22:43",
       "last_modified": "2025-11-01 14:01:21",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/24"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/24",
+      "doi": "10.21423/y7068w74"
     },
     {
       "id": 23,
@@ -283,7 +315,8 @@
       "date_submitted": "2025-10-27 16:20:22",
       "date_last_activity": "2026-04-23 17:23:11",
       "last_modified": "2025-10-27 16:20:22",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/23"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/23",
+      "doi": "10.21423/n1ja8439"
     },
     {
       "id": 22,
@@ -294,7 +327,8 @@
       "date_submitted": "2025-10-18 14:26:28",
       "date_last_activity": "2026-04-23 17:20:17",
       "last_modified": "2025-10-18 14:26:28",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/22"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/22",
+      "doi": "10.21423/9p05yv59"
     },
     {
       "id": 21,
@@ -305,7 +339,8 @@
       "date_submitted": "2025-10-16 14:54:56",
       "date_last_activity": "2026-04-23 17:18:40",
       "last_modified": "2025-11-11 07:45:54",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/21"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/21",
+      "doi": "10.21423/6a0tb506"
     },
     {
       "id": 20,
@@ -314,9 +349,10 @@
       "stage_id": 3,
       "stage_label": "Copyediting",
       "date_submitted": "2025-10-15 14:42:52",
-      "date_last_activity": "2026-08-16 14:47:30",
-      "last_modified": "2025-11-11 07:44:58",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/20"
+      "date_last_activity": "2026-11-16 16:23:48",
+      "last_modified": "2026-11-16 16:23:48",
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/20",
+      "doi": null
     },
     {
       "id": 16,
@@ -327,7 +363,8 @@
       "date_submitted": "2025-10-03 14:50:30",
       "date_last_activity": "2026-08-16 14:54:46",
       "last_modified": "2025-12-07 11:48:04",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/16"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/16",
+      "doi": null
     },
     {
       "id": 11,
@@ -338,7 +375,8 @@
       "date_submitted": "2025-09-29 13:12:20",
       "date_last_activity": "2026-04-23 17:23:44",
       "last_modified": "2025-09-29 13:12:20",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/11"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/11",
+      "doi": "10.21423/134jvf48"
     },
     {
       "id": 8,
@@ -349,7 +387,8 @@
       "date_submitted": "2025-09-26 17:22:11",
       "date_last_activity": "2026-08-16 15:51:11",
       "last_modified": "2025-09-26 17:22:11",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/8"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/8",
+      "doi": "10.21423/fxpxk443"
     },
     {
       "id": 3,
@@ -360,7 +399,8 @@
       "date_submitted": "2025-08-30 08:52:30",
       "date_last_activity": "2026-08-17 08:56:46",
       "last_modified": "2025-08-31 18:35:11",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/3"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/3",
+      "doi": "10.21423/rtnszg42"
     },
     {
       "id": 2,
@@ -371,25 +411,26 @@
       "date_submitted": "2025-08-19 04:56:28",
       "date_last_activity": "2026-08-17 09:09:17",
       "last_modified": "2026-08-17 09:09:17",
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/2"
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/2",
+      "doi": null
     }
   ],
   "submission_status_breakdown": {
+    "Declined": 3,
     "Published": 17,
-    "Draft": 12,
-    "Declined": 2
+    "Draft": 11
   },
   "submission_stage_breakdown": {
+    "Submission": 3,
     "Published": 18,
     "Copyediting": 9,
-    "Production": 1,
-    "Submission": 3
+    "Production": 1
   },
   "user_stats": [
     {
       "id": "total",
       "name": "All Users",
-      "value": 94
+      "value": 95
     },
     {
       "id": 1,
@@ -414,7 +455,7 @@
     {
       "id": 65536,
       "name": "Author",
-      "value": 39
+      "value": 40
     },
     {
       "id": 4096,
@@ -424,7 +465,7 @@
     {
       "id": 1048576,
       "name": "Reader",
-      "value": 26
+      "value": 27
     },
     {
       "id": 2097152,
@@ -437,222 +478,222 @@
       "id": 25,
       "title": "\"This, Here, Now\": The Status of the Immediacy of Experience in Gadamer’s Hermeneutics",
       "authors": "Arthos",
-      "abstract_views": 690,
-      "galley_views": 623,
-      "pdf_views": 623,
+      "abstract_views": 718,
+      "galley_views": 640,
+      "pdf_views": 640,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 1313,
+      "total_views": 1358,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/25",
-      "doi": null
+      "doi": "10.21423/20maze44"
     },
     {
       "id": 21,
       "title": "Gadamer’s Return to Parmenides",
       "authors": "Montagnino",
-      "abstract_views": 825,
-      "galley_views": 314,
-      "pdf_views": 314,
+      "abstract_views": 861,
+      "galley_views": 341,
+      "pdf_views": 341,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 1139,
+      "total_views": 1202,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/21",
-      "doi": null
+      "doi": "10.21423/6a0tb506"
     },
     {
       "id": 22,
       "title": "The Work of Art Revisited: Gadamer's Hermeneutic Concept of Gebilde",
       "authors": "Tate",
-      "abstract_views": 775,
-      "galley_views": 291,
-      "pdf_views": 291,
+      "abstract_views": 804,
+      "galley_views": 318,
+      "pdf_views": 318,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 1066,
+      "total_views": 1122,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/22",
-      "doi": null
+      "doi": "10.21423/9p05yv59"
     },
     {
       "id": 29,
       "title": "Stirrings (Still) of an Unlikely Metaphysical Reading of Hermeneutics",
       "authors": "Grondin",
-      "abstract_views": 757,
-      "galley_views": 308,
-      "pdf_views": 308,
+      "abstract_views": 783,
+      "galley_views": 325,
+      "pdf_views": 325,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 1065,
+      "total_views": 1108,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/29",
-      "doi": null
-    },
-    {
-      "id": 24,
-      "title": "The Distances in Which We Live: Towards a Hermeneutics of Prayer",
-      "authors": "Davey",
-      "abstract_views": 683,
-      "galley_views": 334,
-      "pdf_views": 334,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 1017,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/24",
-      "doi": null
-    },
-    {
-      "id": 23,
-      "title": "Response to Robert Dostal and Csaba Olay: Book Symposium on The Event of Meaning in Gadamer’s Hermeneutics",
-      "authors": "DaVia et al.",
-      "abstract_views": 755,
-      "galley_views": 254,
-      "pdf_views": 254,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 1009,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/23",
-      "doi": null
+      "doi": "10.21423/ym8yyg31"
     },
     {
       "id": 11,
       "title": "Hilde Domin: Song for Encouragement II (1966) by Hans-Georg Gadamer",
       "authors": "Gronouwe et al.",
-      "abstract_views": 718,
-      "galley_views": 290,
-      "pdf_views": 290,
+      "abstract_views": 740,
+      "galley_views": 316,
+      "pdf_views": 316,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 1008,
+      "total_views": 1056,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/11",
-      "doi": null
+      "doi": "10.21423/134jvf48"
+    },
+    {
+      "id": 24,
+      "title": "The Distances in Which We Live: Towards a Hermeneutics of Prayer",
+      "authors": "Davey",
+      "abstract_views": 706,
+      "galley_views": 349,
+      "pdf_views": 349,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1055,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/24",
+      "doi": "10.21423/y7068w74"
+    },
+    {
+      "id": 23,
+      "title": "Response to Robert Dostal and Csaba Olay: Book Symposium on The Event of Meaning in Gadamer’s Hermeneutics",
+      "authors": "DaVia et al.",
+      "abstract_views": 778,
+      "galley_views": 276,
+      "pdf_views": 276,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 1054,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/23",
+      "doi": "10.21423/n1ja8439"
     },
     {
       "id": 30,
       "title": "Gadamer’s Social Epistemology: A Review of Carolyn Culbertson’s Gadamer and the Social Turn in Epistemology",
       "authors": "Holsomback",
-      "abstract_views": 686,
-      "galley_views": 244,
-      "pdf_views": 244,
+      "abstract_views": 709,
+      "galley_views": 262,
+      "pdf_views": 262,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 930,
+      "total_views": 971,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/30",
-      "doi": null
-    },
-    {
-      "id": 26,
-      "title": "Dostal's Comments on The Event of Meaning in Gadamer's Hermeneutics",
-      "authors": "Dostal",
-      "abstract_views": 653,
-      "galley_views": 246,
-      "pdf_views": 246,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 899,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/26",
-      "doi": null
+      "doi": "10.21423/yv4v6p36"
     },
     {
       "id": 28,
       "title": "Olay’s Comments on the Event of Meaning in Gadamer’s Hermeneutics",
       "authors": "Olay",
-      "abstract_views": 694,
-      "galley_views": 205,
-      "pdf_views": 205,
+      "abstract_views": 718,
+      "galley_views": 223,
+      "pdf_views": 223,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 899,
+      "total_views": 941,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/28",
-      "doi": null
+      "doi": "10.21423/wqr9wt28"
     },
     {
-      "id": 19,
-      "title": "Hans-Georg Gadamer: Philosopher, Teacher, Friend",
-      "authors": "Smith",
-      "abstract_views": 29,
-      "galley_views": 75,
-      "pdf_views": 75,
+      "id": 26,
+      "title": "Dostal's Comments on The Event of Meaning in Gadamer's Hermeneutics",
+      "authors": "Dostal",
+      "abstract_views": 674,
+      "galley_views": 258,
+      "pdf_views": 258,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 104,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/19",
-      "doi": null
-    },
-    {
-      "id": 49,
-      "title": "Hermeneutics and Theology (1977) by Hans-Georg Gadamer",
-      "authors": "Pageau-St-Hilaire  et al.",
-      "abstract_views": 21,
-      "galley_views": 74,
-      "pdf_views": 74,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 95,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/49",
-      "doi": null
-    },
-    {
-      "id": 50,
-      "title": "Rezension: Sprache und Außersprachlichkeit",
-      "authors": "Haug",
-      "abstract_views": 29,
-      "galley_views": 60,
-      "pdf_views": 60,
-      "html_views": 0,
-      "other_views": 0,
-      "total_views": 89,
-      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/50",
-      "doi": null
+      "total_views": 932,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/26",
+      "doi": "10.21423/r6dyhn04"
     },
     {
       "id": 48,
       "title": "Introduction to Hans-Georg Gadamer’s“Hermeneutics and Theology”: Gadamer on Theology as a Human Science",
       "authors": "DeHoust",
-      "abstract_views": 23,
-      "galley_views": 61,
-      "pdf_views": 61,
+      "abstract_views": 64,
+      "galley_views": 142,
+      "pdf_views": 142,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 84,
+      "total_views": 206,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/48",
-      "doi": null
+      "doi": "10.21423/86dt7027"
+    },
+    {
+      "id": 19,
+      "title": "Hans-Georg Gadamer: Philosopher, Teacher, Friend",
+      "authors": "Smith",
+      "abstract_views": 65,
+      "galley_views": 115,
+      "pdf_views": 115,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 180,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/19",
+      "doi": "10.21423/bqew8g04"
+    },
+    {
+      "id": 49,
+      "title": "Hermeneutics and Theology (1977) by Hans-Georg Gadamer",
+      "authors": "Pageau-St-Hilaire  et al.",
+      "abstract_views": 50,
+      "galley_views": 124,
+      "pdf_views": 124,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 174,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/49",
+      "doi": "10.21423/s8ctt058"
     },
     {
       "id": 41,
       "title": "Mental Language and Life's Self-Movement",
       "authors": "Oliva",
-      "abstract_views": 30,
-      "galley_views": 53,
-      "pdf_views": 53,
+      "abstract_views": 77,
+      "galley_views": 96,
+      "pdf_views": 96,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 83,
+      "total_views": 173,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/41",
-      "doi": null
+      "doi": "10.21423/sscmdd90"
     },
     {
       "id": 33,
       "title": "The Humanist Roots and Anthropological Valences of Gadamer's Hermeneutics",
       "authors": "Alcaine",
-      "abstract_views": 27,
-      "galley_views": 54,
-      "pdf_views": 54,
+      "abstract_views": 80,
+      "galley_views": 90,
+      "pdf_views": 90,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 81,
+      "total_views": 170,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/33",
-      "doi": null
+      "doi": "10.21423/tzfjes51"
     },
     {
       "id": 46,
       "title": "Hermeneutic Virtue: From the Common to the Fecund",
       "authors": "Risser",
-      "abstract_views": 23,
-      "galley_views": 54,
-      "pdf_views": 54,
+      "abstract_views": 77,
+      "galley_views": 92,
+      "pdf_views": 92,
       "html_views": 0,
       "other_views": 0,
-      "total_views": 77,
+      "total_views": 169,
       "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/46",
-      "doi": null
+      "doi": "10.21423/bx5bqv12"
+    },
+    {
+      "id": 50,
+      "title": "Rezension: Sprache und Außersprachlichkeit",
+      "authors": "Haug",
+      "abstract_views": 64,
+      "galley_views": 95,
+      "pdf_views": 95,
+      "html_views": 0,
+      "other_views": 0,
+      "total_views": 159,
+      "url_published": "https://gadamer-ojs-tamu.tdl.org/gadamer/article/view/50",
+      "doi": "10.21423/k6w3j663"
     }
   ],
   "issue_stats": [
@@ -662,8 +703,8 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 1699,
-      "toc_views": 1699,
+      "total_views": 1732,
+      "toc_views": 1732,
       "issue_galley_views": 0,
       "url": "https://gadamer-ojs-tamu.tdl.org/gadamer/issue/view/1"
     },
@@ -673,8 +714,8 @@
       "volume": "",
       "number": "",
       "year": "",
-      "total_views": 144,
-      "toc_views": 144,
+      "total_views": 258,
+      "toc_views": 258,
       "issue_galley_views": 0,
       "url": "https://gadamer-ojs-tamu.tdl.org/gadamer/issue/view/3"
     }
@@ -687,13 +728,13 @@
     "published_submissions": 17,
     "new_issues_in_period": 2,
     "new_submissions_in_period": 31,
-    "total_view_count": 10958,
-    "total_abstract_views": 7418,
-    "total_galley_views": 3540,
-    "total_pdf_views": 3540,
+    "total_view_count": 12030,
+    "total_abstract_views": 7968,
+    "total_galley_views": 4062,
+    "total_pdf_views": 4062,
     "total_html_views": 0,
     "total_other_views": 0,
-    "total_issue_views": 1843,
-    "total_users": 94
+    "total_issue_views": 1990,
+    "total_users": 95
   }
 }
