@@ -789,9 +789,22 @@ class Dashboard {
       <div class="chart-container">${this.openAlexCoverage(oa, cov)}</div>`;
   }
 
+  // OJS data saved before the fetcher collected ISSNs and article DOIs has no
+  // `journal` section and no `doi` field on submissions. Missing values there
+  // mean "not fetched yet", not "the journal has none".
+  ojsDataPredatesDois() {
+    const subs = this.data?.submissions || [];
+    return !this.data?.journal || (subs.length > 0 && !("doi" in subs[0]));
+  }
+
+  staleDataNote() {
+    return `<p>The saved OJS data for this journal was fetched before ISSNs and article DOIs were collected, so they couldn't be checked against OpenAlex yet. They'll appear after the next full data refresh.</p>`;
+  }
+
   openAlexNotFound(oa) {
     const issns = oa.issns || [];
     const dois = oa.coverage?.ojs_articles_with_doi || 0;
+    if (!dois && this.ojsDataPredatesDois()) return this.staleDataNote();
     if (!issns.length && !dois) {
       return `<p>This journal couldn't be looked up in OpenAlex: no ISSN or article DOIs are recorded for it.</p>
         <p class="stat-sub">Adding an ISSN in the journal's OJS settings, or registering DOIs for its articles, lets OpenAlex data appear here.</p>`;
@@ -935,6 +948,7 @@ class Dashboard {
     const title = "<h3>DOI Coverage</h3>";
     const total = cov.ojs_articles_with_doi || 0;
     if (!total) {
+      if (this.ojsDataPredatesDois()) return title + this.staleDataNote();
       return `${title}<p>No articles in OJS have DOIs, so none could be matched to OpenAlex individually.</p>`;
     }
     const matched = cov.matched_by_doi || 0;
