@@ -1,24 +1,1413 @@
 {
   "site_name": "alj",
-  "fetched_at": "2026-11-23T12:24:48Z",
-  "issns": [],
-  "source": null,
+  "fetched_at": "2026-11-23T13:02:00Z",
+  "issns": [
+    "2371-9680"
+  ],
+  "source": {
+    "openalex_id": "S7407064752",
+    "url": "https://openalex.org/S7407064752",
+    "display_name": "Atlantic Law Journal",
+    "issn_l": "1521-3293",
+    "issn": [
+      "1521-3293",
+      "2371-9680"
+    ],
+    "host_organization": null,
+    "homepage_url": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "topics": [
+      {
+        "name": "Legal Education and Practice Innovations",
+        "count": 28
+      },
+      {
+        "name": "Business Law and Ethics",
+        "count": 17
+      },
+      {
+        "name": "Law, Rights, and Freedoms",
+        "count": 8
+      },
+      {
+        "name": "Management and Marketing Education",
+        "count": 6
+      },
+      {
+        "name": "Innovative Teaching Methodologies in Social Sciences",
+        "count": 6
+      },
+      {
+        "name": "Legal principles and applications",
+        "count": 5
+      },
+      {
+        "name": "Freedom of Expression and Defamation",
+        "count": 5
+      },
+      {
+        "name": "Innovative Teaching Methods",
+        "count": 4
+      },
+      {
+        "name": "Legal Issues in Education",
+        "count": 4
+      },
+      {
+        "name": "Judicial and Constitutional Studies",
+        "count": 3
+      }
+    ]
+  },
   "coverage": {
-    "ojs_articles_with_doi": 0,
-    "matched_by_doi": 0,
-    "unmatched_dois": 0,
-    "openalex_works": 0,
-    "openalex_works_without_ojs_match": 0
+    "ojs_articles_with_doi": 54,
+    "matched_by_doi": 53,
+    "unmatched_dois": 1,
+    "openalex_works": 83,
+    "openalex_works_without_ojs_match": 30
   },
   "totals": {
-    "works": 0,
-    "cited_by_count": 0
+    "works": 84,
+    "cited_by_count": 14,
+    "h_index": 2,
+    "i10_index": 0,
+    "two_year_mean_citedness": 0.17
   },
-  "counts_by_year": [],
-  "top_topics": [],
-  "top_fields": [],
-  "top_institutions": [],
-  "top_countries": [],
-  "works": [],
-  "unmatched_articles": []
+  "counts_by_year": [
+    {
+      "year": 2001,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2002,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2003,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2007,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2008,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2009,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2010,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2011,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2012,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2013,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2014,
+      "works_count": 6,
+      "oa_works_count": 5,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2015,
+      "works_count": 1,
+      "oa_works_count": 0,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2016,
+      "works_count": 4,
+      "oa_works_count": 3,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2017,
+      "works_count": 7,
+      "oa_works_count": 6,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "works_count": 7,
+      "oa_works_count": 6,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2019,
+      "works_count": 5,
+      "oa_works_count": 4,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2020,
+      "works_count": 4,
+      "oa_works_count": 3,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "works_count": 3,
+      "oa_works_count": 2,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "works_count": 12,
+      "oa_works_count": 9,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "works_count": 6,
+      "oa_works_count": 5,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "works_count": 6,
+      "oa_works_count": 5,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "works_count": 7,
+      "oa_works_count": 6,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2026,
+      "works_count": 6,
+      "oa_works_count": 5,
+      "cited_by_count": 2
+    }
+  ],
+  "top_topics": [
+    {
+      "name": "Legal Education and Practice Innovations",
+      "count": 21
+    },
+    {
+      "name": "Business Law and Ethics",
+      "count": 5
+    },
+    {
+      "name": "Law, Rights, and Freedoms",
+      "count": 3
+    },
+    {
+      "name": "Corporate Taxation and Avoidance",
+      "count": 2
+    },
+    {
+      "name": "Labor Law and Work Dynamics",
+      "count": 2
+    },
+    {
+      "name": "American Constitutional Law and Politics",
+      "count": 2
+    },
+    {
+      "name": "Dispute Resolution and Class Actions",
+      "count": 2
+    },
+    {
+      "name": "International Arbitration and Investment Law",
+      "count": 2
+    },
+    {
+      "name": "FinTech, Crowdfunding, Digital Finance",
+      "count": 1
+    },
+    {
+      "name": "Artificial Intelligence in Law",
+      "count": 1
+    }
+  ],
+  "top_fields": [
+    {
+      "name": "Social Sciences",
+      "count": 51
+    },
+    {
+      "name": "Business, Management and Accounting",
+      "count": 6
+    },
+    {
+      "name": "Economics, Econometrics and Finance",
+      "count": 2
+    }
+  ],
+  "top_institutions": [
+    {
+      "name": "University of Detroit Mercy",
+      "count": 5
+    },
+    {
+      "name": "Central Michigan University",
+      "count": 3
+    },
+    {
+      "name": "West Chester University",
+      "count": 3
+    },
+    {
+      "name": "Angelo State University",
+      "count": 3
+    },
+    {
+      "name": "Georgia State University",
+      "count": 2
+    },
+    {
+      "name": "California State Polytechnic University",
+      "count": 2
+    },
+    {
+      "name": "Kutztown University",
+      "count": 2
+    },
+    {
+      "name": "City University of New York",
+      "count": 1
+    },
+    {
+      "name": "Brooklyn College",
+      "count": 1
+    },
+    {
+      "name": "Houston Christian University",
+      "count": 1
+    }
+  ],
+  "top_countries": [
+    {
+      "name": "US",
+      "count": 37
+    },
+    {
+      "name": "VN",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "openalex_id": "W3196267116",
+      "doi": "10.21423/atlj.v21.2",
+      "ojs_id": 43,
+      "title": "For The Public Benefit: Why Purpose-Driven Companies Should Adopt, Pursue And Disclose Locally Supportive Tax Strategies",
+      "year": 2019,
+      "type": "article",
+      "cited_by_count": 7,
+      "oa_status": "bronze",
+      "primary_topic": "Corporate Taxation and Avoidance",
+      "field": "Business, Management and Accounting",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3158700183",
+      "doi": "10.21423/atlj.v20.5",
+      "ojs_id": 50,
+      "title": "Empowering Business Policy & Strategy Through Improved Collaboration Between Managers And In-House Counsel",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 2,
+      "oa_status": "bronze",
+      "primary_topic": "Business Law and Ethics",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7154032882",
+      "doi": "10.21423/atlj.v26.1",
+      "ojs_id": 22,
+      "title": "Is Ai Friend Or Foe: Legal Implications Of Rapid Artificial Intelligence Adoption",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "bronze",
+      "primary_topic": "Artificial Intelligence in Law",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212065578",
+      "doi": "10.21423/atlj.v16.4",
+      "ojs_id": null,
+      "title": "Should a Legal Analysis of the Adequacy of Warning Labels Consider Issues Relating to Use of Products by Non-English Speakers?",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "bronze",
+      "primary_topic": "European and International Contract Law",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3122001634",
+      "doi": "10.21423/atlj.v16.1",
+      "ojs_id": null,
+      "title": "The NBA’s 2011 Collectively Bargained Amnesty Clause – Exploring the Fundamentals",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "bronze",
+      "primary_topic": "Labor Law and Work Dynamics",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4402836736",
+      "doi": "10.21423/atlj.v26.5",
+      "ojs_id": 26,
+      "title": "The Role Of Blockchain Technology In Crowdfunded Private Equity Secondary",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "bronze",
+      "primary_topic": "FinTech, Crowdfunding, Digital Finance",
+      "field": "Business, Management and Accounting",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235435626",
+      "doi": "10.21423/atlj.v19.5",
+      "ojs_id": 56,
+      "title": "Using Moot Court Simulations As Teaching Tools: An Implementation Guide For Business Law Instructors",
+      "year": 2017,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7211989211",
+      "doi": "10.21423/atlj.v5",
+      "ojs_id": null,
+      "title": null,
+      "year": 2003,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7211989246",
+      "doi": "10.21423/atlj.v3",
+      "ojs_id": null,
+      "title": null,
+      "year": 2001,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7211989269",
+      "doi": "10.21423/atlj.v29",
+      "ojs_id": null,
+      "title": null,
+      "year": 2026,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212001791",
+      "doi": "10.21423/atlj.v25",
+      "ojs_id": null,
+      "title": null,
+      "year": 2022,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212002489",
+      "doi": "10.21423/atlj.v20",
+      "ojs_id": null,
+      "title": null,
+      "year": 2018,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212004603",
+      "doi": "10.21423/atlj.v13",
+      "ojs_id": null,
+      "title": null,
+      "year": 2011,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212004641",
+      "doi": "10.21423/atlj.v11",
+      "ojs_id": null,
+      "title": null,
+      "year": 2009,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212005101",
+      "doi": "10.21423/atlj.v26",
+      "ojs_id": null,
+      "title": null,
+      "year": 2023,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212020165",
+      "doi": "10.21423/atlj.v23",
+      "ojs_id": null,
+      "title": null,
+      "year": 2021,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212020194",
+      "doi": "10.21423/atlj.v15",
+      "ojs_id": null,
+      "title": null,
+      "year": 2013,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212020208",
+      "doi": "10.21423/atlj.v22",
+      "ojs_id": null,
+      "title": null,
+      "year": 2020,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212020323",
+      "doi": "10.21423/atlj.v19",
+      "ojs_id": null,
+      "title": null,
+      "year": 2017,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212025281",
+      "doi": "10.21423/atlj.v9",
+      "ojs_id": null,
+      "title": null,
+      "year": 2007,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212037302",
+      "doi": "10.21423/atlj.v21",
+      "ojs_id": null,
+      "title": null,
+      "year": 2019,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212037352",
+      "doi": "10.21423/atlj.v17",
+      "ojs_id": null,
+      "title": null,
+      "year": 2015,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212037575",
+      "doi": "10.21423/atlj.v10",
+      "ojs_id": null,
+      "title": null,
+      "year": 2008,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212037899",
+      "doi": "10.21423/atlj.v24",
+      "ojs_id": null,
+      "title": null,
+      "year": 2022,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212043316",
+      "doi": "10.21423/atlj.v4",
+      "ojs_id": null,
+      "title": null,
+      "year": 2002,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212066634",
+      "doi": "10.21423/atlj.v12",
+      "ojs_id": null,
+      "title": null,
+      "year": 2010,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212068143",
+      "doi": "10.21423/atlj.v28",
+      "ojs_id": null,
+      "title": null,
+      "year": 2025,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212068742",
+      "doi": "10.21423/atlj.v14",
+      "ojs_id": null,
+      "title": null,
+      "year": 2012,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212071638",
+      "doi": "10.21423/atlj.v16",
+      "ojs_id": null,
+      "title": null,
+      "year": 2014,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212071666",
+      "doi": "10.21423/atlj.v18",
+      "ojs_id": null,
+      "title": null,
+      "year": 2016,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212084150",
+      "doi": "10.21423/atlj.v27",
+      "ojs_id": null,
+      "title": null,
+      "year": 2024,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "closed",
+      "primary_topic": null,
+      "field": null,
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235351984",
+      "doi": "10.21423/atlj.v26.2",
+      "ojs_id": 23,
+      "title": "A Positive Educational Development From The Covid-19 Pandemic? Discovering The Benefits Of “Myflex” Course Delivery",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "hybrid",
+      "primary_topic": "Education during COVID-19 pandemic",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235589316",
+      "doi": "10.21423/atlj.v25.3",
+      "ojs_id": 29,
+      "title": "A “More Perfect” Way To Bring The Law To Life: Incorporating A Podcast Thread Into Your Course To Reinforce Multiple Legal Topics",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234731885",
+      "doi": "10.21423/atlj.v21.1",
+      "ojs_id": 42,
+      "title": "Addressing The Issues In Investor- State Arbitration: Is It Time For A New Direction?",
+      "year": 2019,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "hybrid",
+      "primary_topic": "International Arbitration and Investment Law",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235369371",
+      "doi": "10.21423/atlj.v24.3",
+      "ojs_id": 34,
+      "title": "Advocating For Auditors And Financial Statement Users: Revising Standards Based Upon Legal Implications Of Analytics-Driven Auditing",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Auditing, Earnings Management, Governance",
+      "field": "Business, Management and Accounting",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234181841",
+      "doi": "10.21423/atlj.v28.5",
+      "ojs_id": 15,
+      "title": "Alternative Dispute Resolution: A Comprehensive Review And Call For Reform",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Dispute Resolution and Class Actions",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235576616",
+      "doi": "10.21423/atlj.v26.3",
+      "ojs_id": 24,
+      "title": "An Introduction To The Basic Dimensions Of Investment Protection In The Archipelagic Waters: A Review Of IIAs And UNCLOS",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "International Arbitration and Investment Law",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234910971",
+      "doi": "10.21423/atlj.v27.3",
+      "ojs_id": 19,
+      "title": "Bad Debt Or Bad Luck: A Primer On The Case-Driven Analysis Of Business Vs. Non-Business Bad Debts",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Taxation and Legal Issues",
+      "field": "Business, Management and Accounting",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234786495",
+      "doi": "10.21423/atlj.v24.1",
+      "ojs_id": 32,
+      "title": "Class Actions Ten Years After Wal-Mart Stores, Inc. v. Dukes: Difficult But Not Impossible",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Dispute Resolution and Class Actions",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234285987",
+      "doi": "10.21423/atlj.v28.2",
+      "ojs_id": 12,
+      "title": "Climate Corporate Data Accountability Act: Another Bite At The Apple Of Free Speech For Corporations?",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Freedom of Expression and Defamation",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235240154",
+      "doi": "10.21423/atlj.v25.5",
+      "ojs_id": 31,
+      "title": "Contracts And Influence Tactics: An Interdisplinary Approach To The Study Of Business Law",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Business Law and Ethics",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235413877",
+      "doi": "10.21423/atlj.v19.3",
+      "ojs_id": 54,
+      "title": "Could You Repeat The Question? How Media Distractions Detract From Learning And A Courteous Classroom Environment",
+      "year": 2017,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234988834",
+      "doi": "10.21423/atlj.v24.5",
+      "ojs_id": 36,
+      "title": "Crisis Management In Legal Environment Courses",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234753250",
+      "doi": "10.21423/atlj.v21.4",
+      "ojs_id": 45,
+      "title": "Curricular Enhancement: Adding The Real World To A Legal Environment Of Business Course",
+      "year": 2019,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Management and Marketing Education",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235435036",
+      "doi": "10.21423/atlj.v18.3",
+      "ojs_id": 60,
+      "title": "Developing The Legal Environment Of Healthcare Course",
+      "year": 2016,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7233819632",
+      "doi": "10.21423/atlj.v29.3",
+      "ojs_id": 8,
+      "title": "Ensuring Beneficial Business Behavior After Disasters",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Disaster Management and Resilience",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234214239",
+      "doi": "10.21423/atlj.v29.4",
+      "ojs_id": 9,
+      "title": "Essential Questions For Business Law: A Teaching Strategy",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4312268505",
+      "doi": "10.21423/atlj.v27.1",
+      "ojs_id": 17,
+      "title": "Fighting Over Worker Classification: A Class Activity About Whether UFC Fighters Are Employees Or Independent Contractors And Why It Matters",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7233954932",
+      "doi": "10.21423/atlj.v28.3",
+      "ojs_id": 13,
+      "title": "Fulton v. City Of Philadelphia And 303 Creative LLC v. Elenis: Shrinking Smith’s Orbit",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Law, Rights, and Freedoms",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4286744130",
+      "doi": "10.21423/atlj.v25.1",
+      "ojs_id": 27,
+      "title": "Good Things Come In Small Semesters: Mini-Session Classes As A Method For Serving At-Risk And Minority Students",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Higher Education Research Studies",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4385790467",
+      "doi": "10.21423/atlj.v27.4",
+      "ojs_id": 20,
+      "title": "How Legal Knowledge Can Ruin A Tv Show: An Issue-Spotting Exercise For The Legal Environment Of Business Course",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235300866",
+      "doi": "10.21423/atlj.v19.1",
+      "ojs_id": 52,
+      "title": "I Don't Want To Go To School Today; I Have To Teach Negotiable Instruments! Three Simple Hands-On Exercises To Enrich Lessons On Article 3",
+      "year": 2017,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235116491",
+      "doi": "10.21423/atlj.v18.1",
+      "ojs_id": 58,
+      "title": "In The News: The Perfect Class Commencement",
+      "year": 2016,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7225304959",
+      "doi": "10.21423/atlj.v29.2",
+      "ojs_id": 7,
+      "title": "Including Criminal Law In A Business Law Class – A Topic Important On Its Own And In Support Of Other Business Law Learning",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212009082",
+      "doi": "10.21423/atlj.v16.3",
+      "ojs_id": null,
+      "title": "Intellectual Property Issues Associated with Biorepositories: Current Practices",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Intellectual Property Law",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3119896460",
+      "doi": "10.21423/atlj.v16.2",
+      "ojs_id": null,
+      "title": "Introducing Risk Management Concepts to Business Law Students: It’s More Than Contracts",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Business Law and Ethics",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4410950347",
+      "doi": "10.21423/atlj.v28.6",
+      "ojs_id": 16,
+      "title": "Law On Digital Banking Risk Management – Experiences Of Several Countries And Challenges For Such Developing Countries As Vietnam",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Digital Transformation in Financial Services",
+      "field": "Economics, Econometrics and Finance",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235145916",
+      "doi": "10.21423/atlj.v18.2",
+      "ojs_id": 59,
+      "title": "Law School-Business School Collaboration: An Examination Of Interdisciplinary Courses In JD/MBA Programs",
+      "year": 2016,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W3123699111",
+      "doi": "10.21423/atlj.v22.3",
+      "ojs_id": 41,
+      "title": "Litigation As U.S. History: A Review Of Litigation Nation: A Cultural History Of Lawsuits In America, By Peter Charles Hoffer And John David Smith",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Historical Legal Studies and Society",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235770840",
+      "doi": "10.21423/atlj.v24.4",
+      "ojs_id": 35,
+      "title": "Mahanoy Area School District v. B.L.: Protecting Students’ Off-Campus Speech",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Issues in Education",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235241440",
+      "doi": "10.21423/atlj.v22.2",
+      "ojs_id": 40,
+      "title": "Multiple Leaves Of Absence And The Americans With Disabilities Act: Reasonable Accommodation Or Grounds For Termination?",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Labor Law and Work Dynamics",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7225332407",
+      "doi": "10.21423/atlj.v29.1",
+      "ojs_id": 6,
+      "title": "Negotiating The Inside Game: Aligning Law, Strategy, And Ethics In Corporate Crisis Simulations",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Business Law and Ethics",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235386679",
+      "doi": "10.21423/atlj.v20.1",
+      "ojs_id": 46,
+      "title": "Not Too Hot And Not Too Cold: A Contract Negotiation Activity That May Be ‘Just Right’",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235025614",
+      "doi": "10.21423/atlj.v20.4",
+      "ojs_id": 49,
+      "title": "Personal Jurisdiction: Has The Roberts Court Provided Businesses And Their Counsel With Sufficient Predictability About Personal Jurisdiction To Make Properly Informed Compliance And Risk Assessments?",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Conflict of Laws and Jurisdiction",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W10127683",
+      "doi": "10.21423/atlj.v19.4",
+      "ojs_id": 55,
+      "title": "Philadelphia And Sports Law",
+      "year": 2017,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Sports Analytics and Performance",
+      "field": "Economics, Econometrics and Finance",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234203005",
+      "doi": "10.21423/atlj.v29.5",
+      "ojs_id": 10,
+      "title": "Practicing Preventive Law: What Is It And How Can It Set Your Business Law Students Apart In The Workplace?",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234925966",
+      "doi": "10.21423/atlj.v23.1",
+      "ojs_id": 37,
+      "title": "Running Law Like A Business: Applying Business Performance Metrics To In-House Legal Departments",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Business Law and Ethics",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235498769",
+      "doi": "10.21423/atlj.v19.6",
+      "ojs_id": 57,
+      "title": "Sustainability And Corporate Governance In A Business Law Course: A \"Real World\" Project",
+      "year": 2017,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235441328",
+      "doi": "10.21423/atlj.v21.3",
+      "ojs_id": 44,
+      "title": "Teaching The Intersection Of The First Amendment And Employment Law: Professional Football As A Classroom Illustration Of The Limits Of Political Speech",
+      "year": 2019,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Law, Rights, and Freedoms",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234344345",
+      "doi": "10.21423/atlj.v28.4",
+      "ojs_id": 14,
+      "title": "Teaching The Threatened Fall Of New York Times v. Sullivan: Priming Students To Use Current Lower Court Decisions To Predict The Next Phase Of American Defamation Law",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235082925",
+      "doi": "10.21423/atlj.v27.2",
+      "ojs_id": 18,
+      "title": "Teaching The Threatened Fall Of New York Times v. Sullivan: Priming Students To Use Current Lower Court Decisions To Predict The Next Phase Of American Defamation Law",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W2904349158",
+      "doi": "10.21423/atlj.v20.3",
+      "ojs_id": 48,
+      "title": "The De-Federalization Gamble: A Workable Anticommandeering Framework For States Seeking To Legalize Certain Vice Areas",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "American Constitutional Law and Politics",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234836127",
+      "doi": "10.21423/atlj.v24.2",
+      "ojs_id": 33,
+      "title": "The Decline Of International Students During The Trump Administration And The Increase Of Executive Power",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Higher Education Governance and Development",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235105135",
+      "doi": "10.21423/atlj.v20.2",
+      "ojs_id": 47,
+      "title": "The Drip Started The Waterfall",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Cases and Commentary",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234800827",
+      "doi": "10.21423/atlj.v22.1",
+      "ojs_id": 39,
+      "title": "The Evolution Of Public Employee Speech Protection In An Age Of Social Media",
+      "year": 2020,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Law, Rights, and Freedoms",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235494820",
+      "doi": "10.21423/atlj.v19.2",
+      "ojs_id": 53,
+      "title": "The Evolution Of The Illinois \"Super Business Entity\" And Absolute Limited Liability For LLC Members And Managers",
+      "year": 2017,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Corporate Governance and Law",
+      "field": "Business, Management and Accounting",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235202419",
+      "doi": "10.21423/atlj.v26.4",
+      "ojs_id": 25,
+      "title": "The Supreme Court Fumbles School Prayer In Kennedy V. Bremerton School District",
+      "year": 2023,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "American Constitutional Law and Politics",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234810628",
+      "doi": "10.21423/atlj.v27.5",
+      "ojs_id": 21,
+      "title": "Threshold Concepts And Barriers To Learning In Undergraduate Business Law",
+      "year": 2024,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7212015485",
+      "doi": "10.21423/atlj.v16.5",
+      "ojs_id": null,
+      "title": "University of Texas Southwestern Medical Center v. Nassar: Will Plaintiffs’ Claims of Retaliation Be More Difficult to Prove?",
+      "year": 2014,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Discrimination and Equality Law",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235407774",
+      "doi": "10.21423/atlj.v25.4",
+      "ojs_id": null,
+      "title": "Using A Legal Environment Of Business Approach For Teaching Elder Law To Healthcare Administrators",
+      "year": 2022,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7234730089",
+      "doi": "10.21423/atlj.v23.2",
+      "ojs_id": 38,
+      "title": "When The Shark Bites: Using The TV Show “Shark Tank” To Teach Business Entities",
+      "year": 2021,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W4408891684",
+      "doi": "10.21423/atlj.v28.1",
+      "ojs_id": 11,
+      "title": "“I Wanna Rock”: Using Music To Enhance Teaching Business Law (1980S Edition)",
+      "year": 2025,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Legal Education and Practice Innovations",
+      "field": "Social Sciences",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7235578567",
+      "doi": "10.21423/atlj.v20.6",
+      "ojs_id": 51,
+      "title": "“Whack-A-Mole” Regulation: Corporate Inversions",
+      "year": 2018,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Corporate Taxation and Avoidance",
+      "field": "Business, Management and Accounting",
+      "in_journal_source": true
+    }
+  ],
+  "unmatched_articles": [
+    {
+      "doi": "10.21423/atlj.v25.2",
+      "ojs_id": 28,
+      "title": "Americans For Prosperity Foundation v. Bonta: Mandatory Disclosure Of Charities’ Donor Information Violates Freedom Of Association Under Exacting Scrutiny Standard"
+    }
+  ]
 }

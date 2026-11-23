@@ -4,7 +4,17 @@
   "site_url": "https://alj-ojs-tamu.tdl.org/alj",
   "date_start": "2025-01-01",
   "date_end": "2025-12-31",
-  "fetched_at": "2026-10-24T07:55:09Z",
+  "fetched_at": "2026-11-23T13:00:40Z",
+  "journal": {
+    "online_issn": "2371-9680",
+    "print_issn": "2371-9680",
+    "issns": [
+      "2371-9680"
+    ],
+    "issn_source": "ojs",
+    "doi_prefix": "10.21423",
+    "dois_enabled": true
+  },
   "issues": [
     {
       "id": 2,
@@ -231,9 +241,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2026-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 02:02:17",
+      "date_last_activity": "2026-11-16 17:17:21",
       "last_modified": "2026-10-23 02:02:17",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/6"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/6",
+      "doi": "10.21423/atlj.v29.1"
     },
     {
       "id": 10,
@@ -242,9 +253,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2026-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 15:33:04",
+      "date_last_activity": "2026-11-16 17:26:28",
       "last_modified": "2026-10-23 02:02:20",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/10"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/10",
+      "doi": "10.21423/atlj.v29.5"
     },
     {
       "id": 9,
@@ -253,9 +265,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2026-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 02:02:19",
+      "date_last_activity": "2026-11-16 17:25:51",
       "last_modified": "2026-10-23 02:02:19",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/9"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/9",
+      "doi": "10.21423/atlj.v29.4"
     },
     {
       "id": 8,
@@ -264,9 +277,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2026-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 02:02:19",
+      "date_last_activity": "2026-11-16 17:25:05",
       "last_modified": "2026-10-23 02:02:19",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/8"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/8",
+      "doi": "10.21423/atlj.v29.3"
     },
     {
       "id": 7,
@@ -275,9 +289,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2026-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 02:02:19",
+      "date_last_activity": "2026-11-16 17:16:54",
       "last_modified": "2026-10-23 02:02:19",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/7"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/7",
+      "doi": "10.21423/atlj.v29.2"
     },
     {
       "id": 11,
@@ -286,9 +301,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2025-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:30:38",
+      "date_last_activity": "2026-11-16 17:35:04",
       "last_modified": "2026-10-23 21:30:38",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/11"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/11",
+      "doi": "10.21423/atlj.v28.1"
     },
     {
       "id": 12,
@@ -297,9 +313,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2025-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:30:39",
+      "date_last_activity": "2026-11-16 17:35:32",
       "last_modified": "2026-10-23 21:30:39",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/12"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/12",
+      "doi": "10.21423/atlj.v28.2"
     },
     {
       "id": 13,
@@ -308,9 +325,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2025-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:30:39",
+      "date_last_activity": "2026-11-16 17:36:03",
       "last_modified": "2026-10-23 21:30:39",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/13"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/13",
+      "doi": "10.21423/atlj.v28.3"
     },
     {
       "id": 14,
@@ -319,9 +337,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2025-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:30:40",
+      "date_last_activity": "2026-11-16 17:36:19",
       "last_modified": "2026-10-23 21:30:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/14"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/14",
+      "doi": "10.21423/atlj.v28.4"
     },
     {
       "id": 15,
@@ -330,9 +349,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2025-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:30:40",
+      "date_last_activity": "2026-11-16 17:37:00",
       "last_modified": "2026-10-23 21:30:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/15"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/15",
+      "doi": "10.21423/atlj.v28.5"
     },
     {
       "id": 16,
@@ -341,9 +361,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2025-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:30:40",
+      "date_last_activity": "2026-11-16 17:37:18",
       "last_modified": "2026-10-23 21:30:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/16"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/16",
+      "doi": "10.21423/atlj.v28.6"
     },
     {
       "id": 21,
@@ -352,9 +373,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2024-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:40",
+      "date_last_activity": "2026-11-17 16:31:58",
       "last_modified": "2026-10-23 21:36:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/21"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/21",
+      "doi": "10.21423/atlj.v27.5"
     },
     {
       "id": 20,
@@ -363,9 +385,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2024-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:40",
+      "date_last_activity": "2026-11-17 16:31:34",
       "last_modified": "2026-10-23 21:36:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/20"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/20",
+      "doi": "10.21423/atlj.v27.4"
     },
     {
       "id": 18,
@@ -374,9 +397,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2024-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:40",
+      "date_last_activity": "2026-11-17 16:30:42",
       "last_modified": "2026-10-23 21:36:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/18"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/18",
+      "doi": "10.21423/atlj.v27.2"
     },
     {
       "id": 17,
@@ -385,9 +409,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2024-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:39",
+      "date_last_activity": "2026-11-17 16:30:14",
       "last_modified": "2026-10-23 21:36:39",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/17"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/17",
+      "doi": "10.21423/atlj.v27.1"
     },
     {
       "id": 19,
@@ -396,9 +421,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2024-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:40",
+      "date_last_activity": "2026-11-17 16:31:11",
       "last_modified": "2026-10-23 21:36:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/19"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/19",
+      "doi": "10.21423/atlj.v27.3"
     },
     {
       "id": 22,
@@ -407,9 +433,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2023-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:55",
+      "date_last_activity": "2026-11-17 16:34:39",
       "last_modified": "2026-10-23 21:36:55",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/22"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/22",
+      "doi": "10.21423/atlj.v26.1"
     },
     {
       "id": 23,
@@ -418,9 +445,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2023-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:55",
+      "date_last_activity": "2026-11-17 16:34:54",
       "last_modified": "2026-10-23 21:36:55",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/23"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/23",
+      "doi": "10.21423/atlj.v26.2"
     },
     {
       "id": 24,
@@ -429,9 +457,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2023-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:55",
+      "date_last_activity": "2026-11-17 16:35:16",
       "last_modified": "2026-10-23 21:36:55",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/24"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/24",
+      "doi": "10.21423/atlj.v26.3"
     },
     {
       "id": 25,
@@ -440,9 +469,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2023-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:55",
+      "date_last_activity": "2026-11-17 16:35:50",
       "last_modified": "2026-10-23 21:36:55",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/25"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/25",
+      "doi": "10.21423/atlj.v26.4"
     },
     {
       "id": 26,
@@ -451,9 +481,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2023-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:36:55",
+      "date_last_activity": "2026-11-17 16:36:15",
       "last_modified": "2026-10-23 21:36:55",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/26"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/26",
+      "doi": "10.21423/atlj.v26.5"
     },
     {
       "id": 31,
@@ -462,9 +493,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:08",
+      "date_last_activity": "2026-11-17 16:41:44",
       "last_modified": "2026-10-23 21:37:08",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/31"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/31",
+      "doi": "10.21423/atlj.v25.5"
     },
     {
       "id": 28,
@@ -473,9 +505,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:07",
+      "date_last_activity": "2026-11-17 16:40:27",
       "last_modified": "2026-10-23 21:37:07",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/28"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/28",
+      "doi": "10.21423/atlj.v25.2"
     },
     {
       "id": 32,
@@ -484,9 +517,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:19",
+      "date_last_activity": "2026-11-17 16:44:35",
       "last_modified": "2026-10-23 21:37:19",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/32"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/32",
+      "doi": "10.21423/atlj.v24.1"
     },
     {
       "id": 27,
@@ -495,9 +529,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:07",
+      "date_last_activity": "2026-11-17 16:40:12",
       "last_modified": "2026-10-23 21:37:07",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/27"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/27",
+      "doi": "10.21423/atlj.v25.1"
     },
     {
       "id": 33,
@@ -506,9 +541,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:20",
+      "date_last_activity": "2026-11-17 16:44:53",
       "last_modified": "2026-10-23 21:37:20",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/33"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/33",
+      "doi": "10.21423/atlj.v24.2"
     },
     {
       "id": 34,
@@ -517,9 +553,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:21",
+      "date_last_activity": "2026-11-17 16:45:16",
       "last_modified": "2026-10-23 21:37:21",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/34"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/34",
+      "doi": "10.21423/atlj.v24.3"
     },
     {
       "id": 29,
@@ -528,9 +565,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:07",
+      "date_last_activity": "2026-11-17 16:40:48",
       "last_modified": "2026-10-23 21:37:07",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/29"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/29",
+      "doi": "10.21423/atlj.v25.3"
     },
     {
       "id": 35,
@@ -539,9 +577,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:22",
+      "date_last_activity": "2026-11-17 16:45:40",
       "last_modified": "2026-10-23 21:37:22",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/35"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/35",
+      "doi": "10.21423/atlj.v24.4"
     },
     {
       "id": 36,
@@ -550,9 +589,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:22",
+      "date_last_activity": "2026-11-17 16:46:20",
       "last_modified": "2026-10-23 21:37:22",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/36"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/36",
+      "doi": "10.21423/atlj.v24.5"
     },
     {
       "id": 32,
@@ -561,9 +601,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2022-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:19",
+      "date_last_activity": "2026-11-17 16:44:35",
       "last_modified": "2026-10-23 21:37:19",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/32"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/32",
+      "doi": "10.21423/atlj.v24.1"
     },
     {
       "id": 37,
@@ -572,9 +613,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2021-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:32",
+      "date_last_activity": "2026-11-17 16:48:34",
       "last_modified": "2026-10-23 21:37:32",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/37"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/37",
+      "doi": "10.21423/atlj.v23.1"
     },
     {
       "id": 38,
@@ -583,9 +625,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2021-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:32",
+      "date_last_activity": "2026-11-17 16:48:48",
       "last_modified": "2026-10-23 21:37:32",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/38"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/38",
+      "doi": "10.21423/atlj.v23.2"
     },
     {
       "id": 40,
@@ -594,9 +637,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2020-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:44",
+      "date_last_activity": "2026-11-17 16:51:56",
       "last_modified": "2026-10-23 21:37:44",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/40"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/40",
+      "doi": "10.21423/atlj.v22.2"
     },
     {
       "id": 41,
@@ -605,9 +649,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2020-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:44",
+      "date_last_activity": "2026-11-17 16:52:11",
       "last_modified": "2026-10-23 21:37:44",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/41"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/41",
+      "doi": "10.21423/atlj.v22.3"
     },
     {
       "id": 39,
@@ -616,9 +661,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2020-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:43",
+      "date_last_activity": "2026-11-17 16:51:40",
       "last_modified": "2026-10-23 21:37:43",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/39"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/39",
+      "doi": "10.21423/atlj.v22.1"
     },
     {
       "id": 42,
@@ -627,9 +673,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2019-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:57",
+      "date_last_activity": "2026-11-17 16:54:08",
       "last_modified": "2026-10-23 21:37:57",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/42"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/42",
+      "doi": "10.21423/atlj.v21.1"
     },
     {
       "id": 43,
@@ -638,9 +685,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2019-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:57",
+      "date_last_activity": "2026-11-17 16:54:25",
       "last_modified": "2026-10-23 21:37:57",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/43"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/43",
+      "doi": "10.21423/atlj.v21.2"
     },
     {
       "id": 44,
@@ -649,9 +697,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2019-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:58",
+      "date_last_activity": "2026-11-17 16:54:39",
       "last_modified": "2026-10-23 21:37:58",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/44"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/44",
+      "doi": "10.21423/atlj.v21.3"
     },
     {
       "id": 45,
@@ -660,9 +709,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2019-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:37:58",
+      "date_last_activity": "2026-11-17 16:55:01",
       "last_modified": "2026-10-23 21:37:58",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/45"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/45",
+      "doi": "10.21423/atlj.v21.4"
     },
     {
       "id": 51,
@@ -671,9 +721,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2018-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:10",
+      "date_last_activity": "2026-11-17 16:58:26",
       "last_modified": "2026-10-23 21:38:10",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/51"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/51",
+      "doi": "10.21423/atlj.v20.6"
     },
     {
       "id": 50,
@@ -682,9 +733,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2018-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:10",
+      "date_last_activity": "2026-11-17 16:58:09",
       "last_modified": "2026-10-23 21:38:10",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/50"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/50",
+      "doi": "10.21423/atlj.v20.5"
     },
     {
       "id": 48,
@@ -693,9 +745,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2018-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:09",
+      "date_last_activity": "2026-11-17 16:57:38",
       "last_modified": "2026-10-23 21:38:09",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/48"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/48",
+      "doi": "10.21423/atlj.v20.3"
     },
     {
       "id": 47,
@@ -704,9 +757,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2018-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:09",
+      "date_last_activity": "2026-11-17 16:57:24",
       "last_modified": "2026-10-23 21:38:09",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/47"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/47",
+      "doi": "10.21423/atlj.v20.2"
     },
     {
       "id": 46,
@@ -715,9 +769,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2018-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:09",
+      "date_last_activity": "2026-11-17 16:57:07",
       "last_modified": "2026-10-23 21:38:09",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/46"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/46",
+      "doi": "10.21423/atlj.v20.1"
     },
     {
       "id": 49,
@@ -726,9 +781,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2018-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:10",
+      "date_last_activity": "2026-11-17 16:57:52",
       "last_modified": "2026-10-23 21:38:10",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/49"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/49",
+      "doi": "10.21423/atlj.v20.4"
     },
     {
       "id": 52,
@@ -737,9 +793,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2017-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:21",
+      "date_last_activity": "2026-11-17 20:50:32",
       "last_modified": "2026-10-23 21:38:21",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/52"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/52",
+      "doi": "10.21423/atlj.v19.1"
     },
     {
       "id": 53,
@@ -748,9 +805,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2017-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:22",
+      "date_last_activity": "2026-11-17 20:50:47",
       "last_modified": "2026-10-23 21:38:22",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/53"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/53",
+      "doi": "10.21423/atlj.v19.2"
     },
     {
       "id": 54,
@@ -759,9 +817,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2017-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:22",
+      "date_last_activity": "2026-11-17 20:51:01",
       "last_modified": "2026-10-23 21:38:22",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/54"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/54",
+      "doi": "10.21423/atlj.v19.3"
     },
     {
       "id": 55,
@@ -770,9 +829,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2017-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:22",
+      "date_last_activity": "2026-11-17 20:51:17",
       "last_modified": "2026-10-23 21:38:22",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/55"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/55",
+      "doi": "10.21423/atlj.v19.4"
     },
     {
       "id": 56,
@@ -781,9 +841,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2017-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:22",
+      "date_last_activity": "2026-11-17 20:51:40",
       "last_modified": "2026-10-23 21:38:22",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/56"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/56",
+      "doi": "10.21423/atlj.v19.5"
     },
     {
       "id": 57,
@@ -792,9 +853,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2017-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:22",
+      "date_last_activity": "2026-11-17 20:52:02",
       "last_modified": "2026-10-23 21:38:22",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/57"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/57",
+      "doi": "10.21423/atlj.v19.6"
     },
     {
       "id": 60,
@@ -803,9 +865,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2016-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:31",
+      "date_last_activity": "2026-11-17 20:52:50",
       "last_modified": "2026-10-23 21:38:31",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/60"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/60",
+      "doi": "10.21423/atlj.v18.3"
     },
     {
       "id": 59,
@@ -814,9 +877,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2016-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:31",
+      "date_last_activity": "2026-11-17 20:52:35",
       "last_modified": "2026-10-23 21:38:31",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/59"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/59",
+      "doi": "10.21423/atlj.v18.2"
     },
     {
       "id": 58,
@@ -825,9 +889,10 @@
       "stage_id": 5,
       "stage_label": "Published",
       "date_submitted": "2016-01-01 00:00:00",
-      "date_last_activity": "2026-10-23 21:38:31",
+      "date_last_activity": "2026-11-17 20:52:20",
       "last_modified": "2026-10-23 21:38:31",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/58"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/58",
+      "doi": "10.21423/atlj.v18.1"
     },
     {
       "id": 61,
@@ -838,7 +903,8 @@
       "date_submitted": "2015-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:38:40",
       "last_modified": "2026-10-23 21:38:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/61"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/61",
+      "doi": null
     },
     {
       "id": 62,
@@ -849,7 +915,8 @@
       "date_submitted": "2015-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:38:40",
       "last_modified": "2026-10-23 21:38:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/62"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/62",
+      "doi": null
     },
     {
       "id": 63,
@@ -860,7 +927,8 @@
       "date_submitted": "2015-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:38:40",
       "last_modified": "2026-10-23 21:38:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/63"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/63",
+      "doi": null
     },
     {
       "id": 64,
@@ -871,7 +939,8 @@
       "date_submitted": "2015-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:38:40",
       "last_modified": "2026-10-23 21:38:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/64"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/64",
+      "doi": null
     },
     {
       "id": 65,
@@ -882,7 +951,8 @@
       "date_submitted": "2013-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:38:53",
       "last_modified": "2026-10-23 21:38:53",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/65"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/65",
+      "doi": null
     },
     {
       "id": 66,
@@ -893,7 +963,8 @@
       "date_submitted": "2013-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:38:53",
       "last_modified": "2026-10-23 21:38:53",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/66"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/66",
+      "doi": null
     },
     {
       "id": 67,
@@ -904,7 +975,8 @@
       "date_submitted": "2013-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:38:54",
       "last_modified": "2026-10-23 21:38:54",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/67"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/67",
+      "doi": null
     },
     {
       "id": 68,
@@ -915,7 +987,8 @@
       "date_submitted": "2013-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:38:55",
       "last_modified": "2026-10-23 21:38:55",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/68"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/68",
+      "doi": null
     },
     {
       "id": 70,
@@ -926,7 +999,8 @@
       "date_submitted": "2012-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:11",
       "last_modified": "2026-10-23 21:39:11",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/70"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/70",
+      "doi": null
     },
     {
       "id": 73,
@@ -937,7 +1011,8 @@
       "date_submitted": "2012-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:12",
       "last_modified": "2026-10-23 21:39:12",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/73"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/73",
+      "doi": null
     },
     {
       "id": 72,
@@ -948,7 +1023,8 @@
       "date_submitted": "2012-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:12",
       "last_modified": "2026-10-23 21:39:12",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/72"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/72",
+      "doi": null
     },
     {
       "id": 69,
@@ -959,7 +1035,8 @@
       "date_submitted": "2012-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:10",
       "last_modified": "2026-10-23 21:39:10",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/69"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/69",
+      "doi": null
     },
     {
       "id": 71,
@@ -970,7 +1047,8 @@
       "date_submitted": "2012-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:11",
       "last_modified": "2026-10-23 21:39:11",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/71"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/71",
+      "doi": null
     },
     {
       "id": 81,
@@ -981,7 +1059,8 @@
       "date_submitted": "2011-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:28",
       "last_modified": "2026-10-23 21:39:28",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/81"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/81",
+      "doi": null
     },
     {
       "id": 80,
@@ -992,7 +1071,8 @@
       "date_submitted": "2011-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:28",
       "last_modified": "2026-10-23 21:39:28",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/80"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/80",
+      "doi": null
     },
     {
       "id": 79,
@@ -1003,7 +1083,8 @@
       "date_submitted": "2011-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:28",
       "last_modified": "2026-10-23 21:39:28",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/79"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/79",
+      "doi": null
     },
     {
       "id": 78,
@@ -1014,7 +1095,8 @@
       "date_submitted": "2011-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:28",
       "last_modified": "2026-10-23 21:39:28",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/78"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/78",
+      "doi": null
     },
     {
       "id": 77,
@@ -1025,7 +1107,8 @@
       "date_submitted": "2011-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:27",
       "last_modified": "2026-10-23 21:39:27",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/77"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/77",
+      "doi": null
     },
     {
       "id": 76,
@@ -1036,7 +1119,8 @@
       "date_submitted": "2011-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:27",
       "last_modified": "2026-10-23 21:39:27",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/76"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/76",
+      "doi": null
     },
     {
       "id": 75,
@@ -1047,7 +1131,8 @@
       "date_submitted": "2011-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:27",
       "last_modified": "2026-10-23 21:39:27",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/75"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/75",
+      "doi": null
     },
     {
       "id": 74,
@@ -1058,7 +1143,8 @@
       "date_submitted": "2011-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:27",
       "last_modified": "2026-10-23 21:39:27",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/74"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/74",
+      "doi": null
     },
     {
       "id": 82,
@@ -1069,7 +1155,8 @@
       "date_submitted": "2010-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:40",
       "last_modified": "2026-10-23 21:39:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/82"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/82",
+      "doi": null
     },
     {
       "id": 83,
@@ -1080,7 +1167,8 @@
       "date_submitted": "2010-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:40",
       "last_modified": "2026-10-23 21:39:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/83"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/83",
+      "doi": null
     },
     {
       "id": 84,
@@ -1091,7 +1179,8 @@
       "date_submitted": "2010-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:40",
       "last_modified": "2026-10-23 21:39:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/84"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/84",
+      "doi": null
     },
     {
       "id": 85,
@@ -1102,7 +1191,8 @@
       "date_submitted": "2010-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:40",
       "last_modified": "2026-10-23 21:39:40",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/85"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/85",
+      "doi": null
     },
     {
       "id": 86,
@@ -1113,7 +1203,8 @@
       "date_submitted": "2010-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:41",
       "last_modified": "2026-10-23 21:39:41",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/86"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/86",
+      "doi": null
     },
     {
       "id": 87,
@@ -1124,7 +1215,8 @@
       "date_submitted": "2009-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:50",
       "last_modified": "2026-10-23 21:39:50",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/87"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/87",
+      "doi": null
     },
     {
       "id": 88,
@@ -1135,7 +1227,8 @@
       "date_submitted": "2009-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:51",
       "last_modified": "2026-10-23 21:39:51",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/88"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/88",
+      "doi": null
     },
     {
       "id": 89,
@@ -1146,7 +1239,8 @@
       "date_submitted": "2009-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:51",
       "last_modified": "2026-10-23 21:39:51",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/89"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/89",
+      "doi": null
     },
     {
       "id": 90,
@@ -1157,7 +1251,8 @@
       "date_submitted": "2009-01-01 00:00:00",
       "date_last_activity": "2026-10-23 21:39:51",
       "last_modified": "2026-10-23 21:39:51",
-      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/90"
+      "url_published": "https://alj-ojs-tamu.tdl.org/alj/article/view/90",
+      "doi": null
     }
   ],
   "submission_status_breakdown": {

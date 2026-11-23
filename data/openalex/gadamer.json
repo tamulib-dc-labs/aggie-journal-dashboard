@@ -1,6 +1,6 @@
 {
   "site_name": "gadamer",
-  "fetched_at": "2026-11-23T12:22:06Z",
+  "fetched_at": "2026-11-23T13:01:52Z",
   "issns": [
     "3069-0242"
   ],
@@ -60,11 +60,11 @@
     ]
   },
   "coverage": {
-    "ojs_articles_with_doi": 0,
-    "matched_by_doi": 0,
+    "ojs_articles_with_doi": 17,
+    "matched_by_doi": 17,
     "unmatched_dois": 0,
     "openalex_works": 19,
-    "openalex_works_without_ojs_match": 19
+    "openalex_works_without_ojs_match": 2
   },
   "totals": {
     "works": 19,
@@ -171,7 +171,7 @@
     {
       "openalex_id": "W7118599505",
       "doi": "10.21423/9p05yv59",
-      "ojs_id": null,
+      "ojs_id": 22,
       "title": "The Work of Art Revisited: Gadamer's Hermeneutic Concept of Gebilde",
       "year": 2026,
       "type": "article",
@@ -184,7 +184,7 @@
     {
       "openalex_id": "W7118819444",
       "doi": "10.21423/y7068w74",
-      "ojs_id": null,
+      "ojs_id": 24,
       "title": "The Distances in Which We Live: Towards a Hermeneutics of Prayer",
       "year": 2026,
       "type": "article",
@@ -223,7 +223,7 @@
     {
       "openalex_id": "W7118982024",
       "doi": "10.21423/20maze44",
-      "ojs_id": null,
+      "ojs_id": 25,
       "title": "\"This, Here, Now\": The Status of the Immediacy of Experience in Gadamer’s Hermeneutics",
       "year": 2026,
       "type": "article",
@@ -236,7 +236,7 @@
     {
       "openalex_id": "W7118662316",
       "doi": "10.21423/r6dyhn04",
-      "ojs_id": null,
+      "ojs_id": 26,
       "title": "Dostal's Comments on The Event of Meaning in Gadamer's Hermeneutics",
       "year": 2026,
       "type": "article",
@@ -249,7 +249,7 @@
     {
       "openalex_id": "W7118447958",
       "doi": "10.21423/6a0tb506",
-      "ojs_id": null,
+      "ojs_id": 21,
       "title": "Gadamer’s Return to Parmenides",
       "year": 2026,
       "type": "article",
@@ -262,7 +262,7 @@
     {
       "openalex_id": "W7119000244",
       "doi": "10.21423/yv4v6p36",
-      "ojs_id": null,
+      "ojs_id": 30,
       "title": "Gadamer’s Social Epistemology: A Review of Carolyn Culbertson’s Gadamer and the Social Turn in Epistemology",
       "year": 2026,
       "type": "article",
@@ -275,7 +275,7 @@
     {
       "openalex_id": "W7223300989",
       "doi": "10.21423/bqew8g04",
-      "ojs_id": null,
+      "ojs_id": 19,
       "title": "Hans-Georg Gadamer: Philosopher, Teacher, Friend",
       "year": 2026,
       "type": "article",
@@ -288,7 +288,7 @@
     {
       "openalex_id": "W7223324455",
       "doi": "10.21423/bx5bqv12",
-      "ojs_id": null,
+      "ojs_id": 46,
       "title": "Hermeneutic Virtue: From the Common to the Fecund",
       "year": 2026,
       "type": "article",
@@ -301,7 +301,7 @@
     {
       "openalex_id": "W7223262569",
       "doi": "10.21423/s8ctt058",
-      "ojs_id": null,
+      "ojs_id": 49,
       "title": "Hermeneutics and Theology (1977) by Hans-Georg Gadamer",
       "year": 2026,
       "type": "article",
@@ -314,7 +314,7 @@
     {
       "openalex_id": "W7118999694",
       "doi": "10.21423/134jvf48",
-      "ojs_id": null,
+      "ojs_id": 11,
       "title": "Hilde Domin: Song for Encouragement II (1966) by Hans-Georg Gadamer",
       "year": 2026,
       "type": "article",
@@ -327,7 +327,7 @@
     {
       "openalex_id": "W7223392341",
       "doi": "10.21423/86dt7027",
-      "ojs_id": null,
+      "ojs_id": 48,
       "title": "Introduction to Hans-Georg Gadamer’s“Hermeneutics and Theology”: Gadamer on Theology as a Human Science",
       "year": 2026,
       "type": "article",
@@ -340,7 +340,7 @@
     {
       "openalex_id": "W7223290001",
       "doi": "10.21423/sscmdd90",
-      "ojs_id": null,
+      "ojs_id": 41,
       "title": "Mental Language and Life's Self-Movement",
       "year": 2026,
       "type": "article",
@@ -353,7 +353,7 @@
     {
       "openalex_id": "W7118468374",
       "doi": "10.21423/wqr9wt28",
-      "ojs_id": null,
+      "ojs_id": 28,
       "title": "Olay’s Comments on the Event of Meaning in Gadamer’s Hermeneutics",
       "year": 2026,
       "type": "article",
@@ -366,7 +366,7 @@
     {
       "openalex_id": "W7118349552",
       "doi": "10.21423/n1ja8439",
-      "ojs_id": null,
+      "ojs_id": 23,
       "title": "Response to Robert Dostal and Csaba Olay",
       "year": 2026,
       "type": "article",
@@ -379,7 +379,7 @@
     {
       "openalex_id": "W7223335874",
       "doi": "10.21423/k6w3j663",
-      "ojs_id": null,
+      "ojs_id": 50,
       "title": "Rezension: Sprache und Außersprachlichkeit",
       "year": 2026,
       "type": "article",
@@ -392,7 +392,7 @@
     {
       "openalex_id": "W7118534298",
       "doi": "10.21423/ym8yyg31",
-      "ojs_id": null,
+      "ojs_id": 29,
       "title": "Stirrings (Still) of an Unlikely Metaphysical Reading of Hermeneutics",
       "year": 2026,
       "type": "article",
@@ -405,7 +405,7 @@
     {
       "openalex_id": "W7223361352",
       "doi": "10.21423/tzfjes51",
-      "ojs_id": null,
+      "ojs_id": 33,
       "title": "The Humanist Roots and Anthropological Valences of Gadamer's Hermeneutics",
       "year": 2026,
       "type": "article",
