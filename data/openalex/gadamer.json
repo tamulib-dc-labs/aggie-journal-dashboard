@@ -1,0 +1,420 @@
+{
+  "site_name": "gadamer",
+  "fetched_at": "2026-11-23T12:22:06Z",
+  "issns": [
+    "3069-0242"
+  ],
+  "source": {
+    "openalex_id": "S5407055475",
+    "url": "https://openalex.org/S5407055475",
+    "display_name": "Journal of Gadamer Studies",
+    "issn_l": "3069-0242",
+    "issn": [
+      "3069-0242"
+    ],
+    "host_organization": "Texas A&M University",
+    "homepage_url": null,
+    "is_oa": false,
+    "is_in_doaj": false,
+    "topics": [
+      {
+        "name": "Hermeneutics and Narrative Identity",
+        "count": 19
+      },
+      {
+        "name": "Phenomenology and Existential Philosophy",
+        "count": 14
+      },
+      {
+        "name": "Philosophy, Ethics, and Existentialism",
+        "count": 7
+      },
+      {
+        "name": "Karl Barth and Christian Theology",
+        "count": 4
+      },
+      {
+        "name": "Study and Philosophy of Religion",
+        "count": 2
+      },
+      {
+        "name": "Philosophy and Historical Thought",
+        "count": 2
+      },
+      {
+        "name": "Philosophy and Literary Analysis",
+        "count": 2
+      },
+      {
+        "name": "Biblical Studies and Interpretation",
+        "count": 1
+      },
+      {
+        "name": "Translation Studies and Practices",
+        "count": 1
+      },
+      {
+        "name": "Classical Philosophy and Thought",
+        "count": 1
+      }
+    ]
+  },
+  "coverage": {
+    "ojs_articles_with_doi": 0,
+    "matched_by_doi": 0,
+    "unmatched_dois": 0,
+    "openalex_works": 19,
+    "openalex_works_without_ojs_match": 19
+  },
+  "totals": {
+    "works": 19,
+    "cited_by_count": 3,
+    "h_index": 1,
+    "i10_index": 0,
+    "two_year_mean_citedness": 0.0
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "works_count": 1,
+      "oa_works_count": 1,
+      "cited_by_count": 0
+    },
+    {
+      "year": 2026,
+      "works_count": 18,
+      "oa_works_count": 18,
+      "cited_by_count": 3
+    }
+  ],
+  "top_topics": [
+    {
+      "name": "Hermeneutics and Narrative Identity",
+      "count": 19
+    }
+  ],
+  "top_fields": [
+    {
+      "name": "Arts and Humanities",
+      "count": 19
+    }
+  ],
+  "top_institutions": [
+    {
+      "name": "Texas A&M University",
+      "count": 3
+    },
+    {
+      "name": "St. Bonaventure University",
+      "count": 1
+    },
+    {
+      "name": "University of Dundee",
+      "count": 1
+    },
+    {
+      "name": "North Central College",
+      "count": 1
+    },
+    {
+      "name": "University of California, Davis",
+      "count": 1
+    },
+    {
+      "name": "University of Palermo",
+      "count": 1
+    },
+    {
+      "name": "Eötvös Loránd University",
+      "count": 1
+    },
+    {
+      "name": "Université de Montréal",
+      "count": 1
+    },
+    {
+      "name": "Bryn Mawr College",
+      "count": 1
+    },
+    {
+      "name": "Indiana University",
+      "count": 1
+    }
+  ],
+  "top_countries": [
+    {
+      "name": "US",
+      "count": 10
+    },
+    {
+      "name": "CA",
+      "count": 2
+    },
+    {
+      "name": "DE",
+      "count": 2
+    },
+    {
+      "name": "GB",
+      "count": 1
+    },
+    {
+      "name": "IT",
+      "count": 1
+    },
+    {
+      "name": "HU",
+      "count": 1
+    }
+  ],
+  "works": [
+    {
+      "openalex_id": "W7118599505",
+      "doi": "10.21423/9p05yv59",
+      "ojs_id": null,
+      "title": "The Work of Art Revisited: Gadamer's Hermeneutic Concept of Gebilde",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 2,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7118819444",
+      "doi": "10.21423/y7068w74",
+      "ojs_id": null,
+      "title": "The Distances in Which We Live: Towards a Hermeneutics of Prayer",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 1,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7119112138",
+      "doi": "10.21423/btd23k20",
+      "ojs_id": null,
+      "title": null,
+      "year": 2025,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7223394001",
+      "doi": "10.21423/qjavje31",
+      "ojs_id": null,
+      "title": null,
+      "year": 2026,
+      "type": "paratext",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7118982024",
+      "doi": "10.21423/20maze44",
+      "ojs_id": null,
+      "title": "\"This, Here, Now\": The Status of the Immediacy of Experience in Gadamer’s Hermeneutics",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7118662316",
+      "doi": "10.21423/r6dyhn04",
+      "ojs_id": null,
+      "title": "Dostal's Comments on The Event of Meaning in Gadamer's Hermeneutics",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7118447958",
+      "doi": "10.21423/6a0tb506",
+      "ojs_id": null,
+      "title": "Gadamer’s Return to Parmenides",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7119000244",
+      "doi": "10.21423/yv4v6p36",
+      "ojs_id": null,
+      "title": "Gadamer’s Social Epistemology: A Review of Carolyn Culbertson’s Gadamer and the Social Turn in Epistemology",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7223300989",
+      "doi": "10.21423/bqew8g04",
+      "ojs_id": null,
+      "title": "Hans-Georg Gadamer: Philosopher, Teacher, Friend",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7223324455",
+      "doi": "10.21423/bx5bqv12",
+      "ojs_id": null,
+      "title": "Hermeneutic Virtue: From the Common to the Fecund",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7223262569",
+      "doi": "10.21423/s8ctt058",
+      "ojs_id": null,
+      "title": "Hermeneutics and Theology (1977) by Hans-Georg Gadamer",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7118999694",
+      "doi": "10.21423/134jvf48",
+      "ojs_id": null,
+      "title": "Hilde Domin: Song for Encouragement II (1966) by Hans-Georg Gadamer",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7223392341",
+      "doi": "10.21423/86dt7027",
+      "ojs_id": null,
+      "title": "Introduction to Hans-Georg Gadamer’s“Hermeneutics and Theology”: Gadamer on Theology as a Human Science",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7223290001",
+      "doi": "10.21423/sscmdd90",
+      "ojs_id": null,
+      "title": "Mental Language and Life's Self-Movement",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7118468374",
+      "doi": "10.21423/wqr9wt28",
+      "ojs_id": null,
+      "title": "Olay’s Comments on the Event of Meaning in Gadamer’s Hermeneutics",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7118349552",
+      "doi": "10.21423/n1ja8439",
+      "ojs_id": null,
+      "title": "Response to Robert Dostal and Csaba Olay",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7223335874",
+      "doi": "10.21423/k6w3j663",
+      "ojs_id": null,
+      "title": "Rezension: Sprache und Außersprachlichkeit",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7118534298",
+      "doi": "10.21423/ym8yyg31",
+      "ojs_id": null,
+      "title": "Stirrings (Still) of an Unlikely Metaphysical Reading of Hermeneutics",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    },
+    {
+      "openalex_id": "W7223361352",
+      "doi": "10.21423/tzfjes51",
+      "ojs_id": null,
+      "title": "The Humanist Roots and Anthropological Valences of Gadamer's Hermeneutics",
+      "year": 2026,
+      "type": "article",
+      "cited_by_count": 0,
+      "oa_status": "bronze",
+      "primary_topic": "Hermeneutics and Narrative Identity",
+      "field": "Arts and Humanities",
+      "in_journal_source": true
+    }
+  ],
+  "unmatched_articles": []
+}

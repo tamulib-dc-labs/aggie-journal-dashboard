@@ -1,0 +1,24 @@
+{
+  "site_name": "watchbird",
+  "fetched_at": "2026-11-23T12:24:24Z",
+  "issns": [],
+  "source": null,
+  "coverage": {
+    "ojs_articles_with_doi": 0,
+    "matched_by_doi": 0,
+    "unmatched_dois": 0,
+    "openalex_works": 0,
+    "openalex_works_without_ojs_match": 0
+  },
+  "totals": {
+    "works": 0,
+    "cited_by_count": 0
+  },
+  "counts_by_year": [],
+  "top_topics": [],
+  "top_fields": [],
+  "top_institutions": [],
+  "top_countries": [],
+  "works": [],
+  "unmatched_articles": []
+}
