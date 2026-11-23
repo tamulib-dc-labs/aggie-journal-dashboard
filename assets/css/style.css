@@ -352,6 +352,46 @@ tr:hover td { background: var(--gray-100); }
 .pie-legend-item { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; font-size: 0.85rem; }
 .pie-legend-color { width: 14px; height: 14px; border-radius: 2px; }
 
+/* About tab: journal details + OpenAlex section */
+.about-details { display: grid; grid-template-columns: max-content 1fr; gap: 0.25rem 1rem; margin: 0.75rem 0; font-size: 0.875rem; }
+.about-details dt { font-family: var(--work-sans); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); align-self: center; }
+.about-details dd { margin: 0; }
+.openalex-section { margin-top: 2rem; }
+.openalex-section .section-heading {
+  font-family: var(--oswald);
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: var(--primary-brand, #500000);
+  margin-bottom: 0.75rem;
+}
+.openalex-section > .chart-container,
+.openalex-intro { margin-bottom: 1.5rem; }
+.openalex-intro p { margin-bottom: 0.25rem; }
+.badge {
+  display: inline-block;
+  font-family: var(--work-sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0.15rem 0.5rem;
+  margin-left: 0.25rem;
+  border: 1px solid var(--success, #389f5a);
+  color: var(--success, #389f5a);
+  border-radius: 2px;
+  vertical-align: middle;
+}
+.openalex-section .chart-container .table-wrapper { margin: 0; border: 0; }
+.openalex-section td.num, .openalex-section th.num { text-align: right; white-space: nowrap; }
+.openalex-section .stat-sub { font-size: 0.8rem; color: var(--text-muted); }
+.openalex-section .chart-bar-row { margin-bottom: 0.5rem; }
+.openalex-section .chart-bar-row .bar-label { width: 190px; }
+.ranked-note { margin: -0.5rem 0 0.75rem; }
+.coverage-bar { margin: 0.75rem 0; }
+.coverage-details summary { cursor: pointer; color: var(--accent, #500000); font-size: 0.875rem; }
+.coverage-details ul { margin: 0.75rem 0 0 1.25rem; font-size: 0.85rem; }
+.coverage-details li { margin-bottom: 0.35rem; overflow-wrap: anywhere; }
+
 /* Responsive */
 @media (max-width: 768px) {
   .container { padding: 1rem; }
@@ -359,4 +399,5 @@ tr:hover td { background: var(--gray-100); }
   .chart-row { grid-template-columns: 1fr; }
   .stat-card .stat-value { font-size: 2rem; }
   #date-controls { flex-wrap: wrap; }
+  .openalex-section .chart-bar-row .bar-label { width: 120px; }
 }

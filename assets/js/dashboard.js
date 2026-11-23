@@ -12,6 +12,7 @@ class Dashboard {
     this.allData = null; // { publications: [...], totals: {...}, perJournal: [...] }
     this.allSort = { key: "total_views", dir: "desc" };
     this.allFilter = "";
+    this.openalexCache = {}; // site name → OpenAlex JSON, or null when not available
     this.init();
   }
 
@@ -706,6 +707,14 @@ class Dashboard {
     const title = this.data.site_title || site?.title || this.currentSite;
     const url = this.data.site_url;
     const fetchedAt = this.data.fetched_at;
+    const journal = this.data.journal || {};
+    const details = [];
+    if (journal.issns?.length) {
+      details.push(`<dt>ISSN</dt><dd>${journal.issns.map((i) => this.escapeHtml(i)).join(", ")}</dd>`);
+    }
+    if (journal.doi_prefix) {
+      details.push(`<dt>DOI prefix</dt><dd>${this.escapeHtml(journal.doi_prefix)}</dd>`);
+    }
 
     container.innerHTML = `
       <h3>${this.escapeHtml(title)}</h3>
@@ -716,10 +725,256 @@ class Dashboard {
             : "Journal URL not available"
         }
       </p>
+      ${details.length ? `<dl class="about-details">${details.join("")}</dl>` : ""}
       <p class="stat-sub">
         Data last updated: ${fetchedAt ? new Date(fetchedAt).toLocaleString() : "unknown"}
       </p>
     `;
+
+    this.renderOpenAlex();
+  }
+
+  // --- OpenAlex (About tab) ---
+
+  async loadOpenAlex(siteName) {
+    if (siteName in this.openalexCache) return this.openalexCache[siteName];
+    let data = null;
+    try {
+      const resp = await fetch(`data/openalex/${siteName}.json`);
+      if (resp.ok) data = await resp.json();
+    } catch (err) {
+      console.error(`Failed to load OpenAlex data for ${siteName}:`, err);
+    }
+    this.openalexCache[siteName] = data;
+    return data;
+  }
+
+  async renderOpenAlex() {
+    const container = document.getElementById("openalex-content");
+    if (!container) return;
+    const siteName = this.currentSite;
+    const heading = `<h2 id="openalex-heading" class="section-heading">OpenAlex</h2>`;
+    container.innerHTML = heading + '<div class="loading">Loading OpenAlex data…</div>';
+
+    const oa = await this.loadOpenAlex(siteName);
+    // The person may have switched journals while this was loading
+    if (this.currentSite !== siteName || this.scope !== "single") return;
+
+    if (!oa) {
+      container.innerHTML =
+        heading +
+        `<div class="chart-container"><p>OpenAlex data hasn't been fetched for this journal yet.</p></div>`;
+      return;
+    }
+
+    const cov = oa.coverage || {};
+    if (!oa.source && !(oa.works || []).length) {
+      container.innerHTML = heading + `<div class="chart-container">${this.openAlexNotFound(oa)}</div>`;
+      return;
+    }
+
+    container.innerHTML =
+      heading +
+      this.openAlexIntro(oa) +
+      this.openAlexCards(oa) +
+      `<div class="chart-row">
+        <div class="chart-container">${this.openAlexCitationsByYear(oa)}</div>
+        <div class="chart-container">${this.openAlexMostCited(oa)}</div>
+      </div>
+      <div class="chart-row">
+        <div class="chart-container">${this.openAlexRanked("Top Topics", oa.top_topics, "accent", (n) => n)}</div>
+        <div class="chart-container">${this.openAlexRanked("Author Institutions", oa.top_institutions, "green", (n) => n)}</div>
+        <div class="chart-container">${this.openAlexRanked("Author Countries", oa.top_countries, "orange", (c) => this.countryName(c))}</div>
+      </div>
+      <div class="chart-container">${this.openAlexCoverage(oa, cov)}</div>`;
+  }
+
+  openAlexNotFound(oa) {
+    const issns = oa.issns || [];
+    const dois = oa.coverage?.ojs_articles_with_doi || 0;
+    if (!issns.length && !dois) {
+      return `<p>This journal couldn't be looked up in OpenAlex: no ISSN or article DOIs are recorded for it.</p>
+        <p class="stat-sub">Adding an ISSN in the journal's OJS settings, or registering DOIs for its articles, lets OpenAlex data appear here.</p>`;
+    }
+    const parts = [];
+    if (issns.length) {
+      parts.push(`OpenAlex has no journal with ISSN ${issns.map((i) => this.escapeHtml(i)).join(" or ")}.`);
+    }
+    if (dois) {
+      parts.push(`None of the journal's ${this.formatNumber(dois)} article DOIs were found in OpenAlex either.`);
+    }
+    return `<p>${parts.join(" ")}</p>
+      <p class="stat-sub">OpenAlex mostly learns about journals through DOIs registered with Crossref, so new journals or journals without DOIs often don't appear yet.</p>`;
+  }
+
+  openAlexIntro(oa) {
+    const src = oa.source;
+    const badges = [];
+    if (src?.is_oa) badges.push('<span class="badge">Open access</span>');
+    if (src?.is_in_doaj) badges.push('<span class="badge">In DOAJ</span>');
+    const fetched = oa.fetched_at ? new Date(oa.fetched_at).toLocaleDateString() : "unknown";
+    const sourceLine = src
+      ? `Listed in OpenAlex as ${this.externalLink(src.url, src.display_name || src.openalex_id)}${
+          src.host_organization ? ` (publisher: ${this.escapeHtml(src.host_organization)})` : ""
+        }.`
+      : "This journal isn't listed in OpenAlex by ISSN, so the figures below cover only articles matched by DOI.";
+    return `<div class="openalex-intro">
+        <p>${sourceLine} ${badges.join(" ")}</p>
+        <p class="stat-sub">Citation data from <a href="https://openalex.org" target="_blank" rel="noopener">OpenAlex<span class="visually-hidden"> (opens in a new tab)</span></a>, updated ${fetched}.</p>
+      </div>`;
+  }
+
+  openAlexCards(oa) {
+    const t = oa.totals || {};
+    const cards = [
+      { value: this.formatNumber(t.works), label: "Works Indexed", variant: "accent" },
+      { value: this.formatNumber(t.cited_by_count), label: "Citations", variant: "green" },
+    ];
+    if (t.h_index != null) {
+      cards.push({ value: t.h_index, label: "h-index", sub: "h articles with ≥ h citations", variant: "purple" });
+    }
+    if (t.i10_index != null) {
+      cards.push({ value: t.i10_index, label: "i10-index", sub: "articles with ≥ 10 citations", variant: "orange" });
+    }
+    if (t.two_year_mean_citedness != null) {
+      cards.push({
+        value: Number(t.two_year_mean_citedness).toFixed(2),
+        label: "2-Year Mean Citedness",
+        sub: "citations per recent article",
+        variant: "accent",
+      });
+    }
+    return `<div class="stat-grid">${cards
+      .map(
+        (c) => `
+      <div class="stat-card ${c.variant}">
+        <div class="stat-value">${c.value}</div>
+        <div class="stat-label">${c.label}</div>
+        ${c.sub ? `<div class="stat-sub">${c.sub}</div>` : ""}
+      </div>`
+      )
+      .join("")}</div>`;
+  }
+
+  openAlexCitationsByYear(oa) {
+    const title = "<h3>Citations by Year</h3>";
+    const thisYear = new Date().getFullYear();
+    const years = (oa.counts_by_year || [])
+      .filter((y) => y.year > thisYear - 10)
+      .sort((a, b) => a.year - b.year);
+    if (!years.length || years.every((y) => !y.cited_by_count)) {
+      return title + "<p class='loading'>No citation history</p>";
+    }
+    const maxVal = Math.max(...years.map((y) => y.cited_by_count), 1);
+    return (
+      title +
+      years
+        .map(
+          (y) => `
+        <div class="chart-bar-row">
+          <div class="bar-label">${y.year}${y.year === thisYear ? " (so far)" : ""}</div>
+          <div class="chart-bar-track">
+            <div class="chart-bar-fill green" style="width: ${((y.cited_by_count / maxVal) * 100).toFixed(1)}%">${this.formatNumber(y.cited_by_count)}</div>
+          </div>
+        </div>`
+        )
+        .join("")
+    );
+  }
+
+  openAlexMostCited(oa) {
+    const title = "<h3>Most Cited Articles</h3>";
+    const works = (oa.works || []).filter((w) => w.cited_by_count > 0).slice(0, 10);
+    if (!works.length) return title + "<p class='loading'>No citations recorded yet</p>";
+    const ojsUrls = new Map((this.data.publication_stats || []).map((p) => [p.id, p.url_published]));
+    const rows = works
+      .map((w) => {
+        const url =
+          (w.ojs_id && ojsUrls.get(w.ojs_id)) ||
+          (w.doi ? `https://doi.org/${w.doi}` : `https://openalex.org/${w.openalex_id}`);
+        return `<tr>
+          <td>${this.externalLink(url, this.truncate(w.title || "Untitled", 60), w.title)}</td>
+          <td>${w.year || ""}</td>
+          <td class="num">${this.formatNumber(w.cited_by_count)}</td>
+        </tr>`;
+      })
+      .join("");
+    return `${title}
+      <div class="table-wrapper">
+        <table>
+          <caption class="visually-hidden">Most cited articles according to OpenAlex</caption>
+          <thead><tr><th scope="col">Article</th><th scope="col">Year</th><th scope="col" class="num">Citations</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  }
+
+  openAlexRanked(title, items, variant, labelFn) {
+    const head = `<h3>${title}</h3>`;
+    if (!items?.length) return head + "<p class='loading'>No data</p>";
+    const maxVal = Math.max(...items.map((i) => i.count), 1);
+    return (
+      head +
+      `<p class="stat-sub ranked-note">Number of articles</p>` +
+      items
+        .map((i) => {
+          const label = this.escapeHtml(labelFn(i.name));
+          return `
+        <div class="chart-bar-row">
+          <div class="bar-label" title="${this.escapeAttr(labelFn(i.name))}">${label}</div>
+          <div class="chart-bar-track">
+            <div class="chart-bar-fill ${variant}" style="width: ${((i.count / maxVal) * 100).toFixed(1)}%">${this.formatNumber(i.count)}</div>
+          </div>
+        </div>`;
+        })
+        .join("")
+    );
+  }
+
+  openAlexCoverage(oa, cov) {
+    const title = "<h3>DOI Coverage</h3>";
+    const total = cov.ojs_articles_with_doi || 0;
+    if (!total) {
+      return `${title}<p>No articles in OJS have DOIs, so none could be matched to OpenAlex individually.</p>`;
+    }
+    const matched = cov.matched_by_doi || 0;
+    const pct = ((matched / total) * 100).toFixed(0);
+    const missing = oa.unmatched_articles || [];
+    const list = missing.length
+      ? `<details class="coverage-details">
+          <summary>${this.formatNumber(missing.length)} article${missing.length === 1 ? "" : "s"} not found in OpenAlex</summary>
+          <ul>${missing
+            .map(
+              (m) =>
+                `<li>${this.escapeHtml(m.title || "Untitled")}: ${this.externalLink(`https://doi.org/${m.doi}`, m.doi)}</li>`
+            )
+            .join("")}</ul>
+        </details>`
+      : "";
+    return `${title}
+      <p>${this.formatNumber(matched)} of ${this.formatNumber(total)} OJS articles with DOIs (${pct}%) are in OpenAlex.</p>
+      <div class="chart-bar-track coverage-bar" role="img" aria-label="${pct}% of DOIs found in OpenAlex">
+        <div class="chart-bar-fill accent" style="width: ${pct}%">${pct}%</div>
+      </div>
+      ${list}`;
+  }
+
+  externalLink(url, text, title) {
+    const safe = /^https?:\/\//i.test(url || "") ? url : null;
+    const label = this.escapeHtml(text || url || "");
+    if (!safe) return label;
+    return `<a href="${this.escapeAttr(safe)}" target="_blank" rel="noopener"${
+      title ? ` title="${this.escapeAttr(title)}"` : ""
+    }>${label}<span class="visually-hidden"> (opens in a new tab)</span></a>`;
+  }
+
+  countryName(code) {
+    try {
+      this.regionNames ||= new Intl.DisplayNames(["en"], { type: "region" });
+      return this.regionNames.of(code) || code;
+    } catch {
+      return code;
+    }
   }
 
   // --- Utility ---
@@ -752,6 +1007,10 @@ class Dashboard {
     const div = document.createElement("div");
     div.textContent = str;
     return div.innerHTML;
+  }
+
+  escapeAttr(str) {
+    return this.escapeHtml(str).replace(/"/g, "&quot;").replace(/'/g, "&#39;");
   }
 }
 
