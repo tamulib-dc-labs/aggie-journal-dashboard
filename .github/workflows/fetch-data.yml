@@ -16,6 +16,11 @@ on:
         type: boolean
         required: false
         default: false
+      openalex_only:
+        description: "Only refresh OpenAlex data from the saved OJS data — skips the OJS fetch"
+        type: boolean
+        required: false
+        default: false
   schedule:
     # Run at 6:00 AM UTC on the 1st of every month
     - cron: "0 6 1 * *"
@@ -48,6 +53,7 @@ jobs:
           printf '%s\n' "$OJS_API_KEYS_YML" > .config/api_keys.yml
 
       - name: Fetch data
+        if: ${{ !inputs.openalex_only }}
         run: |
           # Build args for fiscal year or custom date range if provided
           EXTRA_ARGS=""
@@ -62,6 +68,15 @@ jobs:
             EXTRA_ARGS="$EXTRA_ARGS --date-end ${{ inputs.date_end }}"
           fi
           python fetch_data.py $EXTRA_ARGS
+
+      - name: Fetch OpenAlex data
+        # Reads the saved OJS data only; a failure here shouldn't block
+        # committing the OJS data fetched above.
+        continue-on-error: true
+        env:
+          OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
+          OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+        run: python fetch_openalex.py
 
       - name: Check for changes
         id: changes
