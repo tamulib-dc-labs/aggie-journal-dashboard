@@ -57,6 +57,37 @@ python fetch_data.py --config /path/to/api_keys.yml
 python fetch_data.py --outdir /path/to/output
 ```
 
+### OpenAlex Data
+
+`fetch_openalex.py` adds citation and reach data from [OpenAlex](https://openalex.org)
+without calling OJS. It reads what `fetch_data.py` already saved (each journal's
+ISSNs and article DOIs) and writes `data/openalex/<site>.json` with:
+
+- Journal totals: works, citations, h-index, i10-index, citations by year
+- Per-article citation counts, linked to OJS articles by DOI
+- Top topics, fields, author institutions and countries
+- A coverage report: OJS articles whose DOIs OpenAlex doesn't have
+
+```bash
+# All journals
+python fetch_openalex.py
+
+# One journal
+python fetch_openalex.py --site jume
+```
+
+Journals are found by ISSN, taken from OJS journal settings. To override or
+supply a missing one, add `issn:` (a string or a list) to that site in
+`.config/api_keys.yml`. If a journal's OpenAlex lookup fails, its previous file
+is kept.
+
+Two optional environment variables:
+
+- `OPENALEX_API_KEY`: a free OpenAlex API key. Without one, OpenAlex allows about
+  1,000 requests a day, enough for a run across every journal (a few per journal).
+- `OPENALEX_EMAIL`: a contact address sent with requests, as OpenAlex asks of
+  automated clients.
+
 ### Date Filtering
 
 The fetcher creates snapshots for these standard ranges:
@@ -92,6 +123,8 @@ ojs-dashboard/
 ├── data/
 │   ├── sites.json            # Index of all sites and snapshots
 │   ├── <site>.json           # All-time snapshot per site
+│   ├── openalex/
+│   │   └── <site>.json       # OpenAlex citations, topics, coverage
 │   └── <site>/
 │       ├── snapshot.json     # All-time data
 │       ├── current-year.json
@@ -102,6 +135,7 @@ ojs-dashboard/
 │       └── last-7-days.json
 ├── index.html                # Main dashboard page
 ├── fetch_data.py             # Data fetching script
+├── fetch_openalex.py         # OpenAlex enrichment (reads saved data only)
 ├── requirements.txt          # Python dependencies
 └── README.md
 ```
@@ -115,6 +149,12 @@ The workflow triggers on:
 Manual runs support `--date-start` and `--date-end` inputs for custom date ranges,
 and a **fiscal_year** checkbox to fetch only the previous fiscal year snapshot.
 Scheduled runs never fetch the fiscal year.
+
+Every run also refreshes OpenAlex data after the OJS fetch. A manual run with the
+**openalex_only** checkbox skips OJS and only refreshes OpenAlex, which takes about
+a minute. An OpenAlex failure never blocks committing the OJS data. To use an
+OpenAlex API key or contact address, add `OPENALEX_API_KEY` and/or
+`OPENALEX_EMAIL` as repository secrets; both are optional.
 
 Fetching every configured journal is slow (each site makes several stats calls
 per date range, with generous timeouts/retries for large journals), so this

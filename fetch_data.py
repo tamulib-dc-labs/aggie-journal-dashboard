@@ -154,8 +154,87 @@ def extract_title(pub):
     return pub.get("fullTitle", "")
 
 
-def normalize_publication_stats(items):
-    """Normalize publication stats into clean structure."""
+def extract_doi(obj):
+    """Return the DOI string from an OJS 3.4+ object's `doiObject`, or None."""
+    doi_obj = (obj or {}).get("doiObject") or {}
+    return doi_obj.get("doi") or None
+
+
+def normalize_issn(value):
+    """Return an ISSN in canonical NNNN-NNNX form, or None if it isn't one."""
+    if not value:
+        return None
+    raw = str(value).strip().upper().replace("-", "").replace(" ", "")
+    if len(raw) != 8 or not raw[:7].isdigit() or not (raw[7].isdigit() or raw[7] == "X"):
+        return None
+    return f"{raw[:4]}-{raw[4:]}"
+
+
+def fetch_journal_info(name, site):
+    """Fetch journal-level metadata (ISSNs, DOI settings) from the OJS context.
+
+    ISSNs come from the journal's settings in OJS. An `issn:` value in the
+    YAML config (a string or a list) overrides them, for journals whose OJS
+    settings are blank or wrong.
+
+    Failures here are logged and tolerated rather than raised: this info is
+    optional and shouldn't block the stats snapshots.
+    """
+    api_key = site["key"]
+    base_url = site["site"]
+    url_path = base_url.rstrip("/").rsplit("/", 1)[-1]
+
+    info = {
+        "online_issn": None,
+        "print_issn": None,
+        "issns": [],
+        "issn_source": None,
+        "doi_prefix": None,
+        "dois_enabled": None,
+    }
+
+    contexts = ojs_get(base_url, api_key, "contexts", params={"isEnabled": "true"})
+    items = (contexts or {}).get("items", []) if isinstance(contexts, dict) else []
+    match = next((c for c in items if c.get("urlPath") == url_path), None)
+    if match is None and len(items) == 1:
+        match = items[0]
+    context = ojs_get(base_url, api_key, f"contexts/{match['id']}") if match else None
+
+    if isinstance(context, dict):
+        info["online_issn"] = normalize_issn(context.get("onlineIssn"))
+        info["print_issn"] = normalize_issn(context.get("printIssn"))
+        info["doi_prefix"] = context.get("doiPrefix") or None
+        info["dois_enabled"] = bool(context.get("enableDois"))
+        info["issns"] = [i for i in (info["online_issn"], info["print_issn"]) if i]
+        if info["issns"]:
+            info["issn_source"] = "ojs"
+    else:
+        logger.warning(f"    Could not read journal settings for '{name}' (contexts endpoint)")
+
+    override = site.get("issn")
+    if override:
+        values = override if isinstance(override, list) else [override]
+        issns = [normalize_issn(v) for v in values]
+        bad = [v for v, n in zip(values, issns) if n is None]
+        if bad:
+            logger.warning(f"    Ignoring invalid ISSN(s) in config for '{name}': {bad}")
+        issns = [i for i in issns if i]
+        if issns:
+            info["issns"] = issns
+            info["issn_source"] = "config"
+
+    # De-duplicate while keeping order (online and print are sometimes identical)
+    info["issns"] = list(dict.fromkeys(info["issns"]))
+    return info
+
+
+def normalize_publication_stats(items, doi_by_submission=None):
+    """Normalize publication stats into clean structure.
+
+    The `publication` object in stats/publications is a summary that omits
+    the DOI, so DOIs are looked up from the submissions list by ID instead.
+    """
+    doi_by_submission = doi_by_submission or {}
     result = []
     for item in items:
         pub = item.get("publication", {})
@@ -171,7 +250,7 @@ def normalize_publication_stats(items):
             "other_views": item.get("otherViews", 0),
             "total_views": total_views,
             "url_published": pub.get("urlPublished", ""),
-            "doi": pub.get("doiObject", {}).get("doi") if pub.get("doiObject") else None,
+            "doi": extract_doi(pub) or doi_by_submission.get(pub.get("id")),
         })
     return result
 
@@ -211,12 +290,15 @@ def fetch_site_base_data(name, site):
 
     logger.info(f"  Fetching base data for '{title}' ({name})...")
 
+    # Journal info (ISSNs, DOI settings)
+    logger.info("    Journal info...")
+    journal = fetch_journal_info(name, site)
+
     # Issues
     logger.info("    Issues...")
     issues_raw = fetch_all(base_url, api_key, "issues")
     issues = []
     for i in issues_raw:
-        doi_obj = i.get("doiObject") or {}
         issues.append({
             "id": i.get("id"),
             "identification": i.get("identification", ""),
@@ -225,7 +307,7 @@ def fetch_site_base_data(name, site):
             "year": i.get("year", ""),
             "published": i.get("published", False),
             "published_date": i.get("datePublished"),
-            "doi": doi_obj.get("doi") if doi_obj else None,
+            "doi": extract_doi(i),
             "url": i.get("publishedUrl", ""),
             "description": (i.get("description") or {}).get("en", ""),
         })
@@ -236,6 +318,7 @@ def fetch_site_base_data(name, site):
     submissions = []
     status_counts = Counter()
     stage_counts = Counter()
+    doi_by_submission = {}
     for s in submissions_raw:
         status = s.get("status", 0)
         stage = s.get("stageId", 0)
@@ -243,6 +326,13 @@ def fetch_site_base_data(name, site):
         stage_label = STAGE_MAP.get(stage, f"Stage {stage}")
         status_counts[status_label] += 1
         stage_counts[stage_label] += 1
+        # DOI of the current publication (version) of this submission
+        current_id = s.get("currentPublicationId")
+        pubs = s.get("publications") or []
+        current = next((p for p in pubs if p.get("id") == current_id), pubs[-1] if pubs else None)
+        doi = extract_doi(current)
+        if doi:
+            doi_by_submission[s.get("id")] = doi
         submissions.append({
             "id": s.get("id"),
             "status": status,
@@ -253,6 +343,7 @@ def fetch_site_base_data(name, site):
             "date_last_activity": s.get("dateLastActivity"),
             "last_modified": s.get("lastModified"),
             "url_published": s.get("urlPublished", ""),
+            "doi": doi,
         })
 
     # User stats (no date filtering)
@@ -260,6 +351,8 @@ def fetch_site_base_data(name, site):
     user_stats = fetch_all(base_url, api_key, "stats/users", timeout=STATS_TIMEOUT)
 
     return {
+        "journal": journal,
+        "doi_by_submission": doi_by_submission,
         "issues": issues,
         "submissions": submissions,
         "submission_status_breakdown": dict(status_counts),
@@ -287,6 +380,7 @@ def fetch_site_data(name, site, base_data, date_start=None, date_end=None):
     issues = base_data["issues"]
     submissions = base_data["submissions"]
     user_stats = base_data["user_stats"]
+    snapshot["journal"] = base_data["journal"]
     snapshot["issues"] = issues
     snapshot["submissions"] = submissions
     snapshot["submission_status_breakdown"] = base_data["submission_status_breakdown"]
@@ -305,7 +399,8 @@ def fetch_site_data(name, site, base_data, date_start=None, date_end=None):
     # Publication stats (the one endpoint that genuinely depends on date range)
     logger.info("    Publication stats...")
     pub_stats = normalize_publication_stats(
-        fetch_all(base_url, api_key, "stats/publications", params=stats_params or None, timeout=STATS_TIMEOUT)
+        fetch_all(base_url, api_key, "stats/publications", params=stats_params or None, timeout=STATS_TIMEOUT),
+        base_data["doi_by_submission"],
     )
     snapshot["publication_stats"] = pub_stats
 
